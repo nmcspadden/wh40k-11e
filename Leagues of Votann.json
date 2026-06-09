@@ -930,7 +930,7 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "Sagitaur Spearhead",
+                "name": "Armoured Trailblazers",
                 "hidden": false,
                 "id": "39c2-616a-92c8-ad9d",
                 "costs": [
@@ -1046,7 +1046,7 @@
                 ],
                 "rules": [
                   {
-                    "name": "Farseekers",
+                    "name": "Eye of the Hunt",
                     "id": "73b0-8e70-6937-071f",
                     "hidden": false,
                     "description": "Friendly **HERNKYN** units’ ranged attacks that target a unit within 12\" have +1 to **hit rolls**."
@@ -1109,7 +1109,7 @@
                 ],
                 "rules": [
                   {
-                    "name": "Hearthguard Covenant",
+                    "name": "Avatars of the Ancestors",
                     "id": "87f0-92ab-be8a-4df1",
                     "hidden": false,
                     "description": "Friendly **KÂHL/EINHYR CHAMPION/EINHYR HEARTHGUARD/ÛTHAR THE DESTINED** units’ ranged attacks that target a unit within 9\" can re‑roll **wound rolls** of 1."
