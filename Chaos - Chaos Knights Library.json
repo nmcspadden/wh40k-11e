@@ -864,6 +864,22 @@
         "name": "Knight Character",
         "id": "4462-be90-ddf7-c404",
         "hidden": true
+      },
+      {
+        "name": "War Dogs",
+        "id": "47ec-1263-620e-25f8",
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "4cb0-7902-400b-e9ae",
+            "includeChildSelections": true
+          }
+        ]
       }
     ],
     "sharedSelectionEntries": [
@@ -1253,7 +1269,7 @@
             "name": "Wargear",
             "id": "2d04-234d-6303-6fa1",
             "hidden": false,
-            "sortIndex": 5
+            "sortIndex": 6
           }
         ],
         "entryLinks": [
@@ -1264,7 +1280,79 @@
             "id": "5682-88cf-584e-d5b6",
             "type": "selectionEntryGroup",
             "targetId": "18da-1609-c0fb-cf69",
-            "sortIndex": 4
+            "sortIndex": 5,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Snarling Rivalry",
+                "hidden": false,
+                "id": "68b0-c798-79a8-28f5",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f67b-573b-ffe0-6d8a",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "322b-f505-807c-d871",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Snarling Rivalry",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "d077-4803-ce89-a6bc",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This unit’s ranged attacks have [IGNORES COVER]."
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "append",
+                    "value": "Ignores Cover",
+                    "field": "7f1b-8591-2fcf-d01c",
+                    "scope": "parent",
+                    "affects": "self.entries.profiles.Ranged Weapons",
+                    "join": ", "
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "370b-1eb7-eac6-491c",
+                        "shared": true,
+                        "childName": "Executioner"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "import": true,
@@ -5021,7 +5109,7 @@
             "name": "Wargear",
             "id": "7eb1-464a-daa4-9f30",
             "hidden": false,
-            "sortIndex": 5
+            "sortIndex": 6
           }
         ],
         "entryLinks": [
@@ -5032,7 +5120,78 @@
             "id": "2437-83ec-308e-2458",
             "type": "selectionEntryGroup",
             "targetId": "18da-1609-c0fb-cf69",
-            "sortIndex": 4
+            "sortIndex": 5,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Soul-spoor Auspicator",
+                "hidden": false,
+                "id": "86be-ae4a-d7ce-6192",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "4816-3fef-dd18-4bbc",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "e34b-e13a-2ed4-54cb",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Soul-spoor Auspicator",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "161b-75c3-fbe6-c5da",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This unit’s ranged attacks have +6\" R."
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "increment",
+                    "value": 6,
+                    "field": "9896-9419-16a1-92fc",
+                    "scope": "parent",
+                    "affects": "self.entries.profiles.Ranged Weapons"
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "f8a3-f5fa-4e85-cc47",
+                        "shared": true,
+                        "childName": "Huntsman"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "import": true,
@@ -9890,9 +10049,9 @@
           {
             "characteristics": [
               {
-                "$text": "At the end of your Movement phase, roll one D6 for each enemy unit within 9\" of one or more models with this ability: on a 3+, that enemy unit suffers D3 mortal wounds.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of your Movement phase, roll one D6 for each enemy unit within 9\" of one or more models with this ability: on a 3+, that enemy unit suffers D3 mortal wounds."
               }
             ],
             "id": "cac0-b733-e4cf-d88e",
@@ -12855,17 +13014,6 @@
                 "includeChildForces": false,
                 "id": "c1b4-c6e3-3827-04ef",
                 "type": "min"
-              },
-              {
-                "field": "selections",
-                "scope": "parent",
-                "value": 1,
-                "percentValue": false,
-                "shared": true,
-                "includeChildSelections": false,
-                "includeChildForces": false,
-                "id": "c582-1a3f-6783-fcb8",
-                "type": "max"
               }
             ],
             "selectionEntries": [
@@ -12875,6 +13023,36 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
                   }
                 ],
                 "rules": [
@@ -12890,13 +13068,24 @@
                 "hidden": false,
                 "collective": false,
                 "import": true,
-                "type": "upgrade"
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0326-4862-635d-70a9",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "rules": [
                   {
-                    "description": "TITANIC CHAOS KNIGHTS units from your army have the following abilities: \n\nDread Tyrants (Aura): While a friendly DAMNED unit is within 9\" of this unit, each time a model in that unit makes an attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1. \n\nCHAOS KNIGHTS units from your army have the following abilities: \n\nDark Sacrifice: Each time a CHAOS KNIGHTS unit with this ability is selected to shoot or fight, it can make a Dark Sacrifice. If it does, select one friendly DAMNED unit within 6\". That DAMNED unit must take a Leadership test: if passed, destroy D3 models in that DAMNED unit; if failed, destroy D3+3 models in that DAMNED unit. In either case, then select one of the following abilities for your Chaos Knights unit’s weapons to have until the end of the phase: [LETHAL HITS]; [SUSTAINED HITS 1].",
-                    "name": "Dreaded Masters",
+                    "description": "- You can include DAMNED units in your army (see Codex: Chaos Space Marines). The combined points cost of such units cannot exceed 500 points. \n- Friendly DAMNED units can re-roll **leadership rolls**.",
+                    "name": "Wretched Thralls",
                     "id": "36df-7a0b-e5b7-5f29",
                     "hidden": false
                   }
@@ -12905,7 +13094,55 @@
                 "import": true,
                 "name": "Iconoclast Fiefdom",
                 "hidden": false,
-                "id": "7fe8-de91-8976-e705"
+                "id": "7fe8-de91-8976-e705",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "879a-8b1e-5636-42e5",
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 1
+                  }
+                ]
               },
               {
                 "rules": [
@@ -12929,7 +13166,55 @@
                 "import": true,
                 "name": "Lords of Dread",
                 "hidden": false,
-                "id": "e5ab-9622-8b2a-84d0"
+                "id": "e5ab-9622-8b2a-84d0",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b1f2-a629-e3c7-99a2",
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  }
+                ]
               },
               {
                 "rules": [
@@ -12944,7 +13229,55 @@
                 "import": true,
                 "name": "Houndpack Lance",
                 "hidden": false,
-                "id": "6cb5-45cf-c626-fa86"
+                "id": "6cb5-45cf-c626-fa86",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c386-9469-d502-0b12",
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  }
+                ]
               },
               {
                 "rules": [
@@ -12959,7 +13292,55 @@
                 "import": true,
                 "name": "Infernal Lance",
                 "hidden": false,
-                "id": "812b-f056-ec50-2c3c"
+                "id": "812b-f056-ec50-2c3c",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ab19-3540-722e-4270",
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 3
+                  }
+                ]
               },
               {
                 "rules": [
@@ -12974,7 +13355,190 @@
                 "import": true,
                 "name": "Helhunt Lance",
                 "hidden": false,
-                "id": "915c-3949-0da6-83c5"
+                "id": "915c-3949-0da6-83c5",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cbac-1cfd-79a3-6222",
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bastions of Tyranny",
+                "hidden": false,
+                "id": "8a80-e529-a86f-84b5",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f41a-1211-66da-c1d5",
+                    "includeChildSelections": false
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Annihilate the Unworthy",
+                    "id": "eedb-a369-c603-9634",
+                    "hidden": false,
+                    "description": "Friendly **KNIGHT TYRANT** units’ attacks that target a **battle-shocked** unit have +1 to the **hit roll**."
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Hunting Warpack",
+                "hidden": false,
+                "id": "5d30-981f-43b8-81be",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1c2e-0161-721c-af75",
+                    "includeChildSelections": false
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Scenting Fear",
+                    "id": "c163-864f-9e86-7862",
+                    "hidden": false,
+                    "description": "(Once per battle round, per army) In your Shooting phase, you can select one **visible** enemy unit within 12\" of a friendly **WAR DOG** unit. That enemy unit has +6\" **detection range**.\nThis detachment has the WAR DOGS tag and cannot be taken with another WAR DOGS detachment."
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "War Dogs",
+                    "hidden": false,
+                    "id": "dc13-517b-377f-589c",
+                    "targetId": "47ec-1263-620e-25f8",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 1
+                  }
+                ]
               }
             ],
             "id": "fcd6-8efa-6904-b022",
@@ -13232,6 +13796,13 @@
             "name": "Knight Asterius",
             "hidden": false,
             "targetId": "1ae4-6e5e-c5b3-37fa",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "695c-6394-b978-d01d",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -14197,6 +14768,13 @@
             "name": "Knight Porphyrion",
             "hidden": false,
             "targetId": "ecea-92b8-f73b-4b95",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "3271-2563-bdde-ce23",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -18989,6 +19567,13 @@
             "id": "4dbf-d74b-a2fa-d062",
             "targetId": "4462-be90-ddf7-c404",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "91a8-01c6-01aa-7c28",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "selectionEntryGroups": [
@@ -20189,6 +20774,13 @@
             "hidden": false,
             "id": "195f-5e3c-79f1-af45",
             "targetId": "4462-be90-ddf7-c404",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "c22d-4c2b-b8b7-1efa",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -23645,7 +24237,7 @@
             "collective": false,
             "import": true,
             "type": "upgrade",
-            "sortIndex": 23
+            "sortIndex": 25
           },
           {
             "constraints": [
@@ -23767,7 +24359,7 @@
             "collective": false,
             "import": true,
             "type": "upgrade",
-            "sortIndex": 26
+            "sortIndex": 28
           },
           {
             "constraints": [
@@ -23882,7 +24474,7 @@
             "collective": false,
             "import": true,
             "type": "upgrade",
-            "sortIndex": 25
+            "sortIndex": 27
           },
           {
             "constraints": [
@@ -23997,7 +24589,7 @@
             "hidden": false,
             "id": "c186-769a-41a4-21d7",
             "collective": false,
-            "sortIndex": 24
+            "sortIndex": 26
           },
           {
             "comment": "Lords of Dread",
@@ -24120,7 +24712,7 @@
             "name": "Warp-borne Stalker",
             "hidden": false,
             "id": "0691-638b-52ed-33a7",
-            "sortIndex": 22
+            "sortIndex": 24
           },
           {
             "comment": "Lords of Dread",
@@ -24242,7 +24834,7 @@
             "name": "Blade of Celerity",
             "hidden": false,
             "id": "ebcd-5b08-117d-1afc",
-            "sortIndex": 17
+            "sortIndex": 19
           },
           {
             "comment": "Lords of Dread",
@@ -24363,7 +24955,7 @@
             "name": "Putrid Carapace",
             "hidden": false,
             "id": "3de9-689b-62a5-3cac",
-            "sortIndex": 20
+            "sortIndex": 22
           },
           {
             "comment": "Lords of Dread",
@@ -24449,9 +25041,9 @@
               {
                 "characteristics": [
                   {
-                    "$text": "Once per battle round, you can target the bearer with the Command Re-roll Stratagem for 0CP, and can do so even if another unit from your army has already been targeted by that Stratagem this phase. In addition, you gain the Lord of Deceit abiity.",
                     "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a **stratagem**, you can use this ability. If you do, increase the CP cost of that use of that **stratagem** by 1CP."
                   }
                 ],
                 "name": "Mirror of Fates",
@@ -24459,20 +25051,6 @@
                 "typeName": "Abilities",
                 "hidden": false,
                 "id": "8a8a-7965-4430-f43c"
-              },
-              {
-                "characteristics": [
-                  {
-                    "$text": "Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Lord of Deceit (Aura)",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "208d-4e3a-81da-9372"
               }
             ],
             "costs": [
@@ -24507,7 +25085,7 @@
             "name": "Mirror of Fates",
             "hidden": false,
             "id": "f36a-acd9-06f2-33f4",
-            "sortIndex": 19
+            "sortIndex": 21
           },
           {
             "comment": "Lords of Dread",
@@ -24621,7 +25199,7 @@
             "name": "Blessing of the Dark Master",
             "hidden": false,
             "id": "fe66-2b8b-6ded-dd43",
-            "sortIndex": 18
+            "sortIndex": 20
           },
           {
             "comment": "Lords of Dread",
@@ -24735,7 +25313,7 @@
             "name": "Throne Mechanicum of Skulls",
             "hidden": false,
             "id": "4982-b6dd-5bd6-d402",
-            "sortIndex": 21
+            "sortIndex": 23
           },
           {
             "modifiers": [
@@ -24855,7 +25433,7 @@
             "name": "Loping Predator",
             "hidden": false,
             "id": "64b1-051f-daf5-e148",
-            "sortIndex": 6
+            "sortIndex": 8
           },
           {
             "modifiers": [
@@ -24967,7 +25545,7 @@
             "name": "Final Howl (Aura)",
             "hidden": false,
             "id": "42e1-e706-eb89-6cb6",
-            "sortIndex": 5
+            "sortIndex": 7
           },
           {
             "modifiers": [
@@ -25079,7 +25657,7 @@
             "name": "Panoply of the Cursed Knights",
             "hidden": false,
             "id": "fb26-6d89-aa65-fb7e",
-            "sortIndex": 7
+            "sortIndex": 9
           },
           {
             "modifiers": [
@@ -25200,7 +25778,7 @@
             "name": "Preyslayer's Mantle",
             "hidden": false,
             "id": "433a-6769-0b68-fef3",
-            "sortIndex": 8
+            "sortIndex": 10
           },
           {
             "modifiers": [
@@ -25319,7 +25897,7 @@
             "name": "Fleshmetal Fusion",
             "hidden": false,
             "id": "27b4-53af-ee1b-688a",
-            "sortIndex": 11
+            "sortIndex": 13
           },
           {
             "modifiers": [
@@ -25438,7 +26016,7 @@
             "name": "Blasphemous Engine",
             "hidden": false,
             "id": "c799-77ce-c706-3079",
-            "sortIndex": 10
+            "sortIndex": 12
           },
           {
             "modifiers": [
@@ -25567,7 +26145,7 @@
             "name": "Bestial Aspect",
             "hidden": false,
             "id": "4ff3-7dce-5a52-94e9",
-            "sortIndex": 9
+            "sortIndex": 11
           },
           {
             "modifiers": [
@@ -25693,7 +26271,7 @@
             "name": "Knight Diabolus",
             "hidden": false,
             "id": "4676-0c32-b62c-debd",
-            "sortIndex": 12
+            "sortIndex": 14
           },
           {
             "constraints": [
@@ -25713,12 +26291,12 @@
               {
                 "characteristics": [
                   {
-                    "$text": "The bearer has the Feel No Pain 6+ ability and you can ignore any or all modifiers to its Move characteristic and/or to any Advance or Charge rolls made for it.",
                     "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "While a friendly DAMNED unit is within 6\" of this model, when that unit is selected to make a normal/advance/fall-back move that unit has +2\" M until the end of the phase."
                   }
                 ],
-                "name": "Diabolical Resilience",
+                "name": "Cruel Lashmaster (Aura)",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "Abilities",
                 "hidden": false,
@@ -25783,32 +26361,16 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
-              },
-              {
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 0,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "99dc-0f47-85e2-75da",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
               }
             ],
             "comment": "Iconoclast Fiefdom",
             "type": "upgrade",
             "import": true,
-            "name": "Diabolical Resilience",
+            "name": "Cruel Lashmaster",
             "hidden": false,
             "id": "06cd-7848-7124-ca3c",
             "collective": false,
-            "sortIndex": 13
+            "sortIndex": 15
           },
           {
             "constraints": [
@@ -25828,12 +26390,12 @@
               {
                 "characteristics": [
                   {
-                    "$text": "At the start of the Declare Battle Formations step, you can select up to three DAMNED units from your army. The selected units have the Scouts 6\" ability.",
                     "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": " While a friendly DAMNED unit is within 6\" of this model, when you target that unit with the Heroic Intervention stratagem, that use is -1 CP."
                   }
                 ],
-                "name": "Pave The Way",
+                "name": "Iconoclast Idol (Aura)",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "Abilities",
                 "hidden": false,
@@ -25898,260 +26460,14 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden"
-              },
-              {
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 0,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "99dc-0f47-85e2-75da",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
               }
             ],
             "comment": "Iconoclast Fiefdom",
             "type": "upgrade",
             "import": true,
-            "name": "Pave The Way",
+            "name": "Iconoclast Idol",
             "hidden": false,
             "id": "80fb-b674-d736-1ca7",
-            "collective": false,
-            "sortIndex": 14
-          },
-          {
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "shared": true,
-                "id": "86fb-fc36-359b-221f",
-                "percentValue": false,
-                "includeChildSelections": true,
-                "includeChildForces": false
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "Each time the bearer makes a Dark Sacrifice, the maximum number of models are destroyed in the selected DAMNED unit (i.e. 3 if the unit’s Leadership test is passed, or 6 if it is failed) but, until the end of the phase, the bearer’s weapons have both [LETHAL HITS] and [SUSTAINED HITS 1].",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Profane Altar",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "bcb3-c4d1-dee5-3b9d"
-              }
-            ],
-            "costs": [
-              {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 20
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              }
-            ],
-            "modifiers": [
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "equalTo",
-                        "value": 0,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "7fe8-de91-8976-e705",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 0,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "99dc-0f47-85e2-75da",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              }
-            ],
-            "comment": "Iconoclast Fiefdom",
-            "type": "upgrade",
-            "import": true,
-            "name": "Profane Altar",
-            "hidden": false,
-            "id": "e0b6-0e8d-ba3e-cfcf",
-            "collective": false,
-            "sortIndex": 15
-          },
-          {
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "shared": true,
-                "id": "4380-f40f-18eb-8d5a",
-                "percentValue": false,
-                "includeChildSelections": true,
-                "includeChildForces": false
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "Each time the bearer makes a Dark Sacrifice, select one visible friendly DAMNED unit to take a Leadership test instead of a friendly DAMNED unit within 6\".",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Tyrant's Banner",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "7d5d-45a9-73c5-869e"
-              }
-            ],
-            "costs": [
-              {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 5
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              }
-            ],
-            "modifiers": [
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "equalTo",
-                        "value": 0,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "7fe8-de91-8976-e705",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 0,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "99dc-0f47-85e2-75da",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              }
-            ],
-            "comment": "Iconoclast Fiefdom",
-            "type": "upgrade",
-            "import": true,
-            "name": "Tyrant's Banner",
-            "hidden": false,
-            "id": "654b-0d6d-9895-ab98",
             "collective": false,
             "sortIndex": 16
           },
@@ -26270,7 +26586,7 @@
             "name": "Hunter's Helm",
             "hidden": false,
             "id": "235a-a20a-c65f-9f8e",
-            "sortIndex": 2
+            "sortIndex": 4
           },
           {
             "constraints": [
@@ -26386,7 +26702,7 @@
             "name": "Octagram of Conjuration",
             "hidden": false,
             "id": "36be-0c43-6c75-17b9",
-            "sortIndex": 3
+            "sortIndex": 5
           },
           {
             "constraints": [
@@ -26502,7 +26818,7 @@
             "name": "Throne Tyrannicus",
             "hidden": false,
             "id": "ad66-f295-a2d9-e49a",
-            "sortIndex": 4
+            "sortIndex": 6
           },
           {
             "constraints": [
@@ -26619,6 +26935,180 @@
             "name": "Aspect of the Beast",
             "hidden": false,
             "id": "650c-14dc-b1b7-df8b",
+            "sortIndex": 3
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Pterrorshade Rookery",
+            "hidden": false,
+            "id": "27cf-7fc3-7c18-681e",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "shared": true,
+                "id": "c9c5-f986-bb1a-071d",
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ],
+            "comment": "Bastions",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "8a80-e529-a86f-84b5",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Bastions of Tyranny"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "notInstanceOf",
+                    "value": 0,
+                    "field": "selections",
+                    "scope": "552f-2667-65a7-f914",
+                    "childId": "99dc-0f47-85e2-75da",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Pterrorshade Rookery",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "d118-5407-f706-1d31",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "When this unit is **selected to shoot**, select one enemy unit within 24\" of this unit. That enemy unit has +6\" **detection range** until this unit has shot."
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 2
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Hate-filled Dominion",
+            "hidden": false,
+            "id": "b200-0024-3e31-8f39",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "shared": true,
+                "id": "d1ee-ac0f-cada-ef2a",
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ],
+            "comment": "Bastions",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "8a80-e529-a86f-84b5",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Bastions of Tyranny"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "notInstanceOf",
+                    "value": 0,
+                    "field": "selections",
+                    "scope": "552f-2667-65a7-f914",
+                    "childId": "99dc-0f47-85e2-75da",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Hate-filled Dominion",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "09e5-f7bd-6eaf-d694",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": " This unit can re-roll rolls to determine the **A** of a weapon.  "
+                  }
+                ]
+              }
+            ],
             "sortIndex": 1
           }
         ],
@@ -26626,26 +27116,43 @@
           {
             "conditionGroups": [
               {
+                "type": "or",
                 "conditions": [
                   {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "9cfd-1c32-585f-7d5c",
-                    "shared": true
-                  },
-                  {
-                    "type": "notInstanceOf",
+                    "type": "lessThan",
                     "value": 1,
                     "field": "selections",
                     "scope": "force",
-                    "childId": "cac3-71d1-ea4b-795d",
+                    "childId": "5d30-981f-43b8-81be",
                     "shared": true,
+                    "childName": "Hunting Warpack",
                     "includeChildSelections": true
                   }
                 ],
-                "type": "and"
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "shared": true
+                      },
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "type": "set",
@@ -31063,7 +31570,7 @@
     ],
     "sharedRules": [
       {
-        "description": "If your Army Faction is ^^**Chaos Knights^^**, each model from your army with this ability gains Dread abilities, depending which are active for your army. The Deathly Terror ability is active for your army from the start of the battle. In addition, at the start of the first, third and fifth battle rounds, you can either select one of the other Dread abilities or randomly select two Dread abilities to apply by rolling two D6 and applying the results rolled, from those numbered 1-6 below.\n\nAny Dread abilities that have been selected are active until the end of the battle. You cannot select the same Dread ability more than once, and any duplicated Dread abilities (as a result of randomly selecting them) have no additional effect.\n\n\n**N/A - Deathly Terror (Aura)**\nWhile an enemy unit is within 9\" of this model, worsen the Leadership characteristic of models in that unit by 1.\n\n\n**1 - Despair (Aura)**\nWhile an enemy unit is within 9\" of this model, worsen the Leadership characteristic of models in that unit by 1. This is cumulative with the Deathly Terror ability (see above).\n\n**2 - Doom**\nEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.\n\n\n**3 - Darkness**\nEach time an attack is made against this model, if the attacking model’s unit is Battle-shocked or more than 18\" away, subtract 1 from the Hit roll.\n\n\n**4 - Dismay (Aura)**\nIn the Battle-shock step of your opponent's Command phase, for each enemy unit that is below its Starting Strength and within 9\" of this model, that enemy unit must take a Battle-shock test.\n\n\n**5 - Delirium (Aura)**\nWhile an enemy unit that is Below Half-strength is within 9\" of this model, each time that model fails a Battle-shock test, it suffers D3 mortal wounds.\n\n\n**6 - Dominion**\nAdd 3\" to the range of this model's Aura abilities.",
+        "description": "If your Army Faction is ^^**Chaos Knights^^**, each model from your army with this ability gains Dread abilities, depending which are active for your army. The Deathly Terror ability is active for your army from the start of the battle. In addition, at the start of the first, third and fifth battle rounds, you can either select one of the other Dread abilities or randomly select two Dread abilities to apply by rolling two D6 and applying the results rolled, from those numbered 1-6 below.\n\nAny Dread abilities that have been selected are active until the end of the battle. You cannot select the same Dread ability more than once, and any duplicated Dread abilities (as a result of randomly selecting them) have no additional effect.\n\n\n**N/A - Deathly Terror (Aura)**\nWhile an enemy unit is within 9\" of this model, worsen the Leadership characteristic of models in that unit by 1.\n\n**1 - Despair (Aura)**\nWhile an enemy unit is within 9\" of this model, worsen the Leadership characteristic of models in that unit by 1. This is cumulative with the Deathly Terror ability (see above).\n\n**2 - Doom**\nEach time this model makes an attack, if the target is Battle-shocked, add 1 to the Wound roll.\n\n**3 - Darkness**\nThis model has **Stealth**.\n\n**4 - Dismay (Aura)**\nIn the Battle-shock step of your opponent's Command phase, for each enemy unit that is below its Starting Strength and within 9\" of this model, that enemy unit must take a Battle-shock test.\n\n**5 - Delirium (Aura)**\nWhile an enemy unit that is Below Half-strength is within 9\" of this model, each time that model fails a Battle-shock test, it suffers D3 mortal wounds.\n\n**6 - Dominion**\nAdd 3\" to the range of this model's Aura abilities.",
         "modifiers": [
           {
             "conditions": [

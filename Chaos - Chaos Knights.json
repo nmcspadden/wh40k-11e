@@ -156,7 +156,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "f987-05c5-56e7-166c",
             "targetId": "ac7d-42cc-342b-c911",
@@ -238,7 +238,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "fe72-180c-3180-734a",
             "targetId": "ac7d-42cc-342b-c911",
@@ -320,7 +320,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "69fd-2b4d-1d11-3b22",
             "targetId": "ac7d-42cc-342b-c911",
@@ -402,7 +402,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "51da-3208-c328-9ee9",
             "targetId": "ac7d-42cc-342b-c911",
@@ -484,7 +484,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "7851-57b8-93ec-9aeb",
             "targetId": "ac7d-42cc-342b-c911",
@@ -566,7 +566,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "9661-fde9-6511-aae4",
             "targetId": "ac7d-42cc-342b-c911",
@@ -648,7 +648,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "c78f-92c0-21de-7999",
             "targetId": "ac7d-42cc-342b-c911",
@@ -730,7 +730,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "2459-bfae-2d94-e00c",
             "targetId": "ac7d-42cc-342b-c911",
@@ -812,7 +812,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "477f-4600-0ee9-2a04",
             "targetId": "ac7d-42cc-342b-c911",
@@ -894,7 +894,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "d60e-14c5-2421-ff5d",
             "targetId": "ac7d-42cc-342b-c911",
@@ -976,7 +976,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "e8c3-81e6-af27-efcd",
             "targetId": "ac7d-42cc-342b-c911",
@@ -1058,7 +1058,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "fb6f-3b3f-b878-24a1",
             "targetId": "ac7d-42cc-342b-c911",
@@ -1140,7 +1140,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "6705-cc46-5374-a5e0",
             "targetId": "ac7d-42cc-342b-c911",
@@ -1222,7 +1222,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "1a6a-a4ad-5b0d-f0ae",
             "targetId": "ac7d-42cc-342b-c911",
@@ -1304,7 +1304,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "c03b-a616-fe0d-7e73",
             "targetId": "ac7d-42cc-342b-c911",
@@ -1386,7 +1386,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "6721-7ce3-a162-8a27",
             "targetId": "ac7d-42cc-342b-c911",
@@ -1468,7 +1468,7 @@
         ],
         "categoryLinks": [
           {
-            "name": "Wretched",
+            "name": "Wretched Thralls",
             "hidden": false,
             "id": "c53a-b90c-8a5f-638b",
             "targetId": "ac7d-42cc-342b-c911",
@@ -1506,62 +1506,12 @@
         "constraints": [
           {
             "type": "max",
-            "value": 0,
+            "value": 500,
             "field": "51b2-306e-1021-d207",
             "scope": "roster",
             "shared": true,
             "id": "3c2a-5857-e8bc-522e",
             "includeChildSelections": true
-          }
-        ],
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "d62d-db22-4893-4bc0",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 250,
-            "field": "3c2a-5857-e8bc-522e"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "baf8-997f-e323-a090",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 500,
-            "field": "3c2a-5857-e8bc-522e"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "4204-82d0-908c-a62a",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 750,
-            "field": "3c2a-5857-e8bc-522e"
           }
         ],
         "name": "Wretched Thralls",
