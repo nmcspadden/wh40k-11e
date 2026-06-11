@@ -27117,18 +27117,6 @@
             "conditionGroups": [
               {
                 "type": "or",
-                "conditions": [
-                  {
-                    "type": "lessThan",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "force",
-                    "childId": "5d30-981f-43b8-81be",
-                    "shared": true,
-                    "childName": "Hunting Warpack",
-                    "includeChildSelections": true
-                  }
-                ],
                 "conditionGroups": [
                   {
                     "type": "and",
@@ -27598,17 +27586,7 @@
             "import": true,
             "name": "Brute Tactics",
             "hidden": false,
-            "id": "a002-ca00-684c-c3a7",
-            "modifiers": [
-              {
-                "type": "append",
-                "value": "5+(M)",
-                "field": "55a7-5b54-c60d-11dc",
-                "scope": "parent",
-                "affects": "profiles.Unit",
-                "join": ", "
-              }
-            ]
+            "id": "a002-ca00-684c-c3a7"
           },
           {
             "costs": [
@@ -30712,7 +30690,7 @@
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "Ensorcelled Shield",
+                    "name": "**Ensorcelled Shield",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
@@ -30781,8 +30759,8 @@
                 "id": "2b0e-b74a-d962-1ae0",
                 "modifiers": [
                   {
-                    "type": "append",
-                    "value": "4+(R)",
+                    "type": "set",
+                    "value": "4+**",
                     "field": "55a7-5b54-c60d-11dc",
                     "scope": "parent",
                     "affects": "profiles.Unit",
