@@ -3203,7 +3203,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "1819-3f3-340c-87db",
                         "hidden": false,
                         "type": "rule",
@@ -6198,7 +6198,7 @@
                 "targetId": "e9c4-2bb8-12ee-cd1b"
               },
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "hidden": false,
                 "type": "rule",
                 "id": "2dad-d6f2-2afb-6568",
@@ -6676,9 +6676,9 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units:\n- **^^Brotherhood Terminator Squad^^**\n- **^^Paladin Squad^^**"
               }
             ],
             "name": "Leader",
@@ -6704,11 +6704,11 @@
             "targetId": "5b77-29f8-7b77-75e3"
           },
           {
-            "name": "Gate of Infinity",
+            "name": "Leader",
             "id": "2626-7524-ad0a-4a47",
             "hidden": false,
             "type": "rule",
-            "targetId": "6a5e-1316-2d87-93c5"
+            "targetId": "b4dd-3e1f-41cb-218f"
           },
           {
             "name": "Warrior Strategist",
@@ -6716,6 +6716,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "cb03-8115-df85-19ac"
+          },
+          {
+            "name": "Gate of Infinity",
+            "id": "a6ea-add8-13fd-a179",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "6a5e-1316-2d87-93c5"
           }
         ],
         "selectionEntryGroups": [
@@ -12135,7 +12142,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "a81f-218e-9f07-7e21",
                         "hidden": false,
                         "type": "rule",
@@ -23010,7 +23017,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "78d7-8aa-e1eb-9b3c",
                         "hidden": false,
                         "type": "rule",
@@ -28968,7 +28975,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "id": "f2fa-4df7-f204-fdc8",
             "hidden": false,
             "type": "rule",
@@ -29225,7 +29232,7 @@
             "targetId": "e9c4-2bb8-12ee-cd1b"
           },
           {
-            "name": "Anti-",
+            "name": "Anti",
             "id": "7d3e-50d3-df3a-e5ba",
             "hidden": false,
             "type": "rule",
@@ -30350,7 +30357,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "id": "6502-ae23-6261-9f35",
             "hidden": false,
             "type": "rule",
@@ -31100,7 +31107,7 @@
             "targetId": "9143-31ae-e0a6-6007"
           },
           {
-            "name": "Anti-",
+            "name": "Anti",
             "id": "77a5-3169-1d49-0f5f",
             "hidden": false,
             "type": "rule",
@@ -38270,7 +38277,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "69a9-edc3-10f3-53d1",
                     "hidden": false,
                     "type": "rule",
@@ -41708,7 +41715,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "38f1-b4c5-5ef9-4857",
                     "hidden": false,
                     "type": "rule",
@@ -42021,7 +42028,7 @@
                     "targetId": "e9c4-2bb8-12ee-cd1b"
                   },
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "7c38-dd9e-a41a-cfb6",
                     "hidden": false,
                     "type": "rule",
