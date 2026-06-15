@@ -8854,8 +8854,56 @@
                   },
                   {
                     "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Enhancements",
                     "typeId": "8349-b76c-37ea-696b",
                     "value": 0
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "6c92-d70d-63c5-485f",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true,
+                            "childName": "Eager Patrons"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "atLeast",
+                            "value": 3,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "6c92-d70d-63c5-485f",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true,
+                            "childName": "Eager Patrons"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
@@ -8931,8 +8979,56 @@
                   },
                   {
                     "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Enhancements",
                     "typeId": "8349-b76c-37ea-696b",
                     "value": 0
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "e243-6183-edac-f4c1",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true,
+                            "childName": "Beguiling Grotesquerie"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "atLeast",
+                            "value": 3,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "e243-6183-edac-f4c1",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true,
+                            "childName": "Beguiling Grotesquerie"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
@@ -10058,11 +10154,6 @@
                 ],
                 "modifiers": [
                   {
-                    "type": "divide",
-                    "value": 3,
-                    "field": "8349-b76c-37ea-696b"
-                  },
-                  {
                     "type": "append",
                     "value": "Sustained Hits 1",
                     "field": "7f1b-8591-2fcf-d01c",
@@ -10091,6 +10182,49 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "This unit's attacks have [SUSTAINED HITS 1]."
+                      }
+                    ]
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "c8fb-474a-1f47-4274",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true,
+                            "childName": "Frenzied Ferocity"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "atLeast",
+                            "value": 3,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "c8fb-474a-1f47-4274",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true,
+                            "childName": "Frenzied Ferocity"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -26447,6 +26581,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -26570,6 +26709,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -26699,6 +26843,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -26822,6 +26971,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -26951,6 +27105,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -27074,6 +27233,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -27308,6 +27472,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -27447,6 +27616,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -27592,6 +27766,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -27734,6 +27913,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -27858,6 +28042,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -28003,6 +28192,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -28126,6 +28320,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -28255,6 +28454,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -28378,6 +28582,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -28507,6 +28716,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -28630,6 +28844,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -28759,6 +28978,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -28885,6 +29109,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -29008,6 +29237,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -29138,6 +29372,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -29262,6 +29501,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -29392,6 +29636,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -29500,6 +29749,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -29626,6 +29880,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -29759,6 +30018,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -29917,6 +30181,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -30040,6 +30309,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -30189,6 +30463,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
@@ -30351,6 +30630,11 @@
               },
               {
                 "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              },
+              {
+                "name": "Enhancements",
                 "typeId": "8349-b76c-37ea-696b",
                 "value": 0
               }
@@ -30498,6 +30782,11 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               },
               {
                 "name": "Enhancements",
