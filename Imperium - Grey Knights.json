@@ -86,39 +86,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Brother-Captain",
@@ -184,13 +184,6 @@
             "type": "rule",
             "id": "4e1d-9c76-976f-4395",
             "targetId": "7cb5-dd6b-dd87-ad3b"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "5c10-dc0-a977-a135",
-            "targetId": "5b77-29f8-7b77-75e3"
           },
           {
             "name": "Gate of Infinity",
@@ -849,39 +842,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Brother-Captain Stern",
@@ -947,13 +940,6 @@
             "type": "rule",
             "id": "64bc-82bf-52d3-2541",
             "targetId": "7cb5-dd6b-dd87-ad3b"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "e6d0-ebde-69a5-a757",
-            "targetId": "5b77-29f8-7b77-75e3"
           },
           {
             "name": "Gate of Infinity",
@@ -1343,39 +1329,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Brotherhood Champion",
@@ -1441,13 +1427,6 @@
             "type": "rule",
             "id": "36b8-36f5-d613-ca9e",
             "targetId": "7cb5-dd6b-dd87-ad3b"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "40ed-1437-38dd-6487",
-            "targetId": "5b77-29f8-7b77-75e3"
           },
           {
             "name": "Gate of Infinity",
@@ -2190,39 +2169,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "5",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "5"
               },
               {
-                "$text": "5+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "5+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Brotherhood Chaplain",
@@ -2281,13 +2260,6 @@
             "type": "profile",
             "name": "Litanies of Sanctity",
             "hidden": false
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "7aae-62a1-b668-1",
-            "targetId": "5b77-29f8-7b77-75e3"
           },
           {
             "name": "Gate of Infinity",
@@ -2886,39 +2858,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "5",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "5"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Brotherhood Librarian",
@@ -2977,13 +2949,6 @@
             "type": "rule",
             "id": "aabc-18b2-e696-ba9e",
             "targetId": "7cb5-dd6b-dd87-ad3b"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "b7b2-cc96-7c3e-d100",
-            "targetId": "5b77-29f8-7b77-75e3"
           },
           {
             "name": "Gate of Infinity",
@@ -4687,50 +4652,6 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
-              },
-              {
-                "$text": "5",
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
-              },
-              {
-                "$text": "2+",
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
-              },
-              {
-                "$text": "3",
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
-              },
-              {
-                "$text": "6+",
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
-              },
-              {
-                "$text": "2",
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
-              }
-            ],
-            "name": "Brotherhood Terminator Squad",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "id": "28af-6e37-2f1f-93d2"
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "Each time a model in this unit makes a melee attack that targets a unit (excluding ^^**Vehicles^^** or ^^**Monsters^^**), improve the Armour Penetration characteristic of that attack by 1.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -4750,21 +4671,6 @@
             "type": "rule",
             "id": "8924-88a6-d109-fc61",
             "targetId": "7cb5-dd6b-dd87-ad3b"
-          },
-          {
-            "modifiers": [
-              {
-                "type": "append",
-                "value": "[Brotherhood Terminator Squad]",
-                "field": "name",
-                "join": " "
-              }
-            ],
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "51b9-edbc-12d7-a878",
-            "targetId": "b79a-617-8519-d24f"
           },
           {
             "name": "Gate of Infinity",
@@ -4885,7 +4791,16 @@
                 "import": true,
                 "name": "Terminator",
                 "hidden": false,
-                "id": "f5c5-56fd-51ec-d1a6"
+                "id": "f5c5-56fd-51ec-d1a6",
+                "infoLinks": [
+                  {
+                    "name": "Terminator",
+                    "id": "ff28-457d-5b2f-c988",
+                    "hidden": false,
+                    "targetId": "28af-6e37-2f1f-93d2",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -5043,7 +4958,16 @@
                 "import": true,
                 "name": "Terminator with Ancient's Banner",
                 "hidden": false,
-                "id": "6215-3f01-f844-585"
+                "id": "6215-3f01-f844-585",
+                "infoLinks": [
+                  {
+                    "name": "Terminator",
+                    "id": "91d2-222f-fa33-9fce",
+                    "hidden": false,
+                    "targetId": "28af-6e37-2f1f-93d2",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -5132,7 +5056,16 @@
                 "import": true,
                 "name": "Terminator with Narthecium",
                 "hidden": false,
-                "id": "22fd-3d1b-9957-2d5f"
+                "id": "22fd-3d1b-9957-2d5f",
+                "infoLinks": [
+                  {
+                    "name": "Terminator",
+                    "id": "1425-83dd-5e6e-f1e8",
+                    "hidden": false,
+                    "targetId": "28af-6e37-2f1f-93d2",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "selectionEntryGroups": [
@@ -5288,7 +5221,16 @@
                 "import": true,
                 "name": "Terminator with Heavy Weapon",
                 "hidden": false,
-                "id": "77d3-d321-bb86-dabe"
+                "id": "77d3-d321-bb86-dabe",
+                "infoLinks": [
+                  {
+                    "name": "Terminator",
+                    "id": "af9a-fe51-98ac-cc94",
+                    "hidden": false,
+                    "targetId": "28af-6e37-2f1f-93d2",
+                    "type": "profile"
+                  }
+                ]
               }
             ],
             "constraints": [
@@ -5554,7 +5496,23 @@
             "name": "Justicar",
             "id": "fc87-528d-3a1c-8438",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 3,
+            "infoLinks": [
+              {
+                "name": "Terminator",
+                "id": "eb62-5762-228e-3d7b",
+                "hidden": false,
+                "targetId": "28af-6e37-2f1f-93d2",
+                "type": "profile",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": "Justicar",
+                    "field": "name"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "constraints": [
@@ -6020,39 +5978,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "5",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "5"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Castellan Crowe",
@@ -6118,13 +6076,6 @@
             "type": "rule",
             "id": "d946-7c6-9030-b5d7",
             "targetId": "b4dd-3e1f-41cb-218f"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "3d0f-ed92-a950-b8f",
-            "targetId": "5b77-29f8-7b77-75e3"
           },
           {
             "name": "Gate of Infinity",
@@ -6618,39 +6569,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "7",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "7"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Grand Master",
@@ -6695,13 +6646,6 @@
             "type": "rule",
             "id": "14-5133-4c03-b851",
             "targetId": "7cb5-dd6b-dd87-ad3b"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "c3ec-3c2e-bfc9-8c11",
-            "targetId": "5b77-29f8-7b77-75e3"
           },
           {
             "name": "Leader",
@@ -7390,39 +7334,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "13",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "13"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "4",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Grand Master in Nemesis Dreadknight",
@@ -7474,13 +7418,6 @@
             "type": "profile",
             "name": "Damaged: 1-4 Wounds Remaining",
             "hidden": false
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "ae9f-6e8a-86ac-5830",
-            "targetId": "5b77-29f8-7b77-75e3"
           },
           {
             "name": "Gate of Infinity",
@@ -8152,39 +8089,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "7",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "7"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Grand Master Voldus",
@@ -8268,13 +8205,6 @@
             "type": "rule",
             "id": "5034-3b66-4628-9ee0",
             "targetId": "b4dd-3e1f-41cb-218f"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "8636-b62a-9ee4-842a",
-            "targetId": "5b77-29f8-7b77-75e3"
           },
           {
             "name": "Gate of Infinity",
@@ -16000,39 +15930,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "7",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "7"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Kaldor Draigo",
@@ -16130,13 +16060,6 @@
             "type": "rule",
             "id": "413b-33bd-e69-59ba",
             "targetId": "b4dd-3e1f-41cb-218f"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "acfb-af78-3ddc-69f7",
-            "targetId": "5b77-29f8-7b77-75e3"
           },
           {
             "name": "Gate of Infinity",
@@ -16618,39 +16541,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "13",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "13"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "4",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Nemesis Dreadknight",
@@ -16695,13 +16618,6 @@
             "type": "rule",
             "id": "zz44-ab36-7h9l-2b6j",
             "targetId": "b68a-5ded-65ac-98c"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "9c1d-310d-3e87-e513",
-            "targetId": "5b77-29f8-7b77-75e3"
           },
           {
             "name": "Gate of Infinity",
@@ -17304,50 +17220,6 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
-              },
-              {
-                "$text": "5",
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
-              },
-              {
-                "$text": "2+",
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
-              },
-              {
-                "$text": "3",
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
-              },
-              {
-                "$text": "6+",
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
-              },
-              {
-                "$text": "1",
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
-              }
-            ],
-            "name": "Paladin Squad",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "id": "ca57-5b17-a4ed-f420"
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "Each time this unit makes a Charge move, until the end of the turn, add 1 to the Damage characteristic of melee weapons equipped by ^^**Paladin Squad**^^ models in this unit.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -17367,21 +17239,6 @@
             "type": "rule",
             "id": "733f-208f-7345-4c92",
             "targetId": "7cb5-dd6b-dd87-ad3b"
-          },
-          {
-            "modifiers": [
-              {
-                "type": "append",
-                "value": "[Paladin Squad]",
-                "field": "name",
-                "join": " "
-              }
-            ],
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "a6ad-579-5c78-6d6a",
-            "targetId": "b79a-617-8519-d24f"
           },
           {
             "name": "Gate of Infinity",
@@ -17504,7 +17361,16 @@
                 "import": true,
                 "name": "Paladin",
                 "hidden": false,
-                "id": "d1b3-96e2-43e6-6bf4"
+                "id": "d1b3-96e2-43e6-6bf4",
+                "infoLinks": [
+                  {
+                    "name": "Paladin",
+                    "id": "3786-d620-11d5-769b",
+                    "hidden": false,
+                    "targetId": "ca57-5b17-a4ed-f420",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -17657,7 +17523,16 @@
                 "import": true,
                 "name": "Paladin with Ancient's Banner",
                 "hidden": false,
-                "id": "c782-acdd-ccd7-6cc0"
+                "id": "c782-acdd-ccd7-6cc0",
+                "infoLinks": [
+                  {
+                    "name": "Paladin",
+                    "id": "9aee-c191-67c0-01ba",
+                    "hidden": false,
+                    "targetId": "ca57-5b17-a4ed-f420",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "selectionEntryGroups": [
@@ -17816,7 +17691,16 @@
                 "import": true,
                 "name": "Paladin with Heavy Weapon",
                 "hidden": false,
-                "id": "7f57-9a5a-c5bf-851a"
+                "id": "7f57-9a5a-c5bf-851a",
+                "infoLinks": [
+                  {
+                    "name": "Paladin",
+                    "id": "361f-e5b5-bbd1-4cc0",
+                    "hidden": false,
+                    "targetId": "ca57-5b17-a4ed-f420",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -17905,7 +17789,16 @@
                 "import": true,
                 "name": "Paladin with Narthecium",
                 "hidden": false,
-                "id": "b56e-da7a-04da-5cbd"
+                "id": "b56e-da7a-04da-5cbd",
+                "infoLinks": [
+                  {
+                    "name": "Paladin",
+                    "id": "025e-ee45-e847-09ed",
+                    "hidden": false,
+                    "targetId": "ca57-5b17-a4ed-f420",
+                    "type": "profile"
+                  }
+                ]
               }
             ],
             "constraints": [
@@ -18145,7 +18038,23 @@
                 "import": true,
                 "name": "Paragon",
                 "hidden": false,
-                "id": "7eaa-bc4d-e325-6767"
+                "id": "7eaa-bc4d-e325-6767",
+                "infoLinks": [
+                  {
+                    "name": "Paladin",
+                    "id": "73b7-8ecf-fee8-544c",
+                    "hidden": false,
+                    "targetId": "ca57-5b17-a4ed-f420",
+                    "type": "profile",
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": "Paragon",
+                        "field": "name"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "name": "Paragon",
@@ -20534,50 +20443,6 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
-              },
-              {
-                "$text": "4",
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
-              },
-              {
-                "$text": "4+",
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
-              },
-              {
-                "$text": "1",
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
-              },
-              {
-                "$text": "8+",
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
-              },
-              {
-                "$text": "0",
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
-              }
-            ],
-            "name": "Servitors",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "id": "41f2-5bed-a5f3-81ed"
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "This unit has a 6+ Invulnerable Save",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -20762,7 +20627,16 @@
                 "import": true,
                 "name": "Servitor with servo-arm",
                 "hidden": false,
-                "id": "54c6-2506-f109-dd"
+                "id": "54c6-2506-f109-dd",
+                "infoLinks": [
+                  {
+                    "name": "Servitors",
+                    "id": "3cf7-861f-4d0c-a5b0",
+                    "hidden": false,
+                    "targetId": "41f2-5bed-a5f3-81ed",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "selectionEntries": [
@@ -20900,7 +20774,16 @@
                 "import": true,
                 "name": "Servitor with heavy bolter",
                 "hidden": false,
-                "id": "89c9-ccee-d41e-7489"
+                "id": "89c9-ccee-d41e-7489",
+                "infoLinks": [
+                  {
+                    "name": "Servitors",
+                    "id": "3406-18b9-8834-c87e",
+                    "hidden": false,
+                    "targetId": "41f2-5bed-a5f3-81ed",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "entryLinks": [
@@ -21047,7 +20930,16 @@
                 "import": true,
                 "name": "Servitor with multi-melta",
                 "hidden": false,
-                "id": "51b4-7283-dda-f124"
+                "id": "51b4-7283-dda-f124",
+                "infoLinks": [
+                  {
+                    "name": "Servitors",
+                    "id": "9c2e-171e-d794-59da",
+                    "hidden": false,
+                    "targetId": "41f2-5bed-a5f3-81ed",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "entryLinks": [
@@ -21245,7 +21137,16 @@
                 "import": true,
                 "name": "Servitor with plasma cannon",
                 "hidden": false,
-                "id": "40ff-1eb6-2299-f733"
+                "id": "40ff-1eb6-2299-f733",
+                "infoLinks": [
+                  {
+                    "name": "Servitors",
+                    "id": "ea46-3419-3ecc-2a40",
+                    "hidden": false,
+                    "targetId": "41f2-5bed-a5f3-81ed",
+                    "type": "profile"
+                  }
+                ]
               }
             ],
             "constraints": [
@@ -31944,13 +31845,6 @@
             "hidden": false,
             "type": "rule",
             "targetId": "7cb5-dd6b-dd87-ad3b"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "id": "14cf-b25a-5e46-645b",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "5b77-29f8-7b77-75e3"
           }
         ],
         "constraints": [
@@ -31994,39 +31888,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "13",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "13"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "4",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Dreadknight Champion",
@@ -43946,6 +43840,138 @@
         "typeName": "Abilities",
         "hidden": false,
         "id": "8d73-2ecd-2b3c-3f18"
+      },
+      {
+        "characteristics": [
+          {
+            "name": "M",
+            "typeId": "e703-ecb6-5ce7-aec1",
+            "$text": "5\""
+          },
+          {
+            "name": "T",
+            "typeId": "d29d-cf75-fc2d-34a4",
+            "$text": "5"
+          },
+          {
+            "name": "Sv",
+            "typeId": "450-a17e-9d5e-29da",
+            "$text": "2+"
+          },
+          {
+            "name": "W",
+            "typeId": "750a-a2ec-90d3-21fe",
+            "$text": "3"
+          },
+          {
+            "name": "LD",
+            "typeId": "58d2-b879-49c7-43bc",
+            "$text": "6+"
+          },
+          {
+            "name": "OC",
+            "typeId": "bef7-942a-1a23-59f8",
+            "$text": "2"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": "4+"
+          }
+        ],
+        "name": "Terminator",
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "hidden": false,
+        "id": "28af-6e37-2f1f-93d2"
+      },
+      {
+        "characteristics": [
+          {
+            "name": "M",
+            "typeId": "e703-ecb6-5ce7-aec1",
+            "$text": "5\""
+          },
+          {
+            "name": "T",
+            "typeId": "d29d-cf75-fc2d-34a4",
+            "$text": "5"
+          },
+          {
+            "name": "Sv",
+            "typeId": "450-a17e-9d5e-29da",
+            "$text": "2+"
+          },
+          {
+            "name": "W",
+            "typeId": "750a-a2ec-90d3-21fe",
+            "$text": "3"
+          },
+          {
+            "name": "LD",
+            "typeId": "58d2-b879-49c7-43bc",
+            "$text": "6+"
+          },
+          {
+            "name": "OC",
+            "typeId": "bef7-942a-1a23-59f8",
+            "$text": "1"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": "4+"
+          }
+        ],
+        "name": "Paladin",
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "hidden": false,
+        "id": "ca57-5b17-a4ed-f420"
+      },
+      {
+        "characteristics": [
+          {
+            "name": "M",
+            "typeId": "e703-ecb6-5ce7-aec1",
+            "$text": "6\""
+          },
+          {
+            "name": "T",
+            "typeId": "d29d-cf75-fc2d-34a4",
+            "$text": "4"
+          },
+          {
+            "name": "Sv",
+            "typeId": "450-a17e-9d5e-29da",
+            "$text": "4+"
+          },
+          {
+            "name": "W",
+            "typeId": "750a-a2ec-90d3-21fe",
+            "$text": "1"
+          },
+          {
+            "name": "LD",
+            "typeId": "58d2-b879-49c7-43bc",
+            "$text": "8+"
+          },
+          {
+            "name": "OC",
+            "typeId": "bef7-942a-1a23-59f8",
+            "$text": "0"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": "6+"
+          }
+        ],
+        "name": "Servitors",
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "hidden": false,
+        "id": "41f2-5bed-a5f3-81ed"
       }
     ],
     "sharedRules": [
