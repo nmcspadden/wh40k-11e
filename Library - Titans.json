@@ -39,6 +39,13 @@
             "id": "a36c-7f98-e7b6-3e25",
             "primary": false,
             "name": "Warhound Titan"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "fb34-0d14-b196-dd43",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -988,6 +995,13 @@
             "id": "8382-a977-7e2f-24cb",
             "primary": false,
             "name": "Reaver Titan"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "e4ac-3afe-3ebd-7f56",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -2100,6 +2114,13 @@
             "id": "8bef-1b6f-6230-bb21",
             "primary": false,
             "name": "Warbringer Nemesis Titan"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "238a-2352-21d2-1fd5",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -3387,6 +3408,13 @@
             "id": "60de-b07f-f7f8-85fa",
             "primary": false,
             "name": "Warlord Titan"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "92c3-35f1-b472-f18a",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
