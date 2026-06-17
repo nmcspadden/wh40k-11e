@@ -1495,7 +1495,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 90
           },
           {
             "name": "Crusade Points",
@@ -1515,6 +1515,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -6660,7 +6675,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 65
           },
           {
             "name": "Crusade Points",
@@ -6680,6 +6695,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -9907,6 +9937,46 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "09d3-6357-7888-00d9",
+                        "shared": true,
+                        "childName": "Einhyr Hearthguard"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "constraints": [
@@ -11637,7 +11707,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 135
+            "value": 130
           },
           {
             "name": "Crusade Points",
@@ -11657,6 +11727,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -13374,6 +13459,46 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "9086-5272-398b-bbce",
+                        "shared": true,
+                        "childName": "Hernkyn Pioneers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "constraints": [
@@ -14788,7 +14913,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 10
                   },
                   {
                     "name": "Crusade Points",
@@ -16192,7 +16317,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 10
                   },
                   {
                     "name": "Crusade Points",
@@ -16326,7 +16451,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 15
                   },
                   {
                     "name": "Crusade Points",
@@ -16449,7 +16574,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 85
           },
           {
             "name": "Crusade Points",
@@ -16474,6 +16599,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -16743,6 +16878,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "ea1b-99f6-c398-06b1",
+                        "shared": true,
+                        "childName": "Brôkhyr Thunderkyn"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -18648,7 +18823,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 240
+            "value": 250
           },
           {
             "name": "Crusade Points",
@@ -18668,6 +18843,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -18938,6 +19128,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "a110-e538-4e85-159b",
+                        "shared": true,
+                        "childName": "Hekaton Land Fortress"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -20609,7 +20839,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 15
                   },
                   {
                     "name": "Crusade Points",
@@ -22555,7 +22785,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -22580,6 +22810,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -23080,7 +23320,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 70
+                "value": 65
               },
               {
                 "name": "Crusade Points",
@@ -23100,6 +23340,21 @@
               {
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
                 "value": 0
               }
             ],
@@ -24858,7 +25113,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -24884,6 +25139,16 @@
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
             "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -24900,7 +25165,7 @@
               }
             ],
             "type": "set",
-            "value": 170,
+            "value": 160,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -24917,6 +25182,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "1e3f-209d-798f-3a42",
+                        "shared": true,
+                        "childName": "Ironkin Steeljacks with Heavy Volkanite Disintegrators"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -25783,7 +26088,7 @@
               }
             ],
             "type": "set",
-            "value": 170,
+            "value": 160,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -25802,13 +26107,53 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2add-0a08-fbef-8f5e",
+                        "shared": true,
+                        "childName": "Ironkin Steeljacks with Melee Weapons"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -25833,6 +26178,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -29670,7 +30025,7 @@
             "hidden": false,
             "id": "9c61-9b04-2baf-1c12",
             "collective": false,
-            "sortIndex": 24
+            "sortIndex": 26
           },
           {
             "constraints": [
@@ -29786,7 +30141,7 @@
             "hidden": false,
             "id": "5e4b-a70c-c422-6c61",
             "collective": false,
-            "sortIndex": 28
+            "sortIndex": 30
           },
           {
             "constraints": [
@@ -29902,7 +30257,7 @@
             "hidden": false,
             "id": "b031-0da4-5d52-dd4f",
             "collective": false,
-            "sortIndex": 27
+            "sortIndex": 29
           },
           {
             "constraints": [
@@ -30018,7 +30373,7 @@
             "hidden": false,
             "id": "6194-dfd6-e9af-6585",
             "collective": false,
-            "sortIndex": 26
+            "sortIndex": 28
           },
           {
             "constraints": [
@@ -30134,7 +30489,7 @@
             "hidden": false,
             "id": "2908-04e0-3f3c-dfab",
             "collective": false,
-            "sortIndex": 25
+            "sortIndex": 27
           },
           {
             "constraints": [
@@ -30250,7 +30605,7 @@
             "hidden": false,
             "id": "7c61-0dcb-0802-cb98",
             "collective": false,
-            "sortIndex": 22
+            "sortIndex": 24
           },
           {
             "constraints": [
@@ -30382,7 +30737,7 @@
             "hidden": false,
             "id": "d187-cd04-8370-8612",
             "collective": false,
-            "sortIndex": 23
+            "sortIndex": 25
           },
           {
             "constraints": [
@@ -30498,7 +30853,7 @@
             "hidden": false,
             "id": "0817-8eb3-9b75-ad7e",
             "collective": false,
-            "sortIndex": 21
+            "sortIndex": 23
           },
           {
             "constraints": [
@@ -32161,7 +32516,7 @@
             "hidden": false,
             "id": "ff2a-7cd5-c926-912a",
             "collective": false,
-            "sortIndex": 19
+            "sortIndex": 21
           },
           {
             "constraints": [
@@ -32292,7 +32647,7 @@
             "hidden": false,
             "id": "ef82-544b-6cf9-48b5",
             "collective": false,
-            "sortIndex": 20
+            "sortIndex": 22
           },
           {
             "constraints": [
@@ -32408,7 +32763,7 @@
             "hidden": false,
             "id": "201a-6d33-642b-89ea",
             "collective": false,
-            "sortIndex": 18
+            "sortIndex": 20
           },
           {
             "constraints": [
@@ -32524,7 +32879,7 @@
             "hidden": false,
             "id": "874b-263c-74b0-1804",
             "collective": false,
-            "sortIndex": 17
+            "sortIndex": 19
           },
           {
             "type": "upgrade",
@@ -32532,7 +32887,7 @@
             "name": "Ironskein",
             "hidden": false,
             "id": "aece-b6eb-2068-df38",
-            "sortIndex": 29,
+            "sortIndex": 17,
             "comment": "Hearthguard Covenant",
             "constraints": [
               {
@@ -32624,7 +32979,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 0
+                "value": 10
               },
               {
                 "name": "Crusade Points",
@@ -32753,7 +33108,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 0
+                "value": 30
               },
               {
                 "name": "Crusade Points",
@@ -32790,7 +33145,8 @@
                 "typeId": "f759-1bc4-cb3a-f0d2",
                 "value": 1
               }
-            ]
+            ],
+            "sortIndex": 18
           }
         ],
         "modifiers": [
