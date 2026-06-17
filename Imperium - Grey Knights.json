@@ -3834,9 +3834,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time an enemy unit ends a Charge move within Engagement Range of one or more ^^**Grey Knights Vehicle^^** models from your army and within 6\" of this model's unit, you can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time an enemy unit ends a **charge move engaged** with one or more friendly **GREY KNIGHTS VEHICLE** units and within 6\" of this unit, you can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase."
               }
             ],
             "name": "Guardians of the Machine",
@@ -8663,6 +8663,13 @@
             "id": "4aba-996a-aafc-d5e5",
             "targetId": "d564-3284-bf44-b873",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "521d-be56-bb0f-dc97",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -9337,6 +9344,13 @@
             "id": "8f75-2292-d413-3744",
             "targetId": "d564-3284-bf44-b873",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "8fab-dfd4-22dd-b866",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -9991,6 +10005,13 @@
             "id": "8e23-882d-4c2a-b3ec",
             "primary": false,
             "name": "Smoke"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "0fc5-cadf-3e7c-2c5b",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -10666,6 +10687,13 @@
             "id": "f70b-577c-5b88-829a",
             "primary": false,
             "name": "Imperium"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "7755-9b6c-cb16-ecdb",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -11273,6 +11301,13 @@
             "id": "91fd-28ef-15c1-31b",
             "primary": false,
             "name": "Rhino"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "f604-543d-c77d-972e",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -11813,40 +11848,47 @@
             "id": "22cf-6b26-3e8d-3c98",
             "primary": false,
             "name": "Imperium"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "01c1-ad4b-fa34-f431",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "-"
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -12204,13 +12246,6 @@
         ],
         "infoLinks": [
           {
-            "name": "Hover",
-            "hidden": false,
-            "type": "rule",
-            "id": "j5i1-0z0e-6713-8r5t",
-            "targetId": "eec5-5f54-9c03-c305"
-          },
-          {
             "modifiers": [
               {
                 "type": "append",
@@ -12519,12 +12554,6 @@
             "name": "Faction: Grey Knights"
           },
           {
-            "targetId": "63f1-e6e8-f6f6-a4f0",
-            "id": "a5e5-37e-53e-34b5",
-            "primary": false,
-            "name": "Aircraft"
-          },
-          {
             "targetId": "dbd4-63-af05-998",
             "id": "ebc8-8b9a-701d-22f5",
             "primary": true,
@@ -12547,40 +12576,47 @@
             "id": "3bd9-2688-11f9-27ff",
             "primary": false,
             "name": "Imperium"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "5578-67fc-2b23-d073",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "14\""
               },
               {
-                "$text": "10",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "14",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "14"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
@@ -13580,40 +13616,47 @@
             "id": "df4d-9039-f6aa-bdd3",
             "primary": false,
             "name": "Imperium"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "86f6-6c52-f44a-0acc",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "-"
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -13827,13 +13870,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Hover",
-            "hidden": false,
-            "type": "rule",
-            "id": "j5i1-88tt-0c4t-t8y6",
-            "targetId": "eec5-5f54-9c03-c305"
-          },
           {
             "modifiers": [
               {
@@ -22373,50 +22409,51 @@
             "name": "Transport"
           },
           {
-            "targetId": "63f1-e6e8-f6f6-a4f0",
-            "id": "1c7c-e61d-ccb6-8d17",
-            "primary": false,
-            "name": "Aircraft"
-          },
-          {
             "targetId": "aff3-d6a3-2a95-9dc",
             "id": "e973-f71f-d183-3600",
             "primary": false,
             "name": "Imperium"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "3e49-3c52-3ef9-003d",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "20\""
               },
               {
-                "$text": "12",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "30",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "30"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
@@ -23304,706 +23341,6 @@
         "name": "Grey Knights Thunderhawk Gunship",
         "hidden": false,
         "id": "8989-2fd2-4d29-e795"
-      },
-      {
-        "costs": [
-          {
-            "name": "pts",
-            "typeId": "51b2-306e-1021-d207",
-            "value": 255
-          }
-        ],
-        "categoryLinks": [
-          {
-            "targetId": "75e8-57c4-40e3-1817",
-            "id": "70cf-964f-78b5-4517",
-            "primary": false,
-            "name": "Transport"
-          },
-          {
-            "targetId": "dbd4-63-af05-998",
-            "id": "a5e7-ac61-d10-400d",
-            "primary": true,
-            "name": "Vehicle"
-          },
-          {
-            "targetId": "6df-937-16bc-8c1a",
-            "id": "4ed9-1d53-9e9e-572",
-            "primary": false,
-            "name": "Smoke"
-          },
-          {
-            "targetId": "aff3-d6a3-2a95-9dc",
-            "id": "316a-7457-4035-dc13",
-            "primary": false,
-            "name": "Imperium"
-          },
-          {
-            "targetId": "3741-4bcf-f67e-1942",
-            "id": "c448-ca78-6b11-c252",
-            "primary": false,
-            "name": "Land Raider Banisher"
-          },
-          {
-            "targetId": "d564-3284-bf44-b873",
-            "id": "ed0d-2209-7ce-aeca",
-            "primary": false,
-            "name": "Faction: Grey Knights"
-          }
-        ],
-        "profiles": [
-          {
-            "characteristics": [
-              {
-                "$text": "10\"",
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
-              },
-              {
-                "$text": "12",
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
-              },
-              {
-                "$text": "2+",
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
-              },
-              {
-                "$text": "16",
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
-              },
-              {
-                "$text": "6+",
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
-              },
-              {
-                "$text": "5",
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
-              }
-            ],
-            "name": "Land Raider Banisher",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "id": "19a8-1a57-5977-53ac"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Assault Ramp",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "4749-41d6-2cbd-4b70"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a transport capacity of 12 Grey Knights Infantry models. Each Terminator model takes up the space of 2 models.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Land Raider Banisher",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "11a-f6f2-ef6e-1aed"
-          }
-        ],
-        "infoLinks": [
-          {
-            "modifiers": [
-              {
-                "type": "append",
-                "value": "D6",
-                "field": "name"
-              }
-            ],
-            "name": "Deadly Demise",
-            "hidden": false,
-            "type": "rule",
-            "id": "ay84-xp9u-3c5j-z6he",
-            "targetId": "b68a-5ded-65ac-98c"
-          },
-          {
-            "name": "Damaged: 1-5 Wounds Remaining",
-            "id": "a3d5-7b09-1679-2c08",
-            "hidden": false,
-            "targetId": "e6a-44ad-c190-51c5",
-            "type": "profile"
-          }
-        ],
-        "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "61f9-48b7-5a9c-2cca",
-            "includeChildSelections": true
-          },
-          {
-            "type": "max",
-            "value": 3,
-            "field": "75bb-ded1-c86d-bdf0",
-            "scope": "self",
-            "shared": true,
-            "id": "8bfb-9043-fd5f-8d06",
-            "includeChildSelections": false
-          },
-          {
-            "type": "max",
-            "value": 0,
-            "field": "716d-91b7-d55a-1022",
-            "scope": "self",
-            "shared": true,
-            "id": "1548-2d2f-d877-7bfe",
-            "includeChildSelections": true
-          },
-          {
-            "type": "min",
-            "value": 0,
-            "field": "716d-91b7-d55a-1022",
-            "scope": "self",
-            "shared": true,
-            "id": "2b78-5149-15f0-0e09",
-            "includeChildSelections": true
-          }
-        ],
-        "entryLinks": [
-          {
-            "import": true,
-            "name": "Crusade",
-            "hidden": false,
-            "id": "d18d-e311-6954-2700",
-            "type": "selectionEntryGroup",
-            "targetId": "1f2e-4c6b-19f2-30e0",
-            "sortIndex": 1
-          }
-        ],
-        "modifierGroups": [
-          {
-            "modifiers": [
-              {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "self",
-                    "childId": "1511-18fe-f51e-7b9d",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "set",
-                "value": 6,
-                "field": "8bfb-9043-fd5f-8d06"
-              },
-              {
-                "repeats": [
-                  {
-                    "value": 1,
-                    "repeats": 1,
-                    "field": "selections",
-                    "scope": "self",
-                    "childId": "d1a5-4297-168b-11cd",
-                    "shared": true,
-                    "roundUp": false,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "increment",
-                "value": 2,
-                "field": "1548-2d2f-d877-7bfe"
-              },
-              {
-                "repeats": [
-                  {
-                    "value": 1,
-                    "repeats": 1,
-                    "field": "selections",
-                    "scope": "self",
-                    "childId": "d1a5-4297-168b-11cd",
-                    "shared": true,
-                    "roundUp": false,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "increment",
-                "value": 2,
-                "field": "2b78-5149-15f0-0e09"
-              },
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "atMost",
-                        "value": 5,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "2dbf-4d49-5d74-85c9",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "atLeast",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "append",
-                "value": "(Battle-ready)",
-                "field": "name"
-              },
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "greaterThan",
-                        "value": 5,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "2dbf-4d49-5d74-85c9",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "atMost",
-                        "value": 15,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "2dbf-4d49-5d74-85c9",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "append",
-                "value": "(Blooded)",
-                "field": "name"
-              },
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "greaterThan",
-                        "value": 15,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "2dbf-4d49-5d74-85c9",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "atMost",
-                        "value": 30,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "2dbf-4d49-5d74-85c9",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "append",
-                "value": "(Battle-hardened)",
-                "field": "name"
-              },
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "greaterThan",
-                        "value": 30,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "2dbf-4d49-5d74-85c9",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "atMost",
-                        "value": 50,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "2dbf-4d49-5d74-85c9",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "append",
-                "value": "(Heroic)",
-                "field": "name"
-              },
-              {
-                "conditions": [
-                  {
-                    "type": "greaterThan",
-                    "value": 50,
-                    "field": "selections",
-                    "scope": "self",
-                    "childId": "2dbf-4d49-5d74-85c9",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "append",
-                "value": "(Legendary)",
-                "field": "name"
-              }
-            ],
-            "comment": "Crusade modifiers",
-            "type": "and"
-          },
-          {
-            "comment": "Boarding Actions modifiers",
-            "modifiers": [
-              {
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "force",
-                    "childId": "1d6e-2579-8e7f-1ed4",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              }
-            ],
-            "type": "and"
-          }
-        ],
-        "selectionEntryGroups": [
-          {
-            "selectionEntries": [
-              {
-                "constraints": [
-                  {
-                    "type": "min",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "2506-272c-4714-918"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "e10d-d4-9a9a-8e0a"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "Twin-linked",
-                    "id": "df36-2c25-8bad-3dcd",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "cf93-ad4d-2f08-a79d"
-                  },
-                  {
-                    "name": "Sustained Hits",
-                    "id": "e17b-1246-e472-ab2a",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "1897-c22c-9597-12b1"
-                  },
-                  {
-                    "name": "Psychic",
-                    "id": "e178-bc33-76ae-c3cd",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "e9c4-2bb8-12ee-cd1b"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "24\"",
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08"
-                      },
-                      {
-                        "$text": "3+",
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e"
-                      },
-                      {
-                        "$text": "8",
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3"
-                      },
-                      {
-                        "$text": "-1",
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3"
-                      },
-                      {
-                        "$text": "Psychic, Sustained Hits 1, Twin-linked",
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c"
-                      }
-                    ],
-                    "name": "Twin psycannon",
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "hidden": false,
-                    "id": "bd0d-bf5-b1f7-108e"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "import": true,
-                    "name": "Weapon Modifications",
-                    "hidden": false,
-                    "id": "16dd-20c5-4913-6bd1",
-                    "type": "selectionEntryGroup",
-                    "targetId": "f9da-852a-d7f0-92e9"
-                  }
-                ],
-                "categoryLinks": [
-                  {
-                    "name": "Psychic Weapon",
-                    "hidden": false,
-                    "id": "6dbe-9689-0447-8ceb",
-                    "targetId": "4546-4a0c-b3be-e84c",
-                    "primary": false
-                  }
-                ],
-                "type": "upgrade",
-                "import": true,
-                "name": "Twin psycannon",
-                "hidden": false,
-                "id": "88e0-4fa-8acc-7b7c"
-              }
-            ],
-            "entryLinks": [
-              {
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "b378-595f-6fe9-4e1c"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "import": true,
-                    "name": "Weapon Modifications",
-                    "hidden": false,
-                    "id": "2c2d-d7e0-30c0-74cc",
-                    "type": "selectionEntryGroup",
-                    "targetId": "f9da-852a-d7f0-92e9"
-                  }
-                ],
-                "import": true,
-                "name": "Storm bolter",
-                "hidden": false,
-                "id": "dec1-921c-7b78-224f",
-                "type": "selectionEntry",
-                "targetId": "be2a-878d-7003-2f51"
-              },
-              {
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "3de9-eb83-bb76-94d5",
-                    "includeChildSelections": false
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "import": true,
-                    "name": "Weapon Modifications",
-                    "hidden": false,
-                    "id": "63a3-1200-b734-39d3",
-                    "type": "selectionEntryGroup",
-                    "targetId": "f9da-852a-d7f0-92e9"
-                  }
-                ],
-                "import": true,
-                "name": "Hunter-killer missile",
-                "hidden": false,
-                "id": "bc04-4744-0482-1766",
-                "type": "selectionEntry",
-                "targetId": "3790-5850-3cab-142c"
-              },
-              {
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "fe18-9744-6a4a-f082"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "import": true,
-                    "name": "Weapon Modifications",
-                    "hidden": false,
-                    "id": "80f5-df16-cb52-6f9d",
-                    "type": "selectionEntryGroup",
-                    "targetId": "f9da-852a-d7f0-92e9"
-                  }
-                ],
-                "import": true,
-                "name": "Multi-melta",
-                "hidden": false,
-                "id": "574a-a3b6-737c-dae0",
-                "type": "selectionEntry",
-                "targetId": "5f8c-4833-2298-a8fa"
-              },
-              {
-                "constraints": [
-                  {
-                    "type": "min",
-                    "value": 2,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "b502-e3b3-4125-17d6"
-                  },
-                  {
-                    "type": "max",
-                    "value": 2,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "274a-0705-4604-4391"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "import": true,
-                    "name": "Weapon Modifications",
-                    "hidden": false,
-                    "id": "421c-7bf9-828f-c2f4",
-                    "type": "selectionEntryGroup",
-                    "targetId": "f9da-852a-d7f0-92e9"
-                  }
-                ],
-                "import": true,
-                "name": "Heavy incinerator",
-                "hidden": false,
-                "id": "8316-7cc0-9425-3a34",
-                "type": "selectionEntry",
-                "targetId": "bed5-712c-a207-c3d1"
-              },
-              {
-                "constraints": [
-                  {
-                    "type": "min",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "0074-7189-cd7e-8e4f",
-                    "includeChildSelections": false
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "d801-4dc2-1e8f-fadf",
-                    "includeChildSelections": false
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "import": true,
-                    "name": "Weapon Modifications",
-                    "hidden": false,
-                    "id": "b9ec-2bef-18d4-0ef5",
-                    "type": "selectionEntryGroup",
-                    "targetId": "f9da-852a-d7f0-92e9"
-                  }
-                ],
-                "import": true,
-                "name": "Armoured tracks",
-                "hidden": false,
-                "id": "575d-d9a5-d50c-c6b4",
-                "type": "selectionEntry",
-                "targetId": "bfd4-2575-e8d7-1f09"
-              }
-            ],
-            "name": "Wargear",
-            "id": "0bd3-d668-c79c-9036",
-            "hidden": false,
-            "sortIndex": 2
-          }
-        ],
-        "comment": "HIDDEN IN CASE OF LEGENDS",
-        "type": "model",
-        "import": true,
-        "name": "Land Raider Banisher",
-        "hidden": true,
-        "id": "69d-a656-fde3-6c3e"
       },
       {
         "profiles": [
@@ -32732,9 +32069,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "^^**Grey Knights^^** model only. Once per battle round, the bearer can use this Enhancement. If it does, you can target the bearer's unit with the Fire Overwatch Stratagem or Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this turn.",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**GREY KNIGHTS** model only. You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase."
                       }
                     ],
                     "name": "Eye of the Augurium",
@@ -43416,14 +42753,6 @@
         "type": "selectionEntry",
         "id": "c945-9a85-5ea3-2142",
         "targetId": "7a19-5235-692b-320d"
-      },
-      {
-        "import": true,
-        "name": "Land Raider Banisher",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "db7e-ce0-7ace-dc10",
-        "targetId": "69d-a656-fde3-6c3e"
       },
       {
         "import": true,
