@@ -1356,7 +1356,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 10
                   },
                   {
                     "name": "Crusade Points",
@@ -5324,7 +5324,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 15
                   },
                   {
                     "name": "Crusade Points",
@@ -7114,7 +7114,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 390
+            "value": 380
           },
           {
             "name": "Crusade Points",
@@ -7139,6 +7139,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -7202,6 +7212,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "0119-8c04-435e-c782",
+                        "shared": true,
+                        "childName": "Knight Despoiler"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -8953,6 +9003,46 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "7a51-8f1f-7290-d9d2",
+                        "shared": true,
+                        "childName": "Knight Desecrator"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -9511,6 +9601,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "61e0-e55b-1926-44df",
+                        "shared": true,
+                        "childName": "Knight Rampager"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -10488,6 +10618,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "a78d-828b-302b-1bec",
+                        "shared": true,
+                        "childName": "Knight Abominant"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -12617,7 +12787,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 410
+            "value": 400
           },
           {
             "name": "Crusade Points",
@@ -12637,6 +12807,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -12700,6 +12885,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "87ea-c7bd-6df0-f056",
+                        "shared": true,
+                        "childName": "Knight Tyrant"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -13993,7 +14218,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 765
+            "value": 785
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -14056,6 +14316,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 75,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "e289-ad32-c78a-e055",
+                        "shared": true,
+                        "childName": "Chaos Acastus Knight Asterius"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -15528,7 +15828,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 700
+            "value": 725
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -15591,6 +15926,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 75,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "fe77-6f85-5ddb-65bf",
+                        "shared": true,
+                        "childName": "Chaos Acastus Knight Porphyrion"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -16070,7 +16445,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 385
+            "value": 395
           },
           {
             "name": "Crusade Points",
@@ -16090,6 +16465,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -16153,6 +16543,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "4175-82c6-8e96-bef8",
+                        "shared": true,
+                        "childName": "Chaos Cerastus Knight Lancer"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -16882,7 +17312,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 385
+            "value": 370
           },
           {
             "name": "Crusade Points",
@@ -16902,6 +17332,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -16965,6 +17410,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "b6e5-911b-93f-476",
+                        "shared": true,
+                        "childName": "Chaos Cerastus Knight Castigator"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -17731,7 +18216,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 385
+            "value": 370
           },
           {
             "name": "Crusade Points",
@@ -17751,6 +18236,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -17814,6 +18314,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "ec6e-d1d6-f7c6-d008",
+                        "shared": true,
+                        "childName": "Chaos Cerastus Knight Acheron"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -18824,6 +19364,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "8b1d-9029-f9e1-42d9",
+                        "shared": true,
+                        "childName": "Chaos Cerastus Knight Atrapos"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -20523,6 +21103,46 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2d0e-5b83-b678-56dc",
+                        "shared": true,
+                        "childName": "Chaos Questoris Knight Magaera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -21653,7 +22273,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 375
+            "value": 365
           },
           {
             "name": "Crusade Points",
@@ -21673,6 +22293,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -21736,6 +22371,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "106c-4bdf-79a4-1c70",
+                        "shared": true,
+                        "childName": "Chaos Questoris Knight Styrix"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -23540,7 +24215,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 355
+            "value": 340
           },
           {
             "name": "Crusade Points",
@@ -23565,6 +24240,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -23628,6 +24313,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "c0a2-eb65-6d34-5bc6",
+                        "shared": true,
+                        "childName": "Knight Ruinator"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -26566,7 +27291,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 20
+                "value": 30
               },
               {
                 "name": "Crusade Points",
@@ -26806,7 +27531,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 35
+                "value": 25
               },
               {
                 "name": "Crusade Points",
@@ -26936,7 +27661,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 15
+                "value": 20
               },
               {
                 "name": "Crusade Points",
@@ -27630,7 +28355,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 0
+                "value": 20
               },
               {
                 "name": "Crusade Points",
@@ -27760,7 +28485,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 0
+                "value": 20
               },
               {
                 "name": "Crusade Points",
