@@ -4619,9 +4619,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per battle, when you have to remove a Cult Ambush marker because your opponent has moved too close to it, if one or more models from your army with this ability are on the battlefield, you can use this ability. If you do, instead of removing that marker, you can place it anywhere on the battlefield that is within 12\" of a model from your army with this ability and more than 9\" horizontally away from all enemy units (if this is not possible, this ability is not considered to have been used and that marker is removed as normal).",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per battle, when you have to remove a Cult Ambush marker because your opponent has moved too close to it, if one or more models from your army with this ability are on the battlefield, you can use this ability. If you do, instead of removing that marker, you can place it anywhere on the battlefield that is within 12\" of a model from your army with this ability and more than 8\" horizontally away from all enemy units (if this is not possible, this ability is not considered to have been used and that marker is removed as normal)."
               }
             ],
             "modifiers": [
@@ -7484,38 +7484,13 @@
             "type": "rule",
             "id": "8f50-a5cb-380a-f43e",
             "targetId": "d1d1-611e-5191-1095"
-          }
-        ],
-        "infoGroups": [
+          },
           {
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "hidden": false,
-                "type": "rule",
-                "id": "65dc-2f64-b88d-c66f",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following units:\n- ABERRANTS\n\n- ACOLYTE HYBRIDS WITH AUTOPISTOLS\n- ACOLYTE HYBRIDS WITH HANDFLAMERS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\n\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "cb83-5005-32d4-8f79"
-              }
-            ],
-            "name": "Leader",
+            "name": "Support",
+            "id": "65dc-2f64-b88d-c66f",
             "hidden": false,
-            "id": "4e2d-7fcd-a80-c557"
+            "type": "rule",
+            "targetId": "3342-2180-9c5d-925f"
           }
         ],
         "profiles": [
@@ -7590,6 +7565,20 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "5f87-984b-e0e0-2125"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "cb83-5005-32d4-8f79",
+            "characteristics": [
+              {
+                "$text": "This model can be attached to the following units:\n- ABERRANTS\n\n- ACOLYTE HYBRIDS WITH AUTOPISTOLS\n- ACOLYTE HYBRIDS WITH HANDFLAMERS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\n\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -8283,38 +8272,13 @@
             "type": "rule",
             "id": "5eec-982c-d4af-8fc1",
             "targetId": "7cb5-dd6b-dd87-ad3b"
-          }
-        ],
-        "infoGroups": [
+          },
           {
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "hidden": false,
-                "type": "rule",
-                "id": "11d4-47c5-52a4-7641",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "d56a-1384-fab3-2f3d"
-              }
-            ],
-            "name": "Leader",
+            "name": "Support",
+            "id": "11d4-47c5-52a4-7641",
             "hidden": false,
-            "id": "32f0-1919-562e-761f"
+            "type": "rule",
+            "targetId": "3342-2180-9c5d-925f"
           }
         ],
         "profiles": [
@@ -8389,6 +8353,20 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "d109-cec8-e513-fab1"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "d56a-1384-fab3-2f3d",
+            "characteristics": [
+              {
+                "$text": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -8920,6 +8898,13 @@
             "id": "3ed-1c2c-5caf-2ce3",
             "primary": false,
             "name": "Transport"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "c37c-6c96-79d8-406b",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "costs": [
@@ -10032,6 +10017,13 @@
             "id": "6bae-4ff0-a477-edde",
             "primary": false,
             "name": "Great Devourer"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "742c-1083-6265-bf76",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "costs": [
@@ -11692,9 +11684,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time an enemy unit is selected to shoot, after that unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Brood Surge move. To do so, roll one D6: this unit can be moved a number of inches up to the result, but it must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so those models can be within Engagement Range of that enemy unit.\n\nIf, at the start of the battle, no model in this unit is equipped with a hand flamer, each time this unit makes a Brood Surge move, it can be moved up to 6\" instead of up to D6\". A unit cannot make a Brood Surge move while it is Battle-shocked.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was **destroyed** as a result of those attacks, this unit can make a **surge move** of up to D6\"."
               }
             ],
             "modifiers": [
@@ -12991,9 +12983,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per turn, in your opponent's Movement phase, when an enemy unit ends a Normal, Advance, or Fall Back move within 9\" of this model, if this unit is not within Engagement Range of one or more enemy units, it can shoot at that unit as if it were your Shooting phase, and then make a Normal move of up to D6\" (it cannot embark within a TRANSPORT as part of this move)",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per turn, in your opponent’s Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, if this model is not within Engagement Range of one or more enemy units, it can shoot at that unit as if it were your Shooting phase and then make a Normal move of up to D6\" (it cannot embark within a Transport as part of this move)."
               }
             ],
             "name": "Hypersensory Abilities",
@@ -13744,11 +13736,11 @@
             "targetId": "24-c886-e8ba-5a89"
           },
           {
-            "name": "Leader",
+            "name": "Support",
             "id": "8fbd-aaf5-d363-7c33",
             "hidden": false,
             "type": "rule",
-            "targetId": "b4dd-3e1f-41cb-218f"
+            "targetId": "3342-2180-9c5d-925f"
           }
         ],
         "profiles": [
@@ -17872,9 +17864,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
               }
             ],
             "name": "Battlefield Analysis",
@@ -17896,6 +17888,20 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "7d54-f68a-b935-acd3"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "22cf-2616-94aa-2362",
+            "characteristics": [
+              {
+                "$text": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -17927,38 +17933,6 @@
             "sortIndex": 1
           }
         ],
-        "infoGroups": [
-          {
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "hidden": false,
-                "type": "rule",
-                "id": "323b-6e65-504-6937",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "22cf-2616-94aa-2362"
-              }
-            ],
-            "name": "Leader",
-            "hidden": false,
-            "id": "aa00-f9df-7dff-c343"
-          }
-        ],
         "infoLinks": [
           {
             "name": "Deep Strike",
@@ -17966,6 +17940,13 @@
             "type": "rule",
             "id": "b300-38d6-58de-3029",
             "targetId": "7cb5-dd6b-dd87-ad3b"
+          },
+          {
+            "name": "Support",
+            "id": "323b-6e65-504-6937",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "3342-2180-9c5d-925f"
           }
         ],
         "modifierGroups": [
@@ -19228,9 +19209,9 @@
           {
             "characteristics": [
               {
-                "$text": "While this model is leading a unit, each time a model in that unit makes an attack, you can add 1 to the Hit roll.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this model is leading a unit, each time a model in that unit makes an attack, you can add 1 to the Hit roll."
               }
             ],
             "name": "Cult Demagogue",
@@ -20619,9 +20600,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, this model can use its Reductus mine. If it does, roll one D6: on a 2+, that enemy unit suffers D3+3 mortal wounds. Only one model from your army with this ability can use it in the same battle round.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, this model can use its Reductus mine. If it does, roll one D6: on a 2+, that enemy unit suffers D3+3 mortal wounds. Only one model from your army with this ability can use it in the same battle round."
               }
             ],
             "name": "Planted Explosives",
@@ -21347,9 +21328,9 @@
           {
             "characteristics": [
               {
-                "$text": "If this model is equipped with a cult sniper rifle, once per turn when an enemy unit ends a Normal, Advance, or Fall Back move within 9\" of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "If this model is equipped with a Cult Sniper Rifle, In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to 6”."
               }
             ],
             "name": "Creeping Shadow",
@@ -21375,9 +21356,9 @@
           {
             "characteristics": [
               {
-                "$text": "If this model is equipped with a Sanctus Bio-dagger, enemy units cannot use the Fire Overwatch Stratagem to shoot at this model.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "If this model is equipped with a Sanctus Bio-dagger, enemy units cannot use the Fire Overwatch Stratagem to shoot at this model. Enemy units cannot target this unit with **snap shooting** attacks."
               }
             ],
             "name": "Cloaked Assassin",
@@ -22407,39 +22388,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "Range",
-                "typeId": "9896-9419-16a1-92fc"
+                "typeId": "9896-9419-16a1-92fc",
+                "$text": "12\""
               },
               {
-                "$text": "D6",
                 "name": "A",
-                "typeId": "3bb-c35f-f54-fb08"
+                "typeId": "3bb-c35f-f54-fb08",
+                "$text": "D6"
               },
               {
-                "$text": "N/A",
                 "name": "BS",
-                "typeId": "94d-8a98-cf90-183e"
+                "typeId": "94d-8a98-cf90-183e",
+                "$text": "N/A"
               },
               {
-                "$text": "3",
                 "name": "S",
-                "typeId": "2229-f494-25db-c5d3"
+                "typeId": "2229-f494-25db-c5d3",
+                "$text": "3"
               },
               {
-                "$text": "0",
                 "name": "AP",
-                "typeId": "9ead-8a10-520-de15"
+                "typeId": "9ead-8a10-520-de15",
+                "$text": "0"
               },
               {
-                "$text": "1",
                 "name": "D",
-                "typeId": "a354-c1c8-a745-f9e3"
+                "typeId": "a354-c1c8-a745-f9e3",
+                "$text": "1"
               },
               {
-                "$text": "Ignores Cover, Pistol, Torrent",
                 "name": "Keywords",
-                "typeId": "7f1b-8591-2fcf-d01c"
+                "typeId": "7f1b-8591-2fcf-d01c",
+                "$text": "Ignores Cover, Pistol, Torrent"
               }
             ],
             "name": "Hand flamer",
@@ -23397,6 +23378,13 @@
             "id": "2ad2-17db-85a2-ac36",
             "primary": false,
             "name": "Faction: Genestealer Cults"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "10ff-693f-54e9-74bf",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -23463,9 +23451,9 @@
           {
             "characteristics": [
               {
-                "$text": "Friendly GENESTEALER CULT INFANTRY models can be set up or end any type of move on top of the floor sections of this FORTIFICATION.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Friendly **^^Genestealer Cult Infantry^^** models can be set up or end any type of move on top of the floor sections of this **^^Fortification^^**."
               }
             ],
             "name": "Tectonic Fragdrill",
@@ -23477,9 +23465,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time one of your Cult Ambush markers is removed as the result of an enemy unit ending any kind of move within 9\" of it, you can instead move that marker so that it is wholly within 9\" of this FORTIFICATION and more than 9\" horizontally away from all enemy units (if this is not possible, that marker is removed as normal).",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time one of your Cult Ambush markers is removed as the result of an enemy unit ending any kind of move within 8\" of it, you can instead move that marker so that it is wholly within 8\" of this **^^Fortification^^** and more than 8\" horizontally away from all enemy units (if this is not possible, that marker is removed as normal)."
               }
             ],
             "name": "Underground Egress",
@@ -43772,7 +43760,7 @@
     ],
     "sharedRules": [
       {
-        "description": "If your Army Faction is **^^Genestealer Cults^^**, you start the battle with a number of Resurgence points, depending on the battle size, as shown below.\n\n- Incursion: 6 Resurgence points\n- Strike Force: 10 Resurgence points\n- Onslaught: 14 Resurgence points\n\nEach time a unit from your army is destroyed, if every model in that unit has this ability you can spend the relevant number of Resurgence points shown below based on that unit's Starting Strength.\n\n**---Aberrants---**\n5 models = 4 Resurgence Points\n10 models = 8 Resurgence Points\n\n**---Acolyte Hybrids with Autopistols, Acolyte Hybrids with Hand Flamers, Hybrid Metamorphs---**\n5 models = 2 Resurgence Points\n10 models = 4 Resurgence Points\n\n**---Atalan Jackals---**\n5 models = 2 Resurgence Points\n10 models = 6 Resurgence Points\n\n**---Neophyte Hybrids---**\n10 models = 3 Resurgence Points\n20 models = 6 Resurgence Points\n\n**---Purestrain Genestealers---**\n5 models = 2 Resurgence Points\n10 models = 6 Resurgence Points\n\nIf you do:\n- Add a new unit to your army identical to your destroyed unit, in Cult Ambush, at its Starting Strength, with all of its wounds remaining and any **[ONE SHOT]** weapons those models are equipped with considered as not having been shot.\n- Place one Cult Ambush marker (see below) anywhere on the battlefield that is more than 9\" horizontally away from all enemy units (if this is not possible, no marker is placed).\n\n**UNITS IN CULT AMBUSH**\nCult Ambush is a type of Strategic Reserves. Units in Cult Ambush cannot be targeted with the Rapid Ingress Stratagem, but can be set up on the battlefield using a Cult Ambush marker as described below, or by following the rules for Strategic Reserves in a subsequent turn.\n\n**CULT AMBUSH MARKERS**\nUse a circular 32mm diameter marker for Cult Ambush markers. If an enemy model (excluding **^^Aircraft^^**) ends any kind of move within 9\" of a Cult Ambush marker you placed, that Cult Ambush marker is removed from the battlefield. At the end of the Reinforcements step of your opponent’s next Movement phase, for each of your Cult Ambush markers still on the battlefield, you can select one unit from your army that is in Cult Ambush and set up that unit using that Cult Ambush marker. To do so, set that unit up on the battlefield more than 9\" horizontally away from all enemy units, with at least one model in that unit touching that Cult Ambush marker and all other models placed wholly within 3\" of that Cult Ambush marker (that Cult Ambush marker is then removed from the battlefield).",
+        "description": "If your Army Faction is **GENESTEALER CULTS**, you start the battle with a number of Resurgence points, depending on the battle size, as shown below.\n\n- Incursion: 6 Resurgence points\n- Strike Force: 10 Resurgence points\n- Onslaught: 14 Resurgence points\n\nEach time a unit from your army is destroyed, if every model in that unit has this ability you can spend the relevant number of Resurgence points shown below based on that unit's Starting Strength.\n\n**---Aberrants---**\n5 models = 4 Resurgence Points\n10 models = 8 Resurgence Points\n\n**---Acolyte Hybrids with Autopistols, Acolyte Hybrids with Hand Flamers, Hybrid Metamorphs---**\n5 models = 2 Resurgence Points\n10 models = 4 Resurgence Points\n\n**---Atalan Jackals---**\n5 models = 2 Resurgence Points\n10 models = 6 Resurgence Points\n\n**---Neophyte Hybrids---**\n10 models = 3 Resurgence Points\n20 models = 6 Resurgence Points\n\n**---Purestrain Genestealers---**\n5 models = 2 Resurgence Points\n10 models = 6 Resurgence Points\n\nIf you do:\n- Add a new unit to your army identical to your destroyed unit, in Cult Ambush, at its Starting Strength, with all of its wounds remaining and any **[ONE SHOT]** weapons those models are equipped with considered as not having been shot.\n- Place one Cult Ambush marker (see below) anywhere on the battlefield that is more than 9\" horizontally away from all enemy units (if this is not possible, no marker is placed).\n\n**UNITS IN CULT AMBUSH**\nCult Ambush is a type of Strategic Reserves. Units in Cult Ambush cannot be targeted with the Rapid Ingress Stratagem, but can be set up on the battlefield using a Cult Ambush marker as described below, or by following the rules for Strategic Reserves in a subsequent turn. Units in Cult Ambush are not automically destroyed at the end of the third battle round.\n\n**CULT AMBUSH MARKERS**\nUse a circular 32mm diameter marker for Cult Ambush markers. If an enemy model (excluding **AIRCRAFT**) ends any kind of move within 8\" of a Cult Ambush marker you placed, that Cult Ambush marker is removed from the battlefield. At the end of your opponent’s next Movement phase, for each of your Cult Ambush markers still on the battlefield, you can select one unit from your army that is in Cult Ambush to make an **ingress move**. For that **ingress move**, set that unit up with at least one model in that unit in base contact with that Cult Ambush marker and all other models placed wholly within 3\" of that Cult Ambush marker (that Cult Ambush marker is then removed from the battlefield). Units in Cult Ambush can make an **ingress move** in the first battle round using this rule.",
         "modifiers": [
           {
             "conditions": [
