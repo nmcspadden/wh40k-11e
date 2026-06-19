@@ -88,9 +88,9 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a transport capacity of 22 **^^Orks Infantry^^** models. If this model is equipped with a killkannon, it has a transport capacity of 12 **^^Orks Infantry^^** models. Each **^^Mega Armour^^** or **^^Jump Pack^^** model takes up the space of 2 models. The **^^Ghazghkull Thraka^^** model takes up the space of 4 models.",
                 "name": "Capacity",
-                "typeId": "30f2-be70-861d-1b84"
+                "typeId": "30f2-be70-861d-1b84",
+                "$text": "This model has a transport capacity of 22 **ORKS INFANTRY** models. If this model is equipped with a killkannon, it has a transport capacity of 12 **ORKS INFANTRY** models. Each **MEGA ARMOUR** or **JUMP PACK** model takes up the space of 2 models. The **GHAZGHKULL THRAKA** model takes up the space of 4 models."
               }
             ],
             "name": "Battlewagon",
@@ -161,6 +161,13 @@
             "id": "69ad-9d29-c09-8b45",
             "primary": false,
             "name": "Battlewagon"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "d02a-b275-a075-be39",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -2236,39 +2243,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "Range",
-                "typeId": "9896-9419-16a1-92fc"
+                "typeId": "9896-9419-16a1-92fc",
+                "$text": "12\""
               },
               {
-                "$text": "1",
                 "name": "A",
-                "typeId": "3bb-c35f-f54-fb08"
+                "typeId": "3bb-c35f-f54-fb08",
+                "$text": "1"
               },
               {
-                "$text": "5+",
                 "name": "BS",
-                "typeId": "94d-8a98-cf90-183e"
+                "typeId": "94d-8a98-cf90-183e",
+                "$text": "5+"
               },
               {
-                "$text": "4",
                 "name": "S",
-                "typeId": "2229-f494-25db-c5d3"
+                "typeId": "2229-f494-25db-c5d3",
+                "$text": "4"
               },
               {
-                "$text": "0",
                 "name": "AP",
-                "typeId": "9ead-8a10-520-de15"
+                "typeId": "9ead-8a10-520-de15",
+                "$text": "0"
               },
               {
-                "$text": "1",
                 "name": "D",
-                "typeId": "a354-c1c8-a745-f9e3"
+                "typeId": "a354-c1c8-a745-f9e3",
+                "$text": "1"
               },
               {
-                "$text": "Pistol",
                 "name": "Keywords",
-                "typeId": "7f1b-8591-2fcf-d01c"
+                "typeId": "7f1b-8591-2fcf-d01c",
+                "$text": "Close-quarters"
               }
             ],
             "name": "Slugga",
@@ -2280,11 +2287,11 @@
         ],
         "infoLinks": [
           {
-            "name": "Pistol",
+            "name": "Close-quarters",
             "hidden": false,
             "type": "rule",
             "id": "158d-5ae6-59f8-b672",
-            "targetId": "8bf7-8812-923d-29e4"
+            "targetId": "5238-5ad4-52f7-6eb4"
           }
         ],
         "categoryLinks": [
@@ -3486,9 +3493,9 @@
           {
             "characteristics": [
               {
-                "$text": "You can target this model's unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n▪ That use is ‑1 CP.\n▪ That use does not prevent any uses of that **stratagem** on other units this phase."
               }
             ],
             "name": "Single-minded Predator",
@@ -5448,7 +5455,8 @@
         "name": "Kustom shoota",
         "hidden": false,
         "id": "8bba-d0bf-1102-2131",
-        "collective": false
+        "collective": false,
+        "comment": "A4"
       },
       {
         "constraints": [
@@ -7671,6 +7679,13 @@
             "id": "7ed2-5a36-b211-9e52",
             "primary": false,
             "name": "Speed Freeks"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "92ad-5d9a-6673-69b7",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -7679,7 +7694,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "20+\""
+                "$text": "-"
               },
               {
                 "name": "T",
@@ -7704,7 +7719,7 @@
               {
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8",
-                "$text": "0"
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -7721,9 +7736,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6: on a 4+, that unit suffers D6 mortal wounds.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of your opponent’s Fight phase, select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit, and roll one D6 for that unit: On a 4+, that unit suffers D6 mortal wounds."
               }
             ],
             "name": "Boom Bomb",
@@ -9013,9 +9028,9 @@
           {
             "characteristics": [
               {
-                "$text": "While this model is leading a unit, models in that unit have the Benefit of Cover.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This unit has +1 **Sv** against ranged attacks."
               }
             ],
             "name": "Red Skull Kommandos",
@@ -9027,9 +9042,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per battle, in your Movement phase, instead of making a Normal move with this model’s unit, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Movement phase, if this unit is unengaged, you can use this ability. If you do:\n- Place this unit in strategic reserves.\n- This unit has Deep Strike until the end of the phase."
               }
             ],
             "modifiers": [
@@ -9050,7 +9065,7 @@
                 "field": "hidden"
               }
             ],
-            "name": "Kunnin’ Infiltrator",
+            "name": "Kunnin’ Infiltrator (Once per battle, per army)",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -10005,9 +10020,9 @@
           {
             "characteristics": [
               {
-                "$text": "If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one (but only if one of those is a WARBOSS model). If you do, and this unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one (but only if one of those is a **WARBOSS** unit). If you do, and this unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths."
               }
             ],
             "name": "Bodyguard",
@@ -12472,7 +12487,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "20+\""
+                "$text": "-"
               },
               {
                 "name": "T",
@@ -12497,7 +12512,7 @@
               {
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8",
-                "$text": "0"
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -12514,9 +12529,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move. Until the end of the turn, models in that unit cannot have the Benefit of Cover. In addition, roll one D6 for each model in that unit: for each 6, that unit suffers 1 mortal wound.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of your opponent’s Fight phase, you can select one **visible** enemy unit (excluding **Lone Operative** units) within 24\" of this unit:\n- Friendly **ORKS** units' ranged attacks that target that enemy unit have **[IGNORES COVER]** until the end of your next turn.\n- Roll one D6 for each model in that enemy unit:\n-- For each 6, that enemy unit suffers 1 **mortal wound**."
               }
             ],
             "name": "Burna Bomb",
@@ -12599,6 +12614,13 @@
             "id": "ecf0-4e96-f76a-248",
             "primary": false,
             "name": "Speed Freeks"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "f490-8fb5-833f-5abb",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -13171,6 +13193,13 @@
             "id": "bc1a-d63b-426c-30d6",
             "primary": false,
             "name": "Speed Freeks"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "b9a9-916b-f8f4-2a15",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -13179,7 +13208,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "20+\""
+                "$text": "-"
               },
               {
                 "name": "T",
@@ -13204,7 +13233,7 @@
               {
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8",
-                "$text": "0"
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -13700,9 +13729,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2‑5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2‑5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
               }
             ],
             "name": "Piston-driven Brutality",
@@ -16941,9 +16970,9 @@
           {
             "characteristics": [
               {
-                "$text": "While this unit is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll and add 1 to the Wound roll and if the Waaagh! is active for your army, a Critical Hit is scored on a successful unmodified Hit roll of 5+.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this unit is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll and add 1 to the Wound roll and if the Waaagh! is active for your army, a Critical Hit is scored on a successful unmodified Hit roll of 5+."
               }
             ],
             "name": "Prophet of Da Great Waaagh!",
@@ -16955,9 +16984,9 @@
           {
             "characteristics": [
               {
-                "$text": "While a friendly **^^Orks^^** unit is within 12\" of Makari, if the Waaagh! is active for your army, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While a friendly **ORKS** unit is within 12\" of Makari, if the Waaagh! is active for your army, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
               }
             ],
             "name": "Ghazghkull’s Waaagh! Banner (Aura)",
@@ -16965,6 +16994,20 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "931a-8c1c-92fc-cba"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "da6a-e2b0-b8db-f3b3",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This unit can be attached to the following units:\n- **BOYZ**\n- **MEGANOBZ**\n- **NOBZ**"
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -16993,38 +17036,6 @@
             "name": "Faction: Orks"
           }
         ],
-        "infoGroups": [
-          {
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "hidden": false,
-                "type": "rule",
-                "id": "9fcb-b4d5-3314-124b",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This unit can be attached to the following units:\n- **^^Boyz^^**\n- **^^Meganobz^^**\n- **^^Nobz^^**",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "da6a-e2b0-b8db-f3b3"
-              }
-            ],
-            "name": "Leader",
-            "hidden": false,
-            "id": "2df1-b5b4-b111-e0a3"
-          }
-        ],
         "infoLinks": [
           {
             "name": "Waaagh!",
@@ -17039,6 +17050,13 @@
             "hidden": false,
             "type": "rule",
             "targetId": "d1d1-611e-5191-1095"
+          },
+          {
+            "name": "Leader",
+            "id": "9fcb-b4d5-3314-124b",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "b4dd-3e1f-41cb-218f"
           }
         ],
         "selectionEntries": [
@@ -18743,9 +18761,9 @@
           {
             "characteristics": [
               {
-                "$text": "At the start of your Movement phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it (excluding Battle-shocked units). If one or more of those rolls is a 4+, you gain 1CP.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the start of your Movement phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it (excluding Battle‑shocked units). If one or more of those rolls is a 4+, you gain 1CP."
               }
             ],
             "name": "Thievin’ Scavengers",
@@ -19392,6 +19410,13 @@
             "id": "f679-b001-563c-8a16",
             "targetId": "9693-cf84-fe69-37a9",
             "primary": true
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "f013-d0b2-15c4-7ccc",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -20943,6 +20968,13 @@
             "id": "6517-9dbf-d3e0-1992",
             "targetId": "9693-cf84-fe69-37a9",
             "primary": true
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "951e-b427-d3eb-f223",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -21629,9 +21661,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time this unit is selected to shoot, you can roll one D6:\n- On a 1-2, this unit suffers D3 mortal wounds.\n- On a 3-4, until the end of the phase, add 1 to the Strength characteristic of ranged weapons equipped by models in this unit.\n- On a 5-6, until the end of the phase, add 1 to the Attacks characteristic of ranged weapons equipped by models in this unit.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this unit is selected to shoot, you can roll one D6:\n- On a 1‑2, this unit suffers D3 mortal wounds.\n- On a 3‑4, until the end of the phase, add 1 to the Strength characteristic of ranged weapons equipped by models in this unit.\n- On a 5‑6, until the end of the phase, add 1 to the Attacks characteristic of ranged weapons equipped by models in this unit."
               }
             ],
             "name": "Shooty Power Trip",
@@ -22643,12 +22675,12 @@
           {
             "characteristics": [
               {
-                "$text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Enemy units cannot target this unit with **snap shooting** attacks."
               }
             ],
-            "name": "Sneaky Surprise",
+            "name": "Sneaky Gitz",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -22657,9 +22689,9 @@
           {
             "characteristics": [
               {
-                "$text": "At the start of the Declare Battle Formations step this unit can be split into two units, each containing five models.\n(when splitting a unit in this way, make a note of which models form each of the two new units. If you are splitting a unit that is equipped with 1 bomb squig and/or 1 distraction grot, only one of the new units can use that ability during the battle – make a note of which of the new units this will be).",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the start of the Declare Battle Formations step this unit can be split into two units, each containing five models. (when splitting a unit in this way, make a note of which models form each of the two new units. If you are splitting a unit that is equipped with 1 bomb squig and/or 1 distraction grot, only one of the new units can use that ability during the battle – make a note of which of the new units this will be)."
               }
             ],
             "name": "Patrol Squad",
@@ -25896,9 +25928,9 @@
           {
             "characteristics": [
               {
-                "$text": "While the Waaagh! is active for your army, models in this unit have the Feel No Pain 5+ ability.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While the Waaagh! is active for your army, models in this unit have the Feel No Pain 5+ ability."
               }
             ],
             "modifiers": [
@@ -29512,7 +29544,7 @@
                         ],
                         "rules": [
                           {
-                            "description": "Before selecting targets for one or more models equipped with this weapon, roll one D6 to determine which profile models equipped with this weapon will make attacks with, comparing the result with the numbers shown on the left.",
+                            "description": "Before selecting targets for one or more models equipped with this weapon, roll one D6 to determine which profile models equipped with this weapon will make attacks with, comparing the result with the numbers shown on the left.",
                             "name": "Bubblechukka",
                             "id": "816a-43d9-cf20-2107",
                             "hidden": false
@@ -30454,9 +30486,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time this model makes a ranged attack, if the Waaagh! is active for your army, add 1 to the Hit roll.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this model makes a ranged attack, if the Waaagh! is active for your army, add 1 to the Hit roll."
               }
             ],
             "name": "Big an’ Shooty",
@@ -31634,42 +31666,42 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "3",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "6"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
-            "name": "Nob with Waaagh! Banner",
+            "name": "Bannernob",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -31678,30 +31710,30 @@
           {
             "characteristics": [
               {
-                "$text": "Once per battle, at the start of the battle round, this model can use this ability. If it does, until the start of the next battle round, this model’s unit gains the benefits of the Waaagh! ability as if you had called a Waaagh! this battle round.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "- This unit has a 5+ InSv.\n- While the Waaagh! is active for this unit, this unit has +1 T."
               }
             ],
-            "name": "Plant the Waaagh! Banner",
+            "name": "Waaagh! Banner",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
             "id": "78af-6f75-6e3c-843e"
           },
           {
-            "characteristics": [
-              {
-                "$text": "While this model is gaining the benefits of the Waaagh! ability, it has a 4+ invulnerable save and an Objective Control characteristic of 5.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Da Boss Iz Watchin’",
+            "name": "Leader",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
-            "id": "d907-8433-bbe3-9736"
+            "id": "dfe1-4fa7-c2bc-bad7",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units: \n- **BOYZ**\n- **BREAKA BOYZ**\n- **BURNA BOYZ**\n- **FLASH GITZ**\n- **LOOTAS**\n- **NOBZ**\n- **TANKBUSTAS**"
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -31730,38 +31762,6 @@
             "name": "Faction: Orks"
           }
         ],
-        "infoGroups": [
-          {
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "hidden": false,
-                "type": "rule",
-                "id": "443b-f1ac-914-3729",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following units:\n- BOYZ\n- NOBZ",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "dfe1-4fa7-c2bc-bad7"
-              }
-            ],
-            "name": "Leader",
-            "hidden": false,
-            "id": "dc28-2b6-72dc-dfb1"
-          }
-        ],
         "infoLinks": [
           {
             "name": "Waaagh!",
@@ -31769,6 +31769,13 @@
             "type": "rule",
             "id": "1e7a-dcbf-a511-6cb4",
             "targetId": "37c-6ef9-277-9091"
+          },
+          {
+            "name": "Support",
+            "id": "443b-f1ac-914-3729",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "3342-2180-9c5d-925f"
           }
         ],
         "entryLinks": [
@@ -31807,25 +31814,6 @@
             "value": 70
           }
         ],
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "lessThan",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "9ed-cbf4-bfe5-90bf",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
-          }
-        ],
         "selectionEntryGroups": [
           {
             "entryLinks": [
@@ -31859,14 +31847,12 @@
                   }
                 ],
                 "import": true,
-                "name": "Kustom shoota",
+                "name": "Shoota",
                 "hidden": false,
                 "id": "4f15-b342-493f-f8b2",
                 "type": "selectionEntry",
-                "targetId": "8bba-d0bf-1102-2131"
-              }
-            ],
-            "selectionEntries": [
+                "targetId": "b2ed-fcb0-cba1-63c4"
+              },
               {
                 "constraints": [
                   {
@@ -31875,7 +31861,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "8dd6-fcb-431f-3d7d"
+                    "id": "80d4-b464-59fc-858c"
                   },
                   {
                     "type": "max",
@@ -31883,62 +31869,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "f2a3-9bd8-6d0c-ffc7"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "Melee",
-                        "name": "Range",
-                        "typeId": "914c-b413-91e3-a132"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "A",
-                        "typeId": "2337-daa1-6682-b110"
-                      },
-                      {
-                        "$text": "3+",
-                        "name": "WS",
-                        "typeId": "95d1-95f-45b4-11d6"
-                      },
-                      {
-                        "$text": "8",
-                        "name": "S",
-                        "typeId": "ab33-d393-96ce-ccba"
-                      },
-                      {
-                        "$text": "-2",
-                        "name": "AP",
-                        "typeId": "41a0-1301-112a-e2f2"
-                      },
-                      {
-                        "$text": "2",
-                        "name": "D",
-                        "typeId": "3254-9fe6-d824-513e"
-                      },
-                      {
-                        "$text": "-",
-                        "name": "Keywords",
-                        "typeId": "893f-9000-ccf7-648e"
-                      }
-                    ],
-                    "name": "Waaagh! banner",
-                    "typeId": "8a40-4aaa-c780-9046",
-                    "typeName": "Melee Weapons",
-                    "hidden": false,
-                    "id": "2636-4834-9bfc-6ca5"
-                  }
-                ],
-                "categoryLinks": [
-                  {
-                    "name": "Melee Weapon",
-                    "hidden": false,
-                    "id": "f85c-d56d-1ece-4cbe",
-                    "targetId": "ccdd-3987-11ed-90cd",
-                    "primary": false
+                    "id": "df84-8c55-c6f7-7d03"
                   }
                 ],
                 "entryLinks": [
@@ -31946,16 +31877,17 @@
                     "import": true,
                     "name": "Weapon Upgrades",
                     "hidden": false,
-                    "id": "e1cb-46fd-78a3-b3ee",
+                    "id": "05c4-e765-1b6a-caef",
                     "targetId": "0197-b272-85e4-92bc",
                     "type": "selectionEntryGroup"
                   }
                 ],
-                "type": "upgrade",
                 "import": true,
-                "name": "Waaagh! banner",
+                "name": "Choppa",
                 "hidden": false,
-                "id": "ffeb-65c9-3bb8-f2b1"
+                "id": "1875-8bf4-3a5d-fd02",
+                "type": "selectionEntry",
+                "targetId": "3daf-71a1-f386-435b"
               }
             ],
             "name": "Wargear",
@@ -32183,7 +32115,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "Nob with Waaagh! Banner [Legends]",
+        "name": "Bannernob",
         "hidden": false,
         "id": "3b35-92f5-bd1a-af8d"
       },
@@ -37059,6 +36991,13 @@
             "id": "9942-6dee-b97f-cc39",
             "primary": false,
             "name": "Faction: Orks"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "f9d4-e040-6cc0-e2c5",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -37151,9 +37090,9 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a transport capacity of 22 ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. The GHAZGHKULL THRAKA model takes up the space of 15 models.",
                 "name": "Capacity",
-                "typeId": "30f2-be70-861d-1b84"
+                "typeId": "30f2-be70-861d-1b84",
+                "$text": "This model has a transport capacity of **22 ORKS INFANTRY** models. Each **MEGA ARMOUR** or **JUMP PACK** model takes up the space of 2 models. The **GHAZGHKULL THRAKA** model takes up the space of 4 models."
               }
             ],
             "name": "Stompa",
@@ -40132,6 +40071,13 @@
             "id": "7c38-d2fd-efb1-7bbf",
             "primary": false,
             "name": "Faction: Orks"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "b0e4-4c2d-dd51-d735",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -41749,9 +41695,9 @@
           {
             "characteristics": [
               {
-                "$text": "While the Waaagh! is active for your army, add 4 to the Attacks characteristic of this model’s melee weapons.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While the Waaagh! is active for your army, add 4 to the Attacks characteristic of this model’s melee weapons."
               }
             ],
             "name": "Da Biggest and da Best",
@@ -42758,9 +42704,9 @@
           {
             "characteristics": [
               {
-                "$text": "While the Waaagh! is active for your army, this model's 'uge choppa has a Damage characteristic of 3.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While the Waaagh! is active for your army, this model’s ’uge choppa has a Damage characteristic of 3."
               }
             ],
             "name": "Dead Brutal",
@@ -43601,7 +43547,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "20+\""
+                "$text": "-"
               },
               {
                 "name": "T",
@@ -43626,7 +43572,7 @@
               {
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8",
-                "$text": "0"
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -44604,9 +44550,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per turn, at the end of your Movement phase, one WEIRDBOY from your army can use this ability. If it does, roll one D6: on a 1, that WEIRDBOY’s unit suffers D6 mortal wounds; on a 2+, remove this WEIRDBOY’s unit from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per turn, at the end of your Movement phase, one WEIRDBOY from your army can use this ability. If it does, roll one D6: on a 1, that WEIRDBOY’s unit suffers D6 mortal wounds; on a 2+, remove this WEIRDBOY’s unit from the battlefield and set it up again anywhere on the battlefield that is more than 8\" horizontally away from all enemy models."
               }
             ],
             "modifiers": [
@@ -46163,9 +46109,9 @@
           {
             "characteristics": [
               {
-                "$text": "While the Waaagh! is active for your army, add 6\" to the Move characteristic of models in this model’s unit.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While the Waaagh! is active for your army, add 6\" to the Move characteristic of models in this model’s unit."
               }
             ],
             "modifiers": [
@@ -46941,9 +46887,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\".",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
               }
             ],
             "name": "Scatter!",
@@ -50109,6 +50055,13 @@
             "id": "4eea-8760-87ea-8baa",
             "primary": false,
             "name": "Faction: Orks"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "33f8-e865-56cf-d6e6",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -57207,7 +57160,7 @@
               {
                 "name": "W",
                 "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "6"
+                "$text": "7"
               },
               {
                 "name": "LD",
@@ -57217,7 +57170,7 @@
               {
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8",
-                "$text": "2"
+                "$text": "3"
               },
               {
                 "name": "InSv",
@@ -57234,12 +57187,12 @@
           {
             "characteristics": [
               {
-                "$text": "Each time a model in this unit makes a ranged attack that targets a unit within 9\", improve the Armour Penetration characteristic of that attack by 1.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, when this unit has resolved its attacks, select one enemy unit hit by one or more of those attacks. That enemy unit is **suppressed** until the start of your next Command phase. (While a unit is **suppressed**, it has ‑1 to **hit rolls**.)"
               }
             ],
-            "name": "Drive-by Dakka",
+            "name": "Indiscriminate Detonations",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -57253,238 +57206,172 @@
             "type": "rule",
             "id": "b8e7-26b6-4058-16ba",
             "targetId": "37c-6ef9-277-9091"
-          },
-          {
-            "name": "Speed Freeks",
-            "hidden": false,
-            "type": "profile",
-            "id": "4f43-c1b9-181a-dd54",
-            "targetId": "9156-563a-3c57-32ba"
           }
         ],
         "selectionEntryGroups": [
           {
             "selectionEntries": [
               {
-                "constraints": [
+                "type": "upgrade",
+                "import": true,
+                "name": "Choppas",
+                "hidden": false,
+                "id": "3967-b9c5-36c0-6eac",
+                "profiles": [
                   {
-                    "type": "max",
-                    "value": 2,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "6346-4032-c6f9-abaf"
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 50
+                    "name": "Choppas",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "a343-2ffe-d153-1a4c",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": ""
+                      }
+                    ]
                   }
                 ],
                 "entryLinks": [
                   {
-                    "entryLinks": [
-                      {
-                        "import": true,
-                        "name": "Weapon Modifications",
-                        "hidden": false,
-                        "id": "fbd0-e903-2b84-2bea",
-                        "type": "selectionEntryGroup",
-                        "targetId": "f9da-852a-d7f0-92e9"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "f246-0e7c-b61b-b33a"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "5456-7452-1c33-2678"
-                      }
-                    ],
                     "import": true,
-                    "name": "Twin big shoota",
+                    "name": "Weapon Modifications",
                     "hidden": false,
-                    "id": "9840-68fa-a2b4-1f04",
-                    "type": "selectionEntry",
-                    "targetId": "8e99-adf-bad4-e07f"
-                  },
-                  {
-                    "entryLinks": [
-                      {
-                        "import": true,
-                        "name": "Weapon Modifications",
-                        "hidden": false,
-                        "id": "6ac8-9633-12e0-d8d0",
-                        "type": "selectionEntryGroup",
-                        "targetId": "f9da-852a-d7f0-92e9"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "f7ab-c1b5-c03f-3351"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "219b-f7f3-9733-4485"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Spiked wheel",
-                    "hidden": false,
-                    "id": "0728-0bd8-8b7f-6ce4",
-                    "type": "selectionEntry",
-                    "targetId": "ec64-9626-e7ca-27d7"
+                    "id": "4ddf-419b-7b7a-31bc",
+                    "type": "selectionEntryGroup",
+                    "targetId": "f9da-852a-d7f0-92e9"
                   }
                 ],
-                "type": "model",
-                "import": true,
-                "name": "Wartrakks w/ Twin big shoota",
-                "hidden": false,
-                "id": "29dc-3128-a272-807f"
-              },
-              {
                 "constraints": [
                   {
-                    "type": "max",
-                    "value": 2,
+                    "type": "min",
+                    "value": 1,
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "6346-4032-c6f9-abaf"
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 50
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "entryLinks": [
-                      {
-                        "import": true,
-                        "name": "Weapon Modifications",
-                        "hidden": false,
-                        "id": "dee3-fdd1-94a8-099e",
-                        "type": "selectionEntryGroup",
-                        "targetId": "f9da-852a-d7f0-92e9"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "143a-b1ea-e3a0-43ed"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "05bf-250e-367e-9b6d"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Rack of rokkits",
-                    "hidden": false,
-                    "id": "f198-a2d8-92db-6bf8",
-                    "type": "selectionEntry",
-                    "targetId": "a92d-48a0-723b-1e6b"
+                    "id": "72a2-301e-4904-0f4b"
                   },
                   {
-                    "entryLinks": [
-                      {
-                        "import": true,
-                        "name": "Weapon Modifications",
-                        "hidden": false,
-                        "id": "f74e-fb91-2f97-2156",
-                        "type": "selectionEntryGroup",
-                        "targetId": "f9da-852a-d7f0-92e9"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "1b1d-e27e-1991-28bb"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "c52d-bd51-9763-6092"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Spiked wheel",
-                    "hidden": false,
-                    "id": "ff1e-0961-79fa-837c",
-                    "type": "selectionEntry",
-                    "targetId": "ec64-9626-e7ca-27d7"
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f41e-5166-7ab5-2b07"
                   }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Wartrakks w/ Rack of rokkits",
-                "hidden": false,
-                "id": "2690-b230-b4-ffee"
+                ]
               }
             ],
-            "constraints": [
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "4451-3c6a-bc1c-25e9"
-              },
-              {
-                "type": "max",
-                "value": 2,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "ed39-2b53-ec4f-40f6"
-              }
-            ],
-            "name": "Wartrakks (1-2)",
+            "name": "Wargear",
             "hidden": false,
             "id": "1ee6-966f-445b-c1d8",
             "defaultSelectionEntryId": "29dc-3128-a272-807f",
-            "sortIndex": 2
+            "sortIndex": 2,
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Rokkit launcha",
+                "hidden": false,
+                "id": "f198-a2d8-92db-6bf8",
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Weapon Modifications",
+                    "hidden": false,
+                    "id": "dee3-fdd1-94a8-099e",
+                    "type": "selectionEntryGroup",
+                    "targetId": "f9da-852a-d7f0-92e9"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "143a-b1ea-e3a0-43ed"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "05bf-250e-367e-9b6d"
+                  }
+                ],
+                "type": "selectionEntry",
+                "targetId": "3f62-4655-f148-baff"
+              },
+              {
+                "import": true,
+                "name": "Kustom shoota",
+                "hidden": false,
+                "id": "9840-68fa-a2b4-1f04",
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Weapon Modifications",
+                    "hidden": false,
+                    "id": "fbd0-e903-2b84-2bea",
+                    "type": "selectionEntryGroup",
+                    "targetId": "f9da-852a-d7f0-92e9"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f246-0e7c-b61b-b33a"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5456-7452-1c33-2678"
+                  }
+                ],
+                "type": "selectionEntry",
+                "targetId": "3d2f-5a70-0d67-bce8"
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -57511,25 +57398,6 @@
             "id": "9ae9-665a-40bf-5860",
             "primary": false,
             "name": "Faction: Orks"
-          }
-        ],
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "lessThan",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "9ed-cbf4-bfe5-90bf",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false
-              }
-            ],
-            "type": "set",
-            "value": true,
-            "field": "hidden"
           }
         ],
         "entryLinks": [
@@ -57760,9 +57628,9 @@
             "type": "and"
           }
         ],
-        "type": "unit",
+        "type": "model",
         "import": true,
-        "name": "Wartrakks [Legends]",
+        "name": "Wartrakk",
         "hidden": false,
         "id": "9e51-a749-18ba-2ea4"
       },
@@ -67119,39 +66987,39 @@
           {
             "characteristics": [
               {
-                "$text": "Melee",
                 "name": "Range",
-                "typeId": "914c-b413-91e3-a132"
+                "typeId": "914c-b413-91e3-a132",
+                "$text": "Melee"
               },
               {
-                "$text": "3",
                 "name": "A",
-                "typeId": "2337-daa1-6682-b110"
+                "typeId": "2337-daa1-6682-b110",
+                "$text": "3"
               },
               {
-                "$text": "3+",
                 "name": "WS",
-                "typeId": "95d1-95f-45b4-11d6"
+                "typeId": "95d1-95f-45b4-11d6",
+                "$text": "3+"
               },
               {
-                "$text": "4",
                 "name": "S",
-                "typeId": "ab33-d393-96ce-ccba"
+                "typeId": "ab33-d393-96ce-ccba",
+                "$text": "4"
               },
               {
-                "$text": "-1",
                 "name": "AP",
-                "typeId": "41a0-1301-112a-e2f2"
+                "typeId": "41a0-1301-112a-e2f2",
+                "$text": "-1"
               },
               {
-                "$text": "1",
                 "name": "D",
-                "typeId": "3254-9fe6-d824-513e"
+                "typeId": "3254-9fe6-d824-513e",
+                "$text": "1"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
-                "typeId": "893f-9000-ccf7-648e"
+                "typeId": "893f-9000-ccf7-648e",
+                "$text": ""
               }
             ],
             "name": "Choppa",
@@ -68627,9 +68495,9 @@
           {
             "characteristics": [
               {
-                "$text": "You can re-roll Advance rolls made for this model's unit. In addition, each time this model's unit makes a Normal, Advance or Fall Back move, models in that unit can move through models and terrain features. When doing so, they can move within Engagement Range of such models but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "You can re‑roll Advance rolls made for this model’s unit. In addition, each time this model’s unit makes a Normal, Advance or Fall Back move, models in that unit can move through models and terrain features. When doing so, they can move within Engagement Range of such models but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
               }
             ],
             "modifiers": [
@@ -68655,6 +68523,20 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "d0dc-7a95-8fc9-1855"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "bb78-643c-f32b-8a30",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units:\n- **^^Boyz^^**\n- **^^Lootas^^**\n- **^^Mek Gunz^^**\n- **^^Nobz^^**"
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -68664,40 +68546,13 @@
             "hidden": false,
             "type": "rule",
             "targetId": "37c-6ef9-277-9091"
-          }
-        ],
-        "infoGroups": [
+          },
           {
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "This model can be attached to the following units:\n- BOYZ\n- LOOTAS\n- MEK GUNZ\n- NOBZ",
-                    "name": "Description",
-                    "id": "ad8f-ebcd-570b-60ad",
-                    "hidden": false,
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leader",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "bb78-643c-f32b-8a30"
-              }
-            ],
-            "infoLinks": [
-              {
-                "name": "Leader",
-                "id": "1fa4-960c-eb01-e96d",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "b4dd-3e1f-41cb-218f"
-              }
-            ],
             "name": "Leader",
-            "id": "d060-ff96-5923-3f29",
-            "hidden": false
+            "id": "1fa4-960c-eb01-e96d",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "b4dd-3e1f-41cb-218f"
           }
         ],
         "selectionEntryGroups": [
@@ -78677,11 +78532,1454 @@
         "name": "Wazdakka Gutsmek",
         "hidden": false,
         "id": "2ab7-ab71-0af4-5d39"
+      },
+      {
+        "categoryLinks": [
+          {
+            "targetId": "cf47-a0d7-7207-29dc",
+            "id": "d434-ac48-e0a6-f96b",
+            "primary": false,
+            "name": "Infantry"
+          },
+          {
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "id": "b705-4309-9bbd-2717",
+            "primary": true,
+            "name": "Character"
+          },
+          {
+            "targetId": "56cc-5f43-2403-8da0",
+            "id": "f2d1-f433-cf56-05dc",
+            "primary": false,
+            "name": "Faction: Orks"
+          },
+          {
+            "name": "Bigboss",
+            "hidden": false,
+            "id": "f139-2f07-7814-4da1",
+            "targetId": "bc7d-1d29-329e-70f2",
+            "primary": false
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
+              },
+              {
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "5"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
+              }
+            ],
+            "name": "Bigboss",
+            "hidden": false,
+            "id": "a5dd-8e11-ab73-1f8a",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit"
+          },
+          {
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This unit has +1 to **charge rolls**."
+              }
+            ],
+            "name": "Somethin’ to Prove",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "6825-59bc-af03-4a19"
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "93c8-303f-59ec-a700",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units: \n- **BOYZ**\n- **BREAKA BOYZ**\n- **NOBZ**"
+              }
+            ]
+          },
+          {
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This unit’s melee weapons have **[SUSTAINED HITS 1]**."
+              }
+            ],
+            "name": "Breakin’ Heads",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "6840-37a0-2ff4-fbf8"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Waaagh!",
+            "id": "5e12-20eb-a4c8-dbc3",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "37c-6ef9-277-9091"
+          },
+          {
+            "name": "Sustained Hits",
+            "id": "e5d0-2d42-7855-0d00",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "1897-c22c-9597-12b1"
+          },
+          {
+            "name": "Leader",
+            "id": "222c-a904-5d40-24e7",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "b4dd-3e1f-41cb-218f"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Wargear",
+            "id": "128d-06fe-38b2-d273",
+            "hidden": false,
+            "sortIndex": 4,
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Slugga",
+                "hidden": false,
+                "id": "f9ad-6022-f90d-6356",
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Weapon Upgrades",
+                    "hidden": false,
+                    "id": "d795-66e2-7f6c-ce12",
+                    "targetId": "0197-b272-85e4-92bc",
+                    "type": "selectionEntryGroup"
+                  }
+                ],
+                "type": "selectionEntry",
+                "targetId": "752e-cd9b-4721-f0b0",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "dcb6-e787-a1f3-4a3b",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e50b-66d4-9e60-4f37",
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Two-handed big choppa",
+                "hidden": false,
+                "id": "1516-7505-3409-aeee",
+                "profiles": [
+                  {
+                    "name": "Two-handed big choppa",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "0011-2a50-ea74-4c6a",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "7"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "Cleave 1"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7ccc-3482-86aa-59c4",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "19ba-abaa-b19b-5c99",
+                    "includeChildSelections": false
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Weapon Upgrades",
+                    "hidden": false,
+                    "id": "64aa-9d80-978d-8b4f",
+                    "targetId": "0197-b272-85e4-92bc",
+                    "type": "selectionEntryGroup"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Cleave",
+                    "id": "54b8-f60d-ea0e-5c2c",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "bf16-5d16-4725-f912"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 70
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Warlord",
+            "hidden": false,
+            "id": "325c-6b22-8819-d5e8",
+            "type": "selectionEntry",
+            "targetId": "8b5-898c-f79b-5a9c",
+            "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "id": "6c90-ba35-6c25-5b20",
+            "type": "selectionEntryGroup",
+            "targetId": "1dd8-39ae-cbd8-a9fa",
+            "sortIndex": 3
+          },
+          {
+            "import": true,
+            "name": "Crusade",
+            "hidden": false,
+            "id": "0eb8-8737-082e-0650",
+            "type": "selectionEntryGroup",
+            "targetId": "87e9-baa9-52e2-5cce",
+            "sortIndex": 1
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 0,
+            "field": "716d-91b7-d55a-1022",
+            "scope": "self",
+            "shared": true,
+            "id": "26d5-b63c-0b2b-1bc2",
+            "includeChildSelections": true
+          },
+          {
+            "type": "min",
+            "value": 0,
+            "field": "716d-91b7-d55a-1022",
+            "scope": "self",
+            "shared": true,
+            "id": "6f11-4d46-76a5-8157",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 6,
+            "field": "75bb-ded1-c86d-bdf0",
+            "scope": "self",
+            "shared": true,
+            "id": "290b-7a79-3334-0a41",
+            "includeChildSelections": false
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "75a7-cc0d-eae9-4b78",
+            "includeChildSelections": false
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "modifiers": [
+              {
+                "repeats": [
+                  {
+                    "value": 1,
+                    "repeats": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "d1a5-4297-168b-11cd",
+                    "shared": true,
+                    "roundUp": false,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "increment",
+                "value": 2,
+                "field": "26d5-b63c-0b2b-1bc2"
+              },
+              {
+                "repeats": [
+                  {
+                    "value": 1,
+                    "repeats": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "d1a5-4297-168b-11cd",
+                    "shared": true,
+                    "roundUp": false,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "increment",
+                "value": 2,
+                "field": "6f11-4d46-76a5-8157"
+              },
+              {
+                "conditionGroups": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "atMost",
+                        "value": 5,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "append",
+                "value": "(Battle-ready)",
+                "field": "name"
+              },
+              {
+                "conditionGroups": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 5,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 15,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "append",
+                "value": "(Blooded)",
+                "field": "name"
+              },
+              {
+                "conditionGroups": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 15,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 30,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "field": "name"
+              },
+              {
+                "conditionGroups": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 30,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 50,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "append",
+                "value": "(Heroic)",
+                "field": "name"
+              },
+              {
+                "conditions": [
+                  {
+                    "type": "greaterThan",
+                    "value": 50,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "2dbf-4d49-5d74-85c9",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "append",
+                "value": "(Legendary)",
+                "field": "name"
+              }
+            ],
+            "type": "and"
+          }
+        ],
+        "type": "model",
+        "import": true,
+        "name": "Bigboss",
+        "hidden": false,
+        "id": "181e-be55-d9c6-2b69"
+      },
+      {
+        "comment": "A5 S4",
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "914c-b413-91e3-a132",
+                "$text": "Melee"
+              },
+              {
+                "name": "A",
+                "typeId": "2337-daa1-6682-b110",
+                "$text": "5"
+              },
+              {
+                "name": "WS",
+                "typeId": "95d1-95f-45b4-11d6",
+                "$text": "3+"
+              },
+              {
+                "name": "S",
+                "typeId": "ab33-d393-96ce-ccba",
+                "$text": "4"
+              },
+              {
+                "name": "AP",
+                "typeId": "41a0-1301-112a-e2f2",
+                "$text": "-1"
+              },
+              {
+                "name": "D",
+                "typeId": "3254-9fe6-d824-513e",
+                "$text": "1"
+              },
+              {
+                "name": "Keywords",
+                "typeId": "893f-9000-ccf7-648e",
+                "$text": ""
+              }
+            ],
+            "name": "Choppa",
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "hidden": false,
+            "id": "7ef9-f925-38cf-3815"
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Choppa",
+        "hidden": false,
+        "id": "3daf-71a1-f386-435b"
+      },
+      {
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "9896-9419-16a1-92fc",
+                "$text": "24\""
+              },
+              {
+                "name": "A",
+                "typeId": "3bb-c35f-f54-fb08",
+                "$text": "6"
+              },
+              {
+                "name": "BS",
+                "typeId": "94d-8a98-cf90-183e",
+                "$text": "5+"
+              },
+              {
+                "name": "S",
+                "typeId": "2229-f494-25db-c5d3",
+                "$text": "10"
+              },
+              {
+                "name": "AP",
+                "typeId": "9ead-8a10-520-de15",
+                "$text": "-2"
+              },
+              {
+                "name": "D",
+                "typeId": "a354-c1c8-a745-f9e3",
+                "$text": "3"
+              },
+              {
+                "name": "Keywords",
+                "typeId": "7f1b-8591-2fcf-d01c",
+                "$text": "Heavy"
+              }
+            ],
+            "name": "Rokkit launcha",
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "hidden": false,
+            "id": "1c86-fdd3-9f95-ebc4"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Heavy",
+            "id": "6cf5-051f-e20c-8303",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "1202-10a8-78e9-4c67"
+          }
+        ],
+        "comment": "A6 S10 Heavy",
+        "categoryLinks": [
+          {
+            "name": "Ranged Weapon",
+            "hidden": false,
+            "id": "b2fe-60c1-2819-46a2",
+            "targetId": "eeda-8544-a2f3-3fab",
+            "primary": false
+          },
+          {
+            "name": "Attacks Dx Weapon",
+            "hidden": false,
+            "id": "c07e-6d68-2e66-1c0f",
+            "targetId": "e993-e086-6de1-12af",
+            "primary": false
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Rokkit launcha",
+        "hidden": false,
+        "id": "3f62-4655-f148-baff",
+        "collective": false
+      },
+      {
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "9896-9419-16a1-92fc",
+                "$text": "18\""
+              },
+              {
+                "name": "A",
+                "typeId": "3bb-c35f-f54-fb08",
+                "$text": "2"
+              },
+              {
+                "name": "BS",
+                "typeId": "94d-8a98-cf90-183e",
+                "$text": "5+"
+              },
+              {
+                "name": "S",
+                "typeId": "2229-f494-25db-c5d3",
+                "$text": "4"
+              },
+              {
+                "name": "AP",
+                "typeId": "9ead-8a10-520-de15",
+                "$text": "0"
+              },
+              {
+                "name": "D",
+                "typeId": "a354-c1c8-a745-f9e3",
+                "$text": "1"
+              },
+              {
+                "name": "Keywords",
+                "typeId": "7f1b-8591-2fcf-d01c",
+                "$text": "Rapid Fire 2"
+              }
+            ],
+            "name": "Kustom shoota",
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "hidden": false,
+            "id": "756f-20a4-0976-0ee0"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Rapid Fire",
+            "hidden": false,
+            "type": "rule",
+            "id": "ead9-9efb-d549-b0ba",
+            "targetId": "c5c8-8b58-b8b6-7786"
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Ranged Weapon",
+            "hidden": false,
+            "id": "935f-0ca8-cbe2-b8a2",
+            "targetId": "eeda-8544-a2f3-3fab",
+            "primary": false
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Kustom shoota",
+        "hidden": false,
+        "id": "3d2f-5a70-0d67-bce8",
+        "collective": false,
+        "comment": "A2"
+      },
+      {
+        "constraints": [
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "890f-16fe-07ef-2397"
+          },
+          {
+            "type": "max",
+            "value": 0,
+            "field": "716d-91b7-d55a-1022",
+            "scope": "self",
+            "shared": true,
+            "id": "a4c7-92b7-c4ea-5c8e",
+            "includeChildSelections": true
+          },
+          {
+            "type": "min",
+            "value": 0,
+            "field": "716d-91b7-d55a-1022",
+            "scope": "self",
+            "shared": true,
+            "id": "3b5c-ad6a-ed5f-869d",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "75bb-ded1-c86d-bdf0",
+            "scope": "self",
+            "shared": true,
+            "id": "fd58-7dfe-56a6-db25",
+            "includeChildSelections": false
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
+              },
+              {
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "11"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": "5+"
+              }
+            ],
+            "name": "Big Mek Dakkarig",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "3a4d-919a-a2ef-1777"
+          },
+          {
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, while making attacks with this unit, if its blitzkannon targeted a non‑**MONSTER/VEHICLE** unit, that weapon has +6 **A**."
+              }
+            ],
+            "name": "Dakkablitz",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "892e-e88e-18bb-e77b"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Waaagh!",
+            "hidden": false,
+            "type": "rule",
+            "id": "bef9-8d67-3eaf-c8c7",
+            "targetId": "37c-6ef9-277-9091"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Stompy feet",
+                "hidden": false,
+                "id": "6feb-277f-7f31-504a",
+                "profiles": [
+                  {
+                    "name": "Stompy feet",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "e4a5-20b2-c908-ac88",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": ""
+                      }
+                    ]
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Weapon Modifications",
+                    "hidden": false,
+                    "id": "cdab-82cd-9863-a4c6",
+                    "type": "selectionEntryGroup",
+                    "targetId": "f9da-852a-d7f0-92e9"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "aaf0-33ec-90a6-588c"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8f01-b98c-9123-0d54"
+                  }
+                ],
+                "comment": "Dakkarig variant"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Blitzkannon",
+                "hidden": false,
+                "id": "f51b-ebb2-a713-b492",
+                "profiles": [
+                  {
+                    "name": "Blitzkannon",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "29a7-91d2-d1e5-902d",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "24\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "8"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "5+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "7"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-2"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Heavy, Sustained Hits 1"
+                      }
+                    ]
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Weapon Modifications",
+                    "hidden": false,
+                    "id": "f224-ca4a-70ca-d2f1",
+                    "type": "selectionEntryGroup",
+                    "targetId": "f9da-852a-d7f0-92e9"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a282-8a14-081e-0455"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f906-25ab-bb93-1b6f"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Sustained Hits",
+                    "id": "dffd-1f0e-c334-215b",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "1897-c22c-9597-12b1"
+                  },
+                  {
+                    "name": "Heavy",
+                    "id": "3f21-dba2-d287-50e5",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "1202-10a8-78e9-4c67"
+                  }
+                ]
+              }
+            ],
+            "name": "Wargear",
+            "hidden": false,
+            "id": "65ad-daca-1310-e337",
+            "defaultSelectionEntryId": "29dc-3128-a272-807f",
+            "sortIndex": 2,
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Rokkit launcha",
+                "hidden": false,
+                "id": "be10-0615-4cda-362a",
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Weapon Modifications",
+                    "hidden": false,
+                    "id": "d957-f8c9-05f7-fc3a",
+                    "type": "selectionEntryGroup",
+                    "targetId": "f9da-852a-d7f0-92e9"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9ef0-43aa-7922-1034"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9720-337e-071b-098c"
+                  }
+                ],
+                "type": "selectionEntry",
+                "targetId": "3f62-4655-f148-baff"
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "56cc-5f43-2403-8da0",
+            "id": "283d-3ee7-e4c4-ba1f",
+            "primary": false,
+            "name": "Faction: Orks"
+          },
+          {
+            "name": "Vehicle",
+            "hidden": false,
+            "id": "6fe6-9c62-8226-e5a1",
+            "targetId": "dbd4-63-af05-998",
+            "primary": true
+          },
+          {
+            "name": "Big Mek",
+            "hidden": false,
+            "id": "6519-936a-bc52-6b89",
+            "targetId": "1ea0-8b1a-ddea-4d7c",
+            "primary": false
+          },
+          {
+            "name": "Dakkarig",
+            "hidden": false,
+            "id": "166f-4f37-5310-992e",
+            "targetId": "49ff-f4c9-0ec7-ba98",
+            "primary": false
+          },
+          {
+            "name": "Walker",
+            "hidden": false,
+            "id": "f423-24af-a7b4-2a78",
+            "targetId": "6dda-e157-334d-e93a",
+            "primary": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Crusade",
+            "hidden": false,
+            "id": "64fd-8fa6-54ec-b36a",
+            "type": "selectionEntryGroup",
+            "targetId": "87e9-baa9-52e2-5cce",
+            "sortIndex": 1
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "modifiers": [
+              {
+                "repeats": [
+                  {
+                    "value": 1,
+                    "repeats": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "d1a5-4297-168b-11cd",
+                    "shared": true,
+                    "roundUp": false,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "increment",
+                "value": 2,
+                "field": "a4c7-92b7-c4ea-5c8e"
+              },
+              {
+                "repeats": [
+                  {
+                    "value": 1,
+                    "repeats": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "d1a5-4297-168b-11cd",
+                    "shared": true,
+                    "roundUp": false,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "increment",
+                "value": 2,
+                "field": "3b5c-ad6a-ed5f-869d"
+              },
+              {
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "1511-18fe-f51e-7b9d",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "set",
+                "value": 6,
+                "field": "fd58-7dfe-56a6-db25"
+              },
+              {
+                "conditionGroups": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "atMost",
+                        "value": 5,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "append",
+                "value": "(Battle-ready)",
+                "field": "name"
+              },
+              {
+                "conditionGroups": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 5,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 15,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "append",
+                "value": "(Blooded)",
+                "field": "name"
+              },
+              {
+                "conditionGroups": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 15,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 30,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "field": "name"
+              },
+              {
+                "conditionGroups": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 30,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 50,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "append",
+                "value": "(Heroic)",
+                "field": "name"
+              },
+              {
+                "conditions": [
+                  {
+                    "type": "greaterThan",
+                    "value": 50,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "2dbf-4d49-5d74-85c9",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "append",
+                "value": "(Legendary)",
+                "field": "name"
+              }
+            ],
+            "type": "and"
+          },
+          {
+            "comment": "Boarding Actions modifiers",
+            "modifiers": [
+              {
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "1d6e-2579-8e7f-1ed4",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "set",
+                "value": true,
+                "field": "hidden"
+              }
+            ],
+            "type": "and"
+          }
+        ],
+        "type": "model",
+        "import": true,
+        "name": "Big Mek Dakkarig",
+        "hidden": false,
+        "id": "78a7-cf35-aa8d-c420"
+      },
+      {
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "name": "Range",
+                "typeId": "9896-9419-16a1-92fc",
+                "$text": "24\""
+              },
+              {
+                "name": "A",
+                "typeId": "3bb-c35f-f54-fb08",
+                "$text": "D3+3"
+              },
+              {
+                "name": "BS",
+                "typeId": "94d-8a98-cf90-183e",
+                "$text": "5+"
+              },
+              {
+                "name": "S",
+                "typeId": "2229-f494-25db-c5d3",
+                "$text": "10"
+              },
+              {
+                "name": "AP",
+                "typeId": "9ead-8a10-520-de15",
+                "$text": "-2"
+              },
+              {
+                "name": "D",
+                "typeId": "a354-c1c8-a745-f9e3",
+                "$text": "3"
+              },
+              {
+                "name": "Keywords",
+                "typeId": "7f1b-8591-2fcf-d01c",
+                "$text": ""
+              }
+            ],
+            "name": "Rokkit launcha",
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "hidden": false,
+            "id": "7073-77ed-2d59-3840"
+          }
+        ],
+        "comment": "Ad3+3 S10",
+        "categoryLinks": [
+          {
+            "name": "Ranged Weapon",
+            "hidden": false,
+            "id": "8cec-436b-3d5f-b5e6",
+            "targetId": "eeda-8544-a2f3-3fab",
+            "primary": false
+          },
+          {
+            "name": "Attacks Dx Weapon",
+            "hidden": false,
+            "id": "fd3e-df51-8f68-9cd4",
+            "targetId": "e993-e086-6de1-12af",
+            "primary": false
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Rokkit launcha",
+        "hidden": false,
+        "id": "44dd-ab41-a003-f560",
+        "collective": false
       }
     ],
     "rules": [
       {
-        "description": "If your Army Faction is **^^Orks^^**, once per battle, at the start of your Command phase, you can call a Waaagh! If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n- Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n- Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n- Models from your army with this ability have a 5+ invulnerable save.",
+        "description": "If your Army Faction is **ORKS**, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n- Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.\n- Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n- Models from your army with this ability have a 5+ invulnerable save.",
         "name": "Waaagh!",
         "hidden": false,
         "id": "37c-6ef9-277-9091"
@@ -84585,7 +85883,7 @@
           {
             "rules": [
               {
-                "description": "At the start of your Command phase, select one **^^Monster^^**, **^^Vehicle^^**, or **^^Character^^** unit from your opponent's army. Until the start of your next Command phase, that enemy unit is your Prey:\n- Each time a **^^Beast Snagga^^** unit from your army declares a charge that includes your Prey as one of the targets, you can re-roll the Charge roll.\n- Each time a **^^Beast Snagga^^** model from your army makes an attack that targets your Prey, improve the Armour Penetration characteristic of that attack by 1.",
+                "description": "At the start of your Command phase, select one **MONSTER**, **VEHICLE** or **CHARACTER** unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Prey:\n- When a friendly **BEAST SNAGGA** unit declares a charge, If your Prey is within 12\" of that unit, you can use this part of this ability. If you do:\n-- That **BEAST SNAGGA** unit can re‑roll that **charge roll**.\n-- That **BEAST SNAGGA** unit <ins>must</ins> end that **charge move engaged** with your Prey\n- Each time a **^^Beast Snagga^^** model from your army makes an attack that targets your Prey, improve the Armour Penetration characteristic of that attack by 1.",
                 "name": "Da Hunt Is On",
                 "id": "b82f-6b0d-7564-87df",
                 "hidden": false
@@ -84618,10 +85916,16 @@
           {
             "rules": [
               {
-                "description": "Each time a **^^Mek^^**, **^^Orks Walker^^** or **^^Grots Vehicle^^** unit from your army is selected to shoot or fight, roll one D6. Until the end of the phase, weapons equipped by models in that unit have the corresponding ability shown in the table below.\nAlternatively, when such a unit is selected to shoot or fight, you can select one of the abilities above instead of rolling the D6. If you do, until the end of the phase, weapons equipped by models in that unit have the **[HAZARDOUS]* ability as well.\nIf a weapon equipped by a model you army has the **[HAZARDOUS]** ability from multiple sources, each time you take a Hazardous test for that weapon, it is failed on a roll of a 1 or a 2.\n\n**^^Gretchin^^** units from your army gain the **^^Battleline^^** keyword.",
+                "description": "Each time a **^^Mek^^**, **^^Orks Walker^^** or **^^Grots Vehicle^^** unit from your army is selected to shoot or fight, roll one D6. Until the end of the phase, weapons equipped by models in that unit have the corresponding ability shown in the table below.\nAlternatively, when such a unit is selected to shoot or fight, you can select one of the abilities above instead of rolling the D6. If you do, until the end of the phase, weapons equipped by models in that unit have the **[HAZARDOUS]* ability as well.\nIf a weapon equipped by a model from your army has the **[HAZARDOUS]** ability from multiple sources, each time you take a Hazardous test for that weapon, it is failed on a roll of 1‑3.",
                 "name": "Try Dat Button!",
                 "id": "3664-2bb3-64e4-e684",
                 "hidden": false
+              },
+              {
+                "name": "Keywords",
+                "id": "4d14-d8f1-771f-7d31",
+                "hidden": false,
+                "description": "**^^Gretchin^^** units from your army gain the **^^Battleline^^** keyword."
               }
             ],
             "infoLinks": [
@@ -84720,7 +86024,7 @@
           {
             "rules": [
               {
-                "description": "Each time an attack targets a **^^Boyz^^** unit from your army, models in that unit have a 6+ invulnerable save against that attack. Each time an attack targets a **^^Boyz^^** unit from your army that contains 10 or more models, models in that unit have a 5+ invulnerable save against that attack.",
+                "description": "Each time an attack targets a **BOYZ** unit from your army, models in that unit have a 6+ invulnerable save against that attack. Each time an attack targets a **BOYZ** unit from your army that contains 10 or more models, models in that unit have a 5+ invulnerable save against that attack.",
                 "name": "Mob Mentality",
                 "id": "4e1-4598-e547-e79c",
                 "hidden": false
@@ -84753,7 +86057,7 @@
           {
             "rules": [
               {
-                "description": "At the start of your Command phase, in a turn in which you have not called a Waaagh!, if you have one or more **^^Warboss^^** models on the battlefield (or embarked within a **^^Transport^^** that is on the battlefield), you can call a Waaagh! for a second time this battle. When doing so, that second Waaagh! only counts as having been called for **^^Warboss^^**, **^^Nobz^^** and **^^Meganobz^^** units from your army.",
+                "description": "At the start of your Command phase, in a turn in which you have not called a Waaagh!, if you have one or more **WARBOSS** models on the battlefield (or embarked within a **TRANSPORT** that is on the battlefield), you can call a Waaagh! for a second time this battle. When doing so, that second Waaagh! only counts as having been called for **WARBOSS**, **NOBZ** and **MEGANOBZ** units from your army.",
                 "name": "Da Boss Is Watchin'",
                 "id": "2195-4d6e-a1f1-1b63",
                 "hidden": false
@@ -84786,7 +86090,7 @@
           {
             "rules": [
               {
-                "description": "**^^Speed Freeks^^** units from your army are eligible to shoot and declare a charge in a turn in which they Advanced or Fell Back.",
+                "description": "**SPEED FREEKS** units from your army are eligible to shoot and declare a charge in a turn in which they Advanced or Fell Back.",
                 "name": "Adrenaline Junkies",
                 "id": "800f-b674-d975-c458",
                 "hidden": false
@@ -92155,7 +93459,7 @@
         "id": "4bb4-1a6e-13bb-e02f"
       },
       {
-        "name": "Nob with Waaagh! Banner",
+        "name": "Bannernob",
         "hidden": false,
         "id": "25e0-82e0-8ebb-b19f"
       },
@@ -92305,7 +93609,7 @@
         "id": "d6f5-5eb6-8b62-2743"
       },
       {
-        "name": "Wartrakks",
+        "name": "Wartrakk",
         "hidden": false,
         "id": "4950-6488-ea91-1dcf"
       },
@@ -92475,6 +93779,16 @@
         "name": "Wazdakka Warlord Flag",
         "id": "2579-f731-8059-d6fd",
         "hidden": true
+      },
+      {
+        "name": "Bigboss",
+        "id": "bc7d-1d29-329e-70f2",
+        "hidden": false
+      },
+      {
+        "name": "Dakkarig",
+        "id": "49ff-f4c9-0ec7-ba98",
+        "hidden": false
       }
     ],
     "entryLinks": [
@@ -93245,6 +94559,14 @@
         "id": "e9e4-d332-9c57-f71b",
         "targetId": "6a69-8e75-49ae-408f",
         "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Big Mek Dakkarig",
+        "hidden": false,
+        "id": "c5f9-b0ad-28ca-c6be",
+        "targetId": "78a7-cf35-aa8d-c420",
+        "type": "selectionEntry"
       }
     ],
     "sharedProfiles": [
@@ -93308,9 +94630,9 @@
       {
         "characteristics": [
           {
-            "$text": "Once per battle, for each bomb squig this unit has, after this unit ends a Normal move, you can use one Bomb Squig. If you do, select one enemy unit within 12\" and visible to this unit and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds.",
             "name": "Description",
-            "typeId": "9b8f-694b-e5e-b573"
+            "typeId": "9b8f-694b-e5e-b573",
+            "$text": "Once per battle, for each bomb squig this unit has, after this unit ends a Normal move, you can use one Bomb Squig. If you do, select one enemy unit within 12\" and visible to this unit and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds."
           }
         ],
         "name": "Bomb Squigs",
