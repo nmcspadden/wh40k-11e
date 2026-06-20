@@ -15412,7 +15412,7 @@
             "hidden": false,
             "id": "5e2b-e394-45b-4674",
             "defaultSelectionEntryId": "2906-2dfd-6dbe-ca8",
-            "sortIndex": 4
+            "sortIndex": 5
           },
           {
             "selectionEntries": [
@@ -15519,7 +15519,7 @@
             "name": "Justicar",
             "id": "1a13-27c7-6869-47a1",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -15612,6 +15612,15 @@
             "type": "selectionEntry",
             "targetId": "beae-4593-3686-1672",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "7376-933a-ea49-4a94",
+            "type": "selectionEntryGroup",
+            "targetId": "1799-1ca5-75f7-51b9",
+            "sortIndex": 3
           }
         ],
         "modifierGroups": [
@@ -19007,7 +19016,7 @@
             "hidden": false,
             "id": "8b45-3ad-69a7-ac55",
             "defaultSelectionEntryId": "ee3b-2ec2-2841-7e66",
-            "sortIndex": 3
+            "sortIndex": 4
           },
           {
             "selectionEntries": [
@@ -19114,7 +19123,7 @@
             "name": "Justicar",
             "id": "5a6a-dca2-0db5-7fb7",
             "hidden": false,
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "constraints": [
@@ -19164,6 +19173,15 @@
             "type": "selectionEntryGroup",
             "targetId": "1f2e-4c6b-19f2-30e0",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "a044-f7d1-d8e8-8254",
+            "type": "selectionEntryGroup",
+            "targetId": "1799-1ca5-75f7-51b9",
+            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -31726,15 +31744,6 @@
             "shared": true,
             "id": "614a-7467-5d1b-1fed",
             "includeChildSelections": true
-          },
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "a3e3-58c5-cd0f-c938",
-            "includeChildSelections": true
           }
         ],
         "selectionEntryGroups": [
@@ -31781,6 +31790,26 @@
                   {
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
                     "value": 0
                   }
                 ],
@@ -31870,6 +31899,26 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -31912,6 +31961,46 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -31989,6 +32078,26 @@
                   {
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
                     "value": 0
                   }
                 ],
@@ -32106,6 +32215,26 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -32183,6 +32312,26 @@
                   {
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
                     "value": 0
                   }
                 ],
@@ -32307,6 +32456,26 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -32384,6 +32553,26 @@
                   {
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
                     "value": 0
                   }
                 ],
@@ -32499,6 +32688,26 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -32576,6 +32785,26 @@
                   {
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
                     "value": 0
                   }
                 ],
@@ -32655,6 +32884,26 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -32732,6 +32981,26 @@
                   {
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
                     "value": 0
                   }
                 ],
@@ -32847,6 +33116,26 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -32907,6 +33196,26 @@
                   {
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
                     "value": 0
                   }
                 ],
@@ -32969,6 +33278,26 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -33029,6 +33358,26 @@
                   {
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
                     "value": 0
                   }
                 ],
@@ -33144,6 +33493,26 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -33223,6 +33592,26 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -33284,6 +33673,26 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -33344,6 +33753,26 @@
                   {
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
                     "value": 0
                   }
                 ],
@@ -33459,6 +33888,26 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -33519,6 +33968,26 @@
                   {
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
                     "value": 0
                   }
                 ],
@@ -33581,6 +34050,26 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -33641,6 +34130,26 @@
                   {
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
                     "value": 0
                   }
                 ],
@@ -34251,25 +34760,258 @@
             "name": "Baneslayer Strike Enhancements",
             "id": "6c1b-b140-6c5e-dc9a",
             "hidden": false
-          }
-        ],
-        "modifiers": [
+          },
           {
-            "conditions": [
+            "selectionEntries": [
               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "forces",
-                "scope": "roster",
-                "childId": "cac3-71d1-ea4b-795d",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**TERMINATOR** model only. This unit has +1 to **charge rolls**."
+                      }
+                    ],
+                    "name": "Psychic Celerity",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "3e2a-db74-1099-8ee5"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 25
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "3ea2-fd45-fb0f-f063",
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "upgrade",
+                "import": true,
+                "name": "Psychic Celerity",
+                "hidden": false,
+                "id": "d56d-a1c0-78c2-7649",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "root-entry",
+                        "childId": "740a-892c-8958-defa",
+                        "shared": true,
+                        "childName": "Terminator"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**TERMINATOR** model only. At the start of your Shooting phase, you can select one **visible** enemy unit within 12\" of this unit. That enemy unit has +6\" **detection range**."
+                      }
+                    ],
+                    "name": "Vigilance of Titan",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "3ad8-cd58-9daa-a001"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Purgation Points",
+                    "typeId": "d579-52c1-3e77-dd11",
+                    "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "0ea3-cea5-5aa2-4f65",
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "upgrade",
+                "import": true,
+                "name": "Vigilance of Titan",
+                "hidden": false,
+                "id": "8e65-2f4d-df16-cc4b",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "root-entry",
+                        "childId": "740a-892c-8958-defa",
+                        "shared": true,
+                        "childName": "Terminator"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
-            "type": "set",
-            "value": -1,
-            "field": "a3e3-58c5-cd0f-c938"
+            "modifiers": [
+              {
+                "conditionGroups": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "45aa-c450-8fb0-92c2",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true,
+                        "childName": "Argent Assault"
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "set",
+                "value": true,
+                "field": "hidden"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "e27d-e407-3913-fe11",
+                "includeChildSelections": false,
+                "includeChildForces": false
+              }
+            ],
+            "name": "Argent Assault Enhancements",
+            "id": "66bd-c915-c5b9-97a9",
+            "hidden": false
           }
         ],
         "entryLinks": [
@@ -34607,6 +35349,105 @@
             "name": "Baneslayer Strike",
             "hidden": false,
             "id": "29c0-f8cf-111e-a87c"
+          },
+          {
+            "rules": [
+              {
+                "description": "When a friendly **PALADIN SQUAD** unit is **selected to fight**, if the **S** of those attacks is lower than the **T** of the target, those attacks have +1 to **wound rolls**.",
+                "name": "Dauntless Champions",
+                "id": "f384-6949-1926-d54d",
+                "hidden": false
+              }
+            ],
+            "modifiers": [
+              {
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "1d6e-2579-8e7f-1ed4",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "set",
+                "value": true,
+                "field": "hidden"
+              }
+            ],
+            "type": "upgrade",
+            "import": true,
+            "name": "Argent Assault",
+            "hidden": false,
+            "id": "45aa-c450-8fb0-92c2"
+          },
+          {
+            "rules": [
+              {
+                "description": "When you select a unit to be **pinned** by a friendly **PURGATION SQUAD** unit’s **Righteous Persecution** ability, that enemy unit makes a **battle‑shock roll**, with -1 to that **battle‑shock roll**.",
+                "name": "Searing Soulflame",
+                "id": "5ed8-b76b-eadc-a7a8",
+                "hidden": false
+              }
+            ],
+            "modifiers": [
+              {
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "1d6e-2579-8e7f-1ed4",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "set",
+                "value": true,
+                "field": "hidden"
+              }
+            ],
+            "type": "upgrade",
+            "import": true,
+            "name": "Fires of Purgation",
+            "hidden": false,
+            "id": "cc43-5f22-04f2-5c31"
+          },
+          {
+            "rules": [
+              {
+                "description": "In your Shooting phase, when a friendly **INTERCEPTOR SQUAD** unit has shot, if that unit did not make an **ingress move** this turn, you can use this ability. If you do:\n- That unit <ins>cannot</ins> use its **Personal Teleporters** ability.\n- That unit can make a **surge move** of up to D6+1\".",
+                "name": "Echojump",
+                "id": "c1ea-9cd3-5556-e2a3",
+                "hidden": false
+              }
+            ],
+            "modifiers": [
+              {
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "1d6e-2579-8e7f-1ed4",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "set",
+                "value": true,
+                "field": "hidden"
+              }
+            ],
+            "type": "upgrade",
+            "import": true,
+            "name": "Immaterial Interdiction",
+            "hidden": false,
+            "id": "b96b-6cb7-211b-e744"
           }
         ],
         "name": "Detachments",
@@ -42575,6 +43416,736 @@
         "id": "0d47-adec-f8da-f1be",
         "hidden": false,
         "flatten": true
+      },
+      {
+        "name": "Enhancements - Upgrades",
+        "id": "1799-1ca5-75f7-51b9",
+        "hidden": false,
+        "selectionEntryGroups": [
+          {
+            "name": "Fires of Purgation Enhancements",
+            "id": "c1d8-0054-678d-cd17",
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "f567-67c1-1ad6-6788",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Boons of Deimos",
+                "hidden": false,
+                "id": "60d0-a740-bd53-857b",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8533-b354-d6c8-bc4e",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "a36f-4ad2-d4ec-c664",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Boons of Deimos",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "d680-6bcd-2dd3-5990",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**PURGATION SQUAD** unit only. This unit’s ranged attacks have +2 **S**."
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "root-entry",
+                        "childId": "8084-5bdd-7c6-bae4",
+                        "shared": true,
+                        "childName": "Purgation Squad"
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "60d0-a740-bd53-857b",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "60d0-a740-bd53-857b",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "append",
+                        "value": "Boons of Deimos",
+                        "field": "annotation",
+                        "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                        "scope": "root-entry",
+                        "join": ", "
+                      },
+                      {
+                        "type": "increment",
+                        "value": 2,
+                        "field": "2229-f494-25db-c5d3",
+                        "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                        "scope": "root-entry"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Precognicient Volleys",
+                "hidden": false,
+                "id": "81c5-ff30-23c2-7c2e",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "efc3-618b-d5f9-d376",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "ae03-9817-784c-ebfc",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Precognicient Volleys",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "2eea-63e7-1177-f43d",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**PURGATION SQUAD** unit only. This unit’s **snap shooting** attacks hit on unmodified hit rolls of 5+."
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "81c5-ff30-23c2-7c2e",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "81c5-ff30-23c2-7c2e",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "root-entry",
+                        "childId": "8084-5bdd-7c6-bae4",
+                        "shared": true,
+                        "childName": "Purgation Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "id": "30ed-43cf-98f1-2f00",
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "cc43-5f22-04f2-5c31",
+                        "shared": true,
+                        "id": "c96a-7b10-bb4b-7154",
+                        "includeChildSelections": true,
+                        "childName": "Fires of Purgation"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Immaterial Interdiction Enhancements",
+            "id": "3bf9-f35b-e41b-8911",
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "65ff-9cd0-7ff1-b738",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Predestined Coordinates",
+                "hidden": false,
+                "id": "366a-95c0-f749-a3e4",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6901-79f1-dc76-aa49",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "e7b6-1842-3b15-6c18",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Predestined Coordinates",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "cbc2-d6c4-d32f-5fff",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**INTERCEPTOR SQUAD** unit only. In your first Movement phase, this unit can make an **ingress move**."
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "root-entry",
+                        "childId": "b7d3-6b00-c657-ebd7",
+                        "shared": true,
+                        "childName": "Interceptor Squad"
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "366a-95c0-f749-a3e4",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "366a-95c0-f749-a3e4",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Astral Overlap",
+                "hidden": false,
+                "id": "22d4-0106-051f-5208",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0c57-efa5-b8d4-7687",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "27c2-f98d-06ef-57a8",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Astral Overlap",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "9692-99db-da49-988d",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**INTERCEPTOR SQUAD** unit only. This unit has **Stealth**."
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "22d4-0106-051f-5208",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "22d4-0106-051f-5208",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "root-entry",
+                        "childId": "b7d3-6b00-c657-ebd7",
+                        "shared": true,
+                        "childName": "Interceptor Squad"
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Stealth",
+                    "id": "a227-41a6-2fd2-5fce",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "bec5-4288-34a6-ccfa"
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "id": "e5f8-f709-8928-55a4",
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "cc43-5f22-04f2-5c31",
+                        "shared": true,
+                        "id": "62d5-da6e-05f8-e461",
+                        "includeChildSelections": true,
+                        "childName": "Fires of Purgation"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "collapsible": true,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "self",
+            "shared": true,
+            "id": "c58e-2da0-3ba5-e022",
+            "includeChildSelections": true
+          }
+        ]
       }
     ],
     "entryLinks": [
