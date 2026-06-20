@@ -1259,58 +1259,6 @@
                     "includeChildForces": true
                   },
                   {
-                    "type": "greaterThan",
-                    "value": 0,
-                    "field": "selections",
-                    "scope": "force",
-                    "childId": "d62d-db22-4893-4bc0",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  },
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "force",
-                    "childId": "cac3-71d1-ea4b-795d",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "and"
-              }
-            ],
-            "type": "set",
-            "value": 250,
-            "field": "dee8-c245-3c3c-86b6",
-            "id": "5155-3d32-76df-053b"
-          },
-          {
-            "conditionGroups": [
-              {
-                "conditions": [
-                  {
-                    "type": "greaterThan",
-                    "value": 0,
-                    "field": "selections",
-                    "scope": "force",
-                    "childId": "baf8-997f-e323-a090",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  },
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "25dd-7aa0-6bf4-f2d5",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  },
-                  {
                     "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
@@ -1327,48 +1275,6 @@
             "value": 500,
             "field": "dee8-c245-3c3c-86b6",
             "id": "2f2a-1769-3b72-b003"
-          },
-          {
-            "conditionGroups": [
-              {
-                "conditions": [
-                  {
-                    "type": "greaterThan",
-                    "value": 0,
-                    "field": "selections",
-                    "scope": "force",
-                    "childId": "4204-82d0-908c-a62a",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  },
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "25dd-7aa0-6bf4-f2d5",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  },
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "force",
-                    "childId": "cac3-71d1-ea4b-795d",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "and"
-              }
-            ],
-            "type": "set",
-            "value": 750,
-            "field": "dee8-c245-3c3c-86b6",
-            "id": "464a-d2f8-101b-1fab"
           }
         ],
         "constraints": [
