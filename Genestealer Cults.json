@@ -13461,6 +13461,29 @@
               }
             ],
             "type": "and"
+          },
+          {
+            "type": "and",
+            "comment": "Heroes of the Uprising detachment",
+            "modifiers": [
+              {
+                "type": "add",
+                "value": "17b8-37ac-9880-8423",
+                "field": "category",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "fc4a-2c42-6f33-0347",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Heroes of the Uprising"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -14268,6 +14291,29 @@
               }
             ],
             "type": "and"
+          },
+          {
+            "type": "and",
+            "comment": "Heroes of the Uprising detachment",
+            "modifiers": [
+              {
+                "type": "add",
+                "value": "17b8-37ac-9880-8423",
+                "field": "category",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "fc4a-2c42-6f33-0347",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Heroes of the Uprising"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -16387,7 +16433,7 @@
             "hidden": false,
             "id": "72c1-ad8a-b2ea-3193",
             "defaultSelectionEntryId": "8261-d629-33d4-b642",
-            "sortIndex": 4
+            "sortIndex": 5
           },
           {
             "selectionEntries": [
@@ -17263,7 +17309,7 @@
             "name": "Neophyte Leader",
             "id": "1072-34a6-b24d-d30f",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -17386,6 +17432,15 @@
             "type": "selectionEntry",
             "targetId": "ceab-62d9-31bf-7c61",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "14ff-92f9-0e78-c198",
+            "type": "selectionEntryGroup",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 3
           }
         ],
         "modifierGroups": [
@@ -19975,6 +20030,15 @@
             "type": "selectionEntry",
             "targetId": "ceab-62d9-31bf-7c61",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "8a91-3af4-620c-7451",
+            "type": "selectionEntryGroup",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 3
           }
         ],
         "modifierGroups": [
@@ -20444,7 +20508,7 @@
             "name": "5-10 Purestrain Genestealers",
             "id": "0883-0db6-292f-c2dd",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "type": "unit",
@@ -20952,6 +21016,29 @@
               }
             ],
             "type": "and"
+          },
+          {
+            "type": "and",
+            "comment": "Heroes of the Uprising detachment",
+            "modifiers": [
+              {
+                "type": "add",
+                "value": "17b8-37ac-9880-8423",
+                "field": "category",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "fc4a-2c42-6f33-0347",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Heroes of the Uprising"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -22050,6 +22137,29 @@
               }
             ],
             "type": "and"
+          },
+          {
+            "type": "and",
+            "comment": "Heroes of the Uprising detachment",
+            "modifiers": [
+              {
+                "type": "add",
+                "value": "17b8-37ac-9880-8423",
+                "field": "category",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "fc4a-2c42-6f33-0347",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Heroes of the Uprising"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "model",
@@ -43564,54 +43674,9 @@
         "id": "d1ae-4000-bdd2-333b"
       },
       {
-        "name": "Kelermorph",
-        "hidden": false,
-        "id": "33d4-a80e-ecc-e821"
-      },
-      {
-        "name": "Locus",
-        "hidden": false,
-        "id": "dfde-688d-75b8-77bb"
-      },
-      {
-        "name": "Magus",
-        "hidden": false,
-        "id": "46a5-442b-8c19-355c"
-      },
-      {
-        "name": "Neophyte Hybrids",
-        "hidden": false,
-        "id": "9ffe-1e2a-b828-b7af"
-      },
-      {
         "name": "Nexos",
         "hidden": false,
         "id": "8b0d-31c9-98a2-8430"
-      },
-      {
-        "name": "Patriarch",
-        "hidden": false,
-        "id": "94ba-162-6050-a30e"
-      },
-      {
-        "name": "Primus",
-        "hidden": false,
-        "id": "3253-f6f5-2121-8a2f"
-      },
-      {
-        "name": "Purestrain Genestealers",
-        "hidden": false,
-        "id": "6d9c-2e39-be0b-aee9"
-      },
-      {
-        "name": "Reductus Saboteur",
-        "hidden": false,
-        "id": "5455-1687-f81e-b3c5"
-      },
-      {
-        "name": "Sanctus",
-        "hidden": false,
-        "id": "7eca-eb86-84bd-c846"
       },
       {
         "name": "Tectonic Fragdrill",
