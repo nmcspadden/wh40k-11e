@@ -863,7 +863,40 @@
         "import": true,
         "name": "Commander Shadowsun",
         "hidden": false,
-        "id": "4d0d-af9d-53c2-bc31"
+        "id": "4d0d-af9d-53c2-bc31",
+        "modifierGroups": [
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "Superior Craftmanship",
+                "field": "annotation",
+                "join": ", ",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons"
+              },
+              {
+                "type": "increment",
+                "value": 6,
+                "field": "9896-9419-16a1-92fc",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons"
+              }
+            ],
+            "conditions": [
+              {
+                "type": "greaterThan",
+                "value": 0,
+                "field": "selections",
+                "scope": "force",
+                "childId": "1520-c344-f4fe-b414",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ],
+            "comment": "Experimental Prototype Cadre detachment"
+          }
+        ]
       },
       {
         "entryLinks": [
@@ -1435,6 +1468,37 @@
             ],
             "comment": "Boarding Actions modifiers",
             "type": "and"
+          },
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "Superior Craftmanship",
+                "field": "annotation",
+                "join": ", ",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons"
+              },
+              {
+                "type": "increment",
+                "value": 6,
+                "field": "9896-9419-16a1-92fc",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons"
+              }
+            ],
+            "conditions": [
+              {
+                "type": "greaterThan",
+                "value": 0,
+                "field": "selections",
+                "scope": "force",
+                "childId": "1520-c344-f4fe-b414",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ],
+            "comment": "Experimental Prototype Cadre detachment"
           }
         ],
         "type": "model",
@@ -2013,33 +2077,6 @@
                         "scope": "parent",
                         "shared": true,
                         "id": "281d-6ec0-a779-bc2c"
-                      },
-                      {
-                        "type": "min",
-                        "value": 0,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "4114-328b-f7ef-7d0b",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "modifiers": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "model-or-unit",
-                            "childId": "fb72-80a9-f2b5-31a6",
-                            "shared": true,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "set",
-                        "value": 1,
-                        "field": "4114-328b-f7ef-7d0b"
                       }
                     ],
                     "entryLinks": [
@@ -2514,6 +2551,37 @@
             ],
             "comment": "Boarding Actions modifiers",
             "type": "and"
+          },
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "Superior Craftmanship",
+                "field": "annotation",
+                "join": ", ",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons"
+              },
+              {
+                "type": "increment",
+                "value": 6,
+                "field": "9896-9419-16a1-92fc",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons"
+              }
+            ],
+            "conditions": [
+              {
+                "type": "greaterThan",
+                "value": 0,
+                "field": "selections",
+                "scope": "force",
+                "childId": "1520-c344-f4fe-b414",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ],
+            "comment": "Experimental Prototype Cadre detachment"
           }
         ],
         "type": "model",
@@ -3072,33 +3140,6 @@
                         "scope": "parent",
                         "shared": true,
                         "id": "8488-feb3-d130-a9e2"
-                      },
-                      {
-                        "type": "min",
-                        "value": 0,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "54d3-dc6d-bed9-a080",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "modifiers": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "model-or-unit",
-                            "childId": "fb72-80a9-f2b5-31a6",
-                            "shared": true,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "set",
-                        "value": 1,
-                        "field": "54d3-dc6d-bed9-a080"
                       }
                     ],
                     "entryLinks": [
@@ -3554,6 +3595,37 @@
             ],
             "comment": "Boarding Actions modifiers",
             "type": "and"
+          },
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "Superior Craftmanship",
+                "field": "annotation",
+                "join": ", ",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons"
+              },
+              {
+                "type": "increment",
+                "value": 6,
+                "field": "9896-9419-16a1-92fc",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons"
+              }
+            ],
+            "conditions": [
+              {
+                "type": "greaterThan",
+                "value": 0,
+                "field": "selections",
+                "scope": "force",
+                "childId": "1520-c344-f4fe-b414",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ],
+            "comment": "Experimental Prototype Cadre detachment"
           }
         ],
         "type": "model",
@@ -4131,33 +4203,6 @@
                         "scope": "parent",
                         "shared": true,
                         "id": "b0a7-fe8e-c153-130d"
-                      },
-                      {
-                        "type": "min",
-                        "value": 0,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "4582-a7ac-1f9b-7bfa",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "modifiers": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "model-or-unit",
-                            "childId": "fb72-80a9-f2b5-31a6",
-                            "shared": true,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "set",
-                        "value": 1,
-                        "field": "4582-a7ac-1f9b-7bfa"
                       }
                     ],
                     "entryLinks": [
@@ -4613,6 +4658,37 @@
             ],
             "comment": "Boarding Actions modifiers",
             "type": "and"
+          },
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "Superior Craftmanship",
+                "field": "annotation",
+                "join": ", ",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons"
+              },
+              {
+                "type": "increment",
+                "value": 6,
+                "field": "9896-9419-16a1-92fc",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons"
+              }
+            ],
+            "conditions": [
+              {
+                "type": "greaterThan",
+                "value": 0,
+                "field": "selections",
+                "scope": "force",
+                "childId": "1520-c344-f4fe-b414",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ],
+            "comment": "Experimental Prototype Cadre detachment"
           }
         ],
         "type": "model",
@@ -10344,6 +10420,32 @@
             "type": "rule",
             "id": "6b6f-90d4-8899-2848",
             "targetId": "bec5-4288-34a6-ccfa"
+          },
+          {
+            "name": "Harnessed Alien Instincts",
+            "id": "76f4-5a3b-b431-ffa0",
+            "hidden": false,
+            "targetId": "88ee-544b-f15d-7570",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "97bc-1349-fb9d-c04f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Auxiliary Cadre"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "constraints": [
@@ -11401,6 +11503,32 @@
             "type": "rule",
             "id": "42b5-8b21-35c1-b220",
             "targetId": "ada6-bac1-ffe0-d6f7"
+          },
+          {
+            "name": "Harnessed Alien Instincts",
+            "id": "d348-d99e-eabb-a7e9",
+            "hidden": false,
+            "targetId": "88ee-544b-f15d-7570",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "97bc-1349-fb9d-c04f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Auxiliary Cadre"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "constraints": [
@@ -14165,6 +14293,32 @@
             "type": "rule",
             "id": "551f-7c42-61fa-4bbc",
             "targetId": "eeb6-c42-48f7-cc21"
+          },
+          {
+            "name": "Localised Stealth Projectors (Aura)",
+            "id": "ecd1-ac00-8436-6ba6",
+            "hidden": false,
+            "targetId": "b2d8-1aa1-f125-d1ff",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "97bc-1349-fb9d-c04f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Auxiliary Cadre"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "constraints": [
@@ -14668,7 +14822,7 @@
             "hidden": false,
             "id": "a463-a329-d423-f948",
             "defaultSelectionEntryId": "40a5-647f-cdd8-9cf6",
-            "sortIndex": 4
+            "sortIndex": 5
           },
           {
             "selectionEntries": [
@@ -14904,7 +15058,7 @@
             "name": "Stealth Shas'vre",
             "id": "63b1-cf27-e34a-b8e8",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -15001,6 +15155,15 @@
             "type": "selectionEntry",
             "targetId": "179c-d88a-d49b-48b9",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "740d-fd72-897a-5b27",
+            "type": "selectionEntryGroup",
+            "targetId": "fb59-21f2-a853-989e",
+            "sortIndex": 3
           }
         ],
         "modifierGroups": [
@@ -15524,6 +15687,32 @@
             "type": "rule",
             "id": "2ba-c7db-ab32-d74e",
             "targetId": "eeb6-c42-48f7-cc21"
+          },
+          {
+            "name": "Localised Stealth Projectors (Aura)",
+            "id": "ca05-51a2-8bb0-c1cd",
+            "hidden": false,
+            "targetId": "b2d8-1aa1-f125-d1ff",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "97bc-1349-fb9d-c04f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Auxiliary Cadre"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -16016,7 +16205,7 @@
             "name": "Wargear",
             "id": "b66b-419b-794d-130d",
             "hidden": false,
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "costs": [
@@ -16035,6 +16224,15 @@
             "type": "selectionEntryGroup",
             "targetId": "bc88-2f42-15bd-1714",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "505e-8302-9423-94aa",
+            "type": "selectionEntryGroup",
+            "targetId": "fb59-21f2-a853-989e",
+            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -18241,7 +18439,7 @@
             "name": "Pathfinders",
             "hidden": false,
             "id": "60bc-2143-2514-bae5",
-            "sortIndex": 4
+            "sortIndex": 5
           },
           {
             "selectionEntries": [
@@ -18745,7 +18943,7 @@
             "name": "Pathfinder Shas'ui",
             "id": "f798-1e14-b4a9-c46a",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -18807,6 +19005,15 @@
             "type": "selectionEntry",
             "targetId": "179c-d88a-d49b-48b9",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "1a5e-ff54-29b3-4181",
+            "type": "selectionEntryGroup",
+            "targetId": "fb59-21f2-a853-989e",
+            "sortIndex": 3
           }
         ],
         "modifierGroups": [
@@ -21671,6 +21878,32 @@
             "type": "rule",
             "id": "29f6-40e2-cf9c-b153",
             "targetId": "bec5-4288-34a6-ccfa"
+          },
+          {
+            "name": "Harnessed Alien Instincts",
+            "id": "c924-1c0a-b49e-10b0",
+            "hidden": false,
+            "targetId": "88ee-544b-f15d-7570",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "97bc-1349-fb9d-c04f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Auxiliary Cadre"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -31494,6 +31727,32 @@
             "type": "rule",
             "id": "fe3c-d815-d4aa-47b1",
             "targetId": "bec5-4288-34a6-ccfa"
+          },
+          {
+            "name": "Harnessed Alien Instincts",
+            "id": "8398-0df6-4d8f-5fbe",
+            "hidden": false,
+            "targetId": "88ee-544b-f15d-7570",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "97bc-1349-fb9d-c04f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Auxiliary Cadre"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoGroups": [
@@ -43282,6 +43541,32 @@
             "type": "rule",
             "id": "df3-e019-9242-c72a",
             "targetId": "ada6-bac1-ffe0-d6f7"
+          },
+          {
+            "name": "Harnessed Alien Instincts",
+            "id": "891c-f60c-a091-129e",
+            "hidden": false,
+            "targetId": "88ee-544b-f15d-7570",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "97bc-1349-fb9d-c04f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Auxiliary Cadre"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -45247,6 +45532,32 @@
             "type": "rule",
             "id": "3d30-66b8-fb5b-6b48",
             "targetId": "ada6-bac1-ffe0-d6f7"
+          },
+          {
+            "name": "Harnessed Alien Instincts",
+            "id": "5b47-7017-9d40-9e99",
+            "hidden": false,
+            "targetId": "88ee-544b-f15d-7570",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "97bc-1349-fb9d-c04f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Auxiliary Cadre"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -46085,6 +46396,37 @@
             ],
             "comment": "Boarding Actions modifiers",
             "type": "and"
+          },
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "Superior Craftmanship",
+                "field": "annotation",
+                "join": ", ",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons"
+              },
+              {
+                "type": "increment",
+                "value": 6,
+                "field": "9896-9419-16a1-92fc",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons"
+              }
+            ],
+            "conditions": [
+              {
+                "type": "greaterThan",
+                "value": 0,
+                "field": "selections",
+                "scope": "force",
+                "childId": "1520-c344-f4fe-b414",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ],
+            "comment": "Experimental Prototype Cadre detachment"
           }
         ],
         "type": "model",
@@ -50695,6 +51037,32 @@
             "hidden": false,
             "type": "rule",
             "targetId": "b4dd-3e1f-41cb-218f"
+          },
+          {
+            "name": "Harnessed Alien Instincts",
+            "id": "0b04-5b5e-76e5-af3c",
+            "hidden": false,
+            "targetId": "88ee-544b-f15d-7570",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "97bc-1349-fb9d-c04f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Auxiliary Cadre"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -51347,6 +51715,32 @@
             "hidden": false,
             "type": "rule",
             "targetId": "b4dd-3e1f-41cb-218f"
+          },
+          {
+            "name": "Harnessed Alien Instincts",
+            "id": "3aa6-ef4d-4d57-958d",
+            "hidden": false,
+            "targetId": "88ee-544b-f15d-7570",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "97bc-1349-fb9d-c04f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Auxiliary Cadre"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -52085,6 +52479,32 @@
             "hidden": false,
             "type": "rule",
             "targetId": "1897-c22c-9597-12b1"
+          },
+          {
+            "name": "Harnessed Alien Instincts",
+            "id": "268d-60ff-c8eb-0eba",
+            "hidden": false,
+            "targetId": "88ee-544b-f15d-7570",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "97bc-1349-fb9d-c04f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Auxiliary Cadre"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -52718,6 +53138,32 @@
             "id": "f829-a9d6-75f2-eaeb",
             "type": "rule",
             "targetId": "ada6-bac1-ffe0-d6f7"
+          },
+          {
+            "name": "Harnessed Alien Instincts",
+            "id": "8eeb-3cf3-b342-94c1",
+            "hidden": false,
+            "targetId": "88ee-544b-f15d-7570",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "97bc-1349-fb9d-c04f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Auxiliary Cadre"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -53511,6 +53957,32 @@
             "id": "3028-d146-d129-19c1",
             "type": "rule",
             "targetId": "ada6-bac1-ffe0-d6f7"
+          },
+          {
+            "name": "Harnessed Alien Instincts",
+            "id": "962a-8a46-fbc0-a613",
+            "hidden": false,
+            "targetId": "88ee-544b-f15d-7570",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "97bc-1349-fb9d-c04f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Auxiliary Cadre"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -59151,6 +59623,32 @@
             "hidden": false,
             "type": "rule",
             "targetId": "c05d-f4c3-f091-4938"
+          },
+          {
+            "name": "Harnessed Alien Instincts",
+            "id": "ec79-222d-dc31-7955",
+            "hidden": false,
+            "targetId": "88ee-544b-f15d-7570",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "97bc-1349-fb9d-c04f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Auxiliary Cadre"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "constraints": [
@@ -60538,6 +61036,37 @@
             ],
             "comment": "Boarding Actions modifiers",
             "type": "and"
+          },
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "Superior Craftmanship",
+                "field": "annotation",
+                "join": ", ",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons"
+              },
+              {
+                "type": "increment",
+                "value": 6,
+                "field": "9896-9419-16a1-92fc",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons"
+              }
+            ],
+            "conditions": [
+              {
+                "type": "greaterThan",
+                "value": 0,
+                "field": "selections",
+                "scope": "force",
+                "childId": "1520-c344-f4fe-b414",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ],
+            "comment": "Experimental Prototype Cadre detachment"
           }
         ],
         "type": "unit",
@@ -61560,6 +62089,51 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -61636,6 +62210,51 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -61712,6 +62331,51 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 30
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -61843,6 +62507,21 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   },
                   {
                     "name": "Diplomatic Power",
@@ -62026,6 +62705,51 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 10
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -62111,6 +62835,51 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 25
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -62187,6 +62956,51 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -62318,6 +63132,21 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   },
                   {
                     "name": "Diplomatic Power",
@@ -62490,6 +63319,51 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -62597,6 +63471,51 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -62696,6 +63615,51 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -62787,6 +63751,51 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 25
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -62969,6 +63978,51 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -63071,6 +64125,51 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -63189,6 +64288,51 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 10
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -63289,6 +64433,51 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 10
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "constraints": [
@@ -63385,9 +64574,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^Kroot Shaper^^** model only. In the Declare Battle Formations step, you can select up to three **^^Kroot Carnivores^^** or **^^Kroot Farstalkers^^** units from your army. Models in those units have the Deep Strike ability.",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**KROOT SHAPER** model only. In the Declare Battle Formations step, you can select up to three friendly **KROOT CARNIVORES/FARSTALKERS** units. Those units have **Deep Strike**."
                       }
                     ],
                     "name": "Student of Kauyon",
@@ -63484,6 +64673,21 @@
                     "value": 0
                   },
                   {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
                     "name": "Diplomatic Power",
                     "typeId": "4d7c-04b6-8a79-837f",
                     "value": 0
@@ -63526,9 +64730,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^T'au Empire^^** model (excluding **^^Kroot^^** models) only. In your Command phase, you can select one **^^Kroot^^** or **^^Vespid Stingwings^^** unit within 12\" of the bearer. If you do, until the start of your next Command phase, improve the Leadership characteristic of models in that unit by 1, and while such a unit is not Battle‑shocked, add 1 to the Objective Control characteristic of models in that unit.",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**T’AU EMPIRE** model only (excluding **KROOT** models). In your Command phase, you can select one **KROOT/VESPID STINGWINGS** unit within 12\" of this model. If you do, that unit has +1 **Ld** and **OC** until the start of your next Command phase."
                       }
                     ],
                     "name": "Admired Leader",
@@ -63614,6 +64818,21 @@
                     "value": 0
                   },
                   {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
                     "name": "Diplomatic Power",
                     "typeId": "4d7c-04b6-8a79-837f",
                     "value": 0
@@ -63641,229 +64860,6 @@
                 "name": "Admired Leader",
                 "hidden": false,
                 "id": "b7cd-d78c-d062-64f0"
-              },
-              {
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "**^^Kroot^^** model only. The bearer’s unit has the For the Greater Good ability.",
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ],
-                    "name": "Fanatical Convert",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "bf89-9fa5-0f6d-dfed"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "conditionGroups": [
-                      {
-                        "conditionGroups": [
-                          {
-                            "conditions": [
-                              {
-                                "type": "atLeast",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "roster",
-                                "childId": "57f4-2951-822d-8929",
-                                "shared": true,
-                                "includeChildForces": true,
-                                "includeChildSelections": true
-                              },
-                              {
-                                "type": "lessThan",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "childId": "57f4-2951-822d-8929",
-                                "shared": true,
-                                "includeChildForces": true,
-                                "includeChildSelections": true
-                              }
-                            ],
-                            "type": "and"
-                          }
-                        ],
-                        "conditions": [
-                          {
-                            "type": "notInstanceOf",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "childId": "79c5-9fc4-7b97-7c3f",
-                            "shared": true
-                          }
-                        ],
-                        "type": "or"
-                      }
-                    ],
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden"
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 10
-                  },
-                  {
-                    "name": "Crusade Points",
-                    "typeId": "b03b-c239-15a5-da55",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Battle Honours",
-                    "typeId": "75bb-ded1-c86d-bdf0",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Experience",
-                    "typeId": "a623-fe74-1d33-cddf",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Weapon Modifications",
-                    "typeId": "716d-91b7-d55a-1022",
-                    "value": 0
-                  },
-                  {
-                    "name": "Diplomatic Power",
-                    "typeId": "4d7c-04b6-8a79-837f",
-                    "value": 0
-                  },
-                  {
-                    "name": "Military Power",
-                    "typeId": "1cbe-d9c9-86a8-2d41",
-                    "value": 0
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "4a60-cc39-6e09-2fae",
-                    "includeChildForces": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "upgrade",
-                "import": true,
-                "name": "Fanatical Convert",
-                "hidden": false,
-                "id": "57f4-2951-822d-8929"
-              },
-              {
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "**^^T’au Empire Walker^^** model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. During your first Movement phase, when you set up the bearer’s unit, it must be set up within 12\" of one or more friendly **^^Kroot^^** or **^^Vespid Stingwings^^** units and not within 9\" horizontally of one or more enemy units.",
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ],
-                    "name": "Transponder Lock Module",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "bcbb-af5d-4b68-30ad"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "conditionGroups": [
-                      {
-                        "conditionGroups": [
-                          {
-                            "conditions": [
-                              {
-                                "type": "atLeast",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "roster",
-                                "childId": "2779-bedc-238e-3e73",
-                                "shared": true,
-                                "includeChildForces": true,
-                                "includeChildSelections": true
-                              },
-                              {
-                                "type": "lessThan",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "childId": "2779-bedc-238e-3e73",
-                                "shared": true,
-                                "includeChildForces": true,
-                                "includeChildSelections": true
-                              }
-                            ],
-                            "type": "and"
-                          },
-                          {
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "childId": "6dda-e157-334d-e93a",
-                                "shared": true
-                              },
-                              {
-                                "type": "instanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "childId": "3d58-2655-391e-ecc",
-                                "shared": true
-                              }
-                            ],
-                            "type": "and"
-                          }
-                        ],
-                        "type": "or"
-                      }
-                    ],
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden"
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 25
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "1ee5-9cc5-fe20-cc6e",
-                    "includeChildForces": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "upgrade",
-                "import": true,
-                "name": "Transponder Lock Module",
-                "hidden": false,
-                "id": "2779-bedc-238e-3e73"
               }
             ],
             "constraints": [
@@ -63941,147 +64937,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^T’au Empire^^** model only. Select one fusion blaster equipped by the bearer. Improve the Attacks characteristic of that weapon by 1, improve the Strength characteristic of that weapon by 3, and that weapon has the **[MELTA 4]** ability.",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ],
-                    "name": "Fusion Blades",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "c940-22c6-dd77-179f"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "fb72-80a9-f2b5-31a6",
-                            "shared": true,
-                            "includeChildForces": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "childId": "fb72-80a9-f2b5-31a6",
-                            "shared": true,
-                            "includeChildForces": true,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "and"
-                      }
-                    ],
-                    "type": "set",
-                    "value": true,
-                    "field": "hidden"
-                  },
-                  {
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "fb72-80a9-f2b5-31a6",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "4cb3-e969-20d8-b003",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          }
-                        ],
-                        "type": "and"
-                      }
-                    ],
-                    "type": "add",
-                    "value": "Fusion Blades upgrade is required",
-                    "field": "warning"
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 25
-                  },
-                  {
-                    "name": "Crusade Points",
-                    "typeId": "b03b-c239-15a5-da55",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Battle Honours",
-                    "typeId": "75bb-ded1-c86d-bdf0",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Experience",
-                    "typeId": "a623-fe74-1d33-cddf",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Weapon Modifications",
-                    "typeId": "716d-91b7-d55a-1022",
-                    "value": 0
-                  },
-                  {
-                    "name": "Diplomatic Power",
-                    "typeId": "4d7c-04b6-8a79-837f",
-                    "value": 0
-                  },
-                  {
-                    "name": "Military Power",
-                    "typeId": "1cbe-d9c9-86a8-2d41",
-                    "value": 0
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "c08b-6fd4-d4bc-c119",
-                    "includeChildForces": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "upgrade",
-                "import": true,
-                "name": "Fusion Blades",
-                "hidden": false,
-                "id": "fb72-80a9-f2b5-31a6"
-              },
-              {
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "**^^T’au Empire^^** model only. Select one T'au flamer equipped by the bearer. Improve the Strength characteristic of that weapon by 2, and improve the Armour Penetration and Damage characteristics of that weapon by 1.",
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**BATTLESUIT** model only. In the Declare Battle Formations step, select one of this model’s T’au Flamer weapons. That weapon’s attacks have:\n- +2 **S**\n- +1 **AP** and **D**."
                       }
                     ],
                     "name": "Thermoneutronic Projector",
@@ -64095,29 +64953,45 @@
                   {
                     "conditionGroups": [
                       {
-                        "conditions": [
+                        "type": "or",
+                        "conditionGroups": [
                           {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "1184-c004-494b-642e",
-                            "shared": true,
-                            "includeChildForces": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "childId": "1184-c004-494b-642e",
-                            "shared": true,
-                            "includeChildForces": true,
-                            "includeChildSelections": true
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "type": "atLeast",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "roster",
+                                "childId": "1184-c004-494b-642e",
+                                "shared": true,
+                                "includeChildForces": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "type": "lessThan",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "childId": "1184-c004-494b-642e",
+                                "shared": true,
+                                "includeChildForces": true,
+                                "includeChildSelections": true
+                              }
+                            ]
                           }
                         ],
-                        "type": "and"
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "root-entry",
+                            "childId": "7288-48b3-c4df-66c6",
+                            "shared": true,
+                            "childName": "Battlesuit"
+                          }
+                        ]
                       }
                     ],
                     "type": "set",
@@ -64184,6 +65058,21 @@
                     "value": 0
                   },
                   {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
                     "name": "Diplomatic Power",
                     "typeId": "4d7c-04b6-8a79-837f",
                     "value": 0
@@ -64217,9 +65106,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^T’au Empire^^** model only. Select one plasma rifle equipped by the bearer. Improve the Strength characteristic of that weapon by 2, and improve the Attacks, Armour Penetration and Damage characteristics of that weapon by 1.",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**BATTLESUIT** model only. In the Declare Battle Formations step, select one of this model’s Plasma Rifle weapons. That weapon’s attacks have:\n- +2 **S**\n- +1 **A**, **AP** and **D**."
                       }
                     ],
                     "name": "Plasma Accelerator Rifle",
@@ -64233,29 +65122,45 @@
                   {
                     "conditionGroups": [
                       {
-                        "conditions": [
+                        "type": "or",
+                        "conditionGroups": [
                           {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "bc44-f33b-73bc-5ae5",
-                            "shared": true,
-                            "includeChildForces": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "childId": "bc44-f33b-73bc-5ae5",
-                            "shared": true,
-                            "includeChildForces": true,
-                            "includeChildSelections": true
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "type": "atLeast",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "roster",
+                                "childId": "bc44-f33b-73bc-5ae5",
+                                "shared": true,
+                                "includeChildForces": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "type": "lessThan",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "childId": "bc44-f33b-73bc-5ae5",
+                                "shared": true,
+                                "includeChildForces": true,
+                                "includeChildSelections": true
+                              }
+                            ]
                           }
                         ],
-                        "type": "and"
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "root-entry",
+                            "childId": "7288-48b3-c4df-66c6",
+                            "shared": true,
+                            "childName": "Battlesuit"
+                          }
+                        ]
                       }
                     ],
                     "type": "set",
@@ -64322,6 +65227,21 @@
                     "value": 0
                   },
                   {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
                     "name": "Diplomatic Power",
                     "typeId": "4d7c-04b6-8a79-837f",
                     "value": 0
@@ -64355,9 +65275,9 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "**^^T’au Empire^^** model only. Select one airbursting fragmentation projector equipped by the bearer. Improve the Strength characteristic of that weapon by 3, and improve the Armour Penetration and Damage characteristics of that weapon by 1.",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**BATTLESUIT** model only. In the Declare Battle Formations step, select one of this model’s Airbursting Fragmentation Projector weapons. That weapon’s attacks have:\n- +3 **S**\n- +1 **AP** and **D**."
                       }
                     ],
                     "name": "Supernova Launcher",
@@ -64371,29 +65291,45 @@
                   {
                     "conditionGroups": [
                       {
-                        "conditions": [
+                        "type": "or",
+                        "conditionGroups": [
                           {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "8588-2b55-0468-0a97",
-                            "shared": true,
-                            "includeChildForces": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "childId": "8588-2b55-0468-0a97",
-                            "shared": true,
-                            "includeChildForces": true,
-                            "includeChildSelections": true
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "type": "atLeast",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "roster",
+                                "childId": "8588-2b55-0468-0a97",
+                                "shared": true,
+                                "includeChildForces": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "type": "lessThan",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "childId": "8588-2b55-0468-0a97",
+                                "shared": true,
+                                "includeChildForces": true,
+                                "includeChildSelections": true
+                              }
+                            ]
                           }
                         ],
-                        "type": "and"
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "root-entry",
+                            "childId": "7288-48b3-c4df-66c6",
+                            "shared": true,
+                            "childName": "Battlesuit"
+                          }
+                        ]
                       }
                     ],
                     "type": "set",
@@ -64458,6 +65394,21 @@
                     "name": "Crusade: Weapon Modifications",
                     "typeId": "716d-91b7-d55a-1022",
                     "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
                   },
                   {
                     "name": "Diplomatic Power",
@@ -65154,7 +66105,7 @@
           },
           {
             "type": "max",
-            "value": 3,
+            "value": -1,
             "field": "selections",
             "scope": "roster",
             "shared": true,
@@ -65163,23 +66114,6 @@
           }
         ],
         "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "forces",
-                "scope": "roster",
-                "childId": "cac3-71d1-ea4b-795d",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": -1,
-            "field": "0e66-3ab4-670c-143b"
-          },
           {
             "conditions": [
               {
@@ -65589,7 +66523,18 @@
             "type": "upgrade",
             "import": true,
             "name": "Kauyon",
-            "id": "e366-3583-f47a-986e"
+            "id": "e366-3583-f47a-986e",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "bf6f-5cae-0c52-7a6a",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -65637,7 +66582,18 @@
             "type": "upgrade",
             "import": true,
             "name": "Mont'ka",
-            "id": "6aea-8ba5-978e-8def"
+            "id": "6aea-8ba5-978e-8def",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "d63e-8345-e33a-009f",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -65669,7 +66625,18 @@
             "type": "upgrade",
             "import": true,
             "name": "Retaliation Cadre",
-            "id": "3bae-cf7-b9e3-4f00"
+            "id": "3bae-cf7-b9e3-4f00",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "b8bf-d897-d4b7-c06c",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -65707,12 +66674,23 @@
             "type": "upgrade",
             "import": true,
             "name": "Kroot Hunting Pack",
-            "id": "452e-5b5b-cdbc-c94a"
+            "id": "452e-5b5b-cdbc-c94a",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "7e02-8352-88fe-d2df",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
               {
-                "description": "**^^Kroot^^** and **^^Vespid Stingwings^^** units from your army have the following ability:\n\n**Targeting Triangulation (Aura):** While an enemy unit is within 9\" of and visible to this unit, each time a ranged attack made by a friendly **^^T’au Empire^^** model (excluding **^^Kroot^^**, **^^Vespid Stingwings^^** and TITANIC models) targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.\n\n**^^T’au Empire^^** units (excluding **^^Kroot^^** and **^^Vespid Stingwings^^** units) from your army have the following ability:\n\n**Localised Stealth Projectors (Aura):** While a friendly **^^Kroot^^** or **^^Vespid Stingwings^^** unit is wholly within 6\" of and visible to this unit, that **^^Kroot^^** or **^^Vespid Stingwings^^** unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+                "description": "Friendly **KROOT/VESPID STINGWINGS** units have the Harnessed Alien Instincts ability.\n\nFriendly **GHOSTKEEL BATTLESUIT/STEALTH BATTLESUITS** units have the Localised Stealth Projectors (Aura) ability\n\nThis **detachment** has the **AUXILIARIES** tag and cannot be taken with another **AUXILIARIES detachment**.",
                 "name": "Integrated Command Structure",
                 "id": "eb32-1926-a607-c01c",
                 "hidden": false
@@ -65740,61 +66718,51 @@
             "import": true,
             "name": "Auxiliary Cadre",
             "hidden": false,
-            "id": "97bc-1349-fb9d-c04f"
+            "id": "97bc-1349-fb9d-c04f",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "c640-fa29-8dfc-3bb8",
+                "includeChildSelections": false
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Auxiliaries",
+                "hidden": false,
+                "id": "fee9-a0d6-7c7c-7a3f",
+                "targetId": "50fd-f8bc-902c-55d8",
+                "primary": false
+              }
+            ],
+            "infoLinks": [
+              {
+                "targetId": "b2d8-1aa1-f125-d1ff",
+                "id": "9f35-807a-b15f-2512",
+                "type": "profile",
+                "name": "Localised Stealth Projectors (Aura)",
+                "hidden": false
+              },
+              {
+                "targetId": "88ee-544b-f15d-7570",
+                "id": "c75d-a3fe-4094-75da",
+                "type": "profile",
+                "name": "Harnessed Alien Instincts",
+                "hidden": false
+              }
+            ]
           },
           {
             "rules": [
               {
-                "description": "Add 6\" to the Range characteristic of ranged weapons equipped by **^^T'au Empire^^** models from your army.",
+                "description": "Friendly **BATTLESUIT CHARACTER** units’ ranged attacks have +6\" **R**.\n\n\nThis **detachment** has the **RETALIATION** tag and cannot be taken with another **RETALIATION detachment**.",
                 "name": "Superior Craftmanship",
                 "id": "492b-52cc-f6f2-0d20",
                 "hidden": false
-              }
-            ],
-            "modifierGroups": [
-              {
-                "modifiers": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "greaterThan",
-                        "value": 0,
-                        "field": "selections",
-                        "scope": "force",
-                        "childId": "1520-c344-f4fe-b414",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      }
-                    ],
-                    "type": "append",
-                    "value": "Superior Craftmanship",
-                    "field": "annotation",
-                    "join": ", ",
-                    "scope": "force",
-                    "affects": "self.entries.forces.recursive.profiles.Ranged Weapons"
-                  },
-                  {
-                    "conditions": [
-                      {
-                        "type": "atLeast",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "force",
-                        "childId": "1520-c344-f4fe-b414",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      }
-                    ],
-                    "type": "increment",
-                    "value": 6,
-                    "field": "9896-9419-16a1-92fc",
-                    "scope": "force",
-                    "affects": "self.entries.forces.recursive.profiles.Ranged Weapons"
-                  }
-                ],
-                "type": "and"
               }
             ],
             "modifiers": [
@@ -65818,7 +66786,27 @@
             "type": "upgrade",
             "import": true,
             "name": "Experimental Prototype Cadre",
-            "id": "1520-c344-f4fe-b414"
+            "id": "1520-c344-f4fe-b414",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "9b82-b133-42c4-2fb5",
+                "includeChildSelections": false
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Retaliation",
+                "hidden": false,
+                "id": "379f-64d0-ae55-d336",
+                "targetId": "2928-f185-2336-c3ae",
+                "primary": false
+              }
+            ]
           },
           {
             "comment": "Boarding Actions",
@@ -65941,18 +66929,53 @@
             "name": "Starfire Cadre",
             "hidden": false,
             "id": "7e3b-b9cf-5be0-8bc1"
+          },
+          {
+            "rules": [
+              {
+                "description": "In your Shooting phase, when a friendly **PATHFINDER TEAM/STEALTH BATTLESUITS** unit is **selected to shoot**, those ranged attacks do not prevent your unit from being **hidden**.",
+                "name": "Expert Fieldcraft",
+                "id": "8502-1f5c-bb6f-412c",
+                "hidden": false
+              }
+            ],
+            "modifiers": [
+              {
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "1d6e-2579-8e7f-1ed4",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "set",
+                "value": true,
+                "field": "hidden"
+              }
+            ],
+            "type": "upgrade",
+            "import": true,
+            "name": "Advanced Acquisition Cadre",
+            "hidden": false,
+            "id": "4417-6fdc-a5d9-cdf7",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "d074-3288-50a2-e459",
+                "includeChildSelections": false
+              }
+            ]
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "b27-2395-910d-8372",
-            "includeChildSelections": false
-          },
           {
             "type": "min",
             "value": 1,
@@ -72115,214 +73138,6 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "model-or-unit",
-                        "childId": "fb72-80a9-f2b5-31a6",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "4f3a-f0f7-6647-348d",
-                        "shared": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "9cfd-1c32-585f-7d5c",
-                        "shared": true
-                      },
-                      {
-                        "type": "atLeast",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "upgrade",
-                        "childId": "b678-4a99-210e-931f",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "upgrade",
-                        "childId": "c366-a7c4-45e2-5b6e",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "model-or-unit",
-                            "childId": "4cb3-e969-20d8-b003",
-                            "shared": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "childId": "4cb3-e969-20d8-b003",
-                            "shared": true,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "and"
-                      }
-                    ],
-                    "type": "or"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "fb72-80a9-f2b5-31a6",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "type": "set",
-                "value": 1,
-                "field": "db71-c17a-5b61-9e8c"
-              }
-            ],
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "shared": true,
-                "id": "ecf6-b2fe-16d0-ff11",
-                "includeChildSelections": true
-              },
-              {
-                "type": "min",
-                "value": 0,
-                "field": "selections",
-                "scope": "roster",
-                "shared": true,
-                "id": "db71-c17a-5b61-9e8c",
-                "includeChildSelections": true
-              }
-            ],
-            "modifierGroups": [
-              {
-                "modifiers": [
-                  {
-                    "type": "append",
-                    "value": "Fusion Blades",
-                    "field": "annotation",
-                    "join": ", ",
-                    "scope": "upgrade",
-                    "affects": "self.entries.profiles.Ranged Weapons"
-                  },
-                  {
-                    "type": "increment",
-                    "value": 3,
-                    "field": "2229-f494-25db-c5d3",
-                    "scope": "upgrade",
-                    "affects": "self.entries.profiles.Ranged Weapons"
-                  },
-                  {
-                    "type": "replace",
-                    "value": "Melta 4",
-                    "field": "7f1b-8591-2fcf-d01c",
-                    "scope": "upgrade",
-                    "affects": "self.entries.profiles.Ranged Weapons",
-                    "arg": "Melta 2",
-                    "join": ", "
-                  },
-                  {
-                    "type": "append",
-                    "value": "+0",
-                    "field": "3bb-c35f-f54-fb08",
-                    "scope": "upgrade",
-                    "affects": "self.entries.e993-e086-6de1-12af.profiles.Ranged Weapons",
-                    "arg": "+0",
-                    "join": ""
-                  },
-                  {
-                    "type": "replace",
-                    "value": true,
-                    "field": "3bb-c35f-f54-fb08",
-                    "scope": "upgrade",
-                    "affects": "self.entries.6337-b83b-0d1e-5770.profiles.Ranged Weapons",
-                    "arg": "+0"
-                  },
-                  {
-                    "type": "increment",
-                    "value": 1,
-                    "field": "3bb-c35f-f54-fb08",
-                    "scope": "upgrade",
-                    "affects": "self.entries.profiles.Ranged Weapons",
-                    "position": -1
-                  },
-                  {
-                    "type": "decrement",
-                    "value": 1,
-                    "field": "3bb-c35f-f54-fb08",
-                    "join": ", ",
-                    "scope": "upgrade",
-                    "affects": "self.entries.84c4-6d1e-e724-bd6e.profiles.Ranged Weapons",
-                    "position": -1
-                  },
-                  {
-                    "type": "replace",
-                    "value": true,
-                    "field": "3bb-c35f-f54-fb08",
-                    "scope": "upgrade",
-                    "affects": "self.entries.profiles.Ranged Weapons",
-                    "arg": "+0"
-                  },
-                  {
-                    "type": "add",
-                    "value": "6337-b83b-0d1e-5770",
-                    "field": "category",
-                    "scope": "upgrade",
-                    "arg": "+0",
-                    "affects": "self.entries.e993-e086-6de1-12af"
-                  }
-                ],
-                "type": "and"
-              }
-            ],
-            "type": "upgrade",
-            "import": true,
-            "name": "Fusion Blades upgrade",
-            "hidden": false,
-            "id": "4cb3-e969-20d8-b003",
-            "collective": false
-          },
-          {
-            "modifiers": [
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "model-or-unit",
                         "childId": "bc44-f33b-73bc-5ae5",
                         "shared": true,
                         "includeChildSelections": true
@@ -72380,29 +73195,6 @@
                             "field": "selections",
                             "scope": "parent",
                             "childId": "e396-458e-e066-fdbb",
-                            "shared": true,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "and"
-                      },
-                      {
-                        "conditions": [
-                          {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "model-or-unit",
-                            "childId": "4cb3-e969-20d8-b003",
-                            "shared": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "childId": "4cb3-e969-20d8-b003",
                             "shared": true,
                             "includeChildSelections": true
                           }
@@ -79710,6 +80502,389 @@
         "name": "Weapons",
         "id": "744d-74d3-2e22-d164",
         "hidden": false
+      },
+      {
+        "name": "Enhancements - Upgrades",
+        "id": "fb59-21f2-a853-989e",
+        "hidden": false,
+        "selectionEntryGroups": [
+          {
+            "name": "Advanced Acquisition Cadre Enhancements",
+            "id": "ca0e-6443-efcc-cf8e",
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "d331-fe88-322c-db68",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Unmasking Suite",
+                "hidden": false,
+                "id": "ea6f-2de1-8db9-9a62",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3f27-eb59-cb8b-b9af",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "bebf-48fe-63bf-3e31",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Unmasking Suite",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "396e-2687-89c6-50e8",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**GHOSTKEEL BATTLESUIT/PATHFINDER TEAM/STEALTH BATTLESUITS** unit only. When this unit is **selected to shoot**, you can select one enemy unit within 24\" of this unit. That enemy unit has +9\" **detection range** until this unit has shot."
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "root-entry",
+                            "childId": "76ec-55b5-1805-5855",
+                            "shared": true,
+                            "childName": "Stealth"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "root-entry",
+                            "childId": "ca95-5f2a-e510-7dbb",
+                            "shared": true,
+                            "childName": "Ghostkeel"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "root-entry",
+                            "childId": "c3af-6e36-252c-1006",
+                            "shared": true,
+                            "childName": "Pathfinder Team"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "ea6f-2de1-8db9-9a62",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "ea6f-2de1-8db9-9a62",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Negation Emitters",
+                "hidden": false,
+                "id": "9ceb-d88d-2e9c-d52a",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a984-6521-37cf-0323",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "e2b9-af2a-6861-d497",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Negation Emitters",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "6e19-c889-7009-67b0",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**STEALTH BATTLESUITS** unit only. This unit has -3\" **detection range**."
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "root-entry",
+                        "childId": "76ec-55b5-1805-5855",
+                        "shared": true,
+                        "childName": "Stealth"
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "9ceb-d88d-2e9c-d52a",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "9ceb-d88d-2e9c-d52a",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "id": "7702-04b3-c579-ba2a",
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "4417-6fdc-a5d9-cdf7",
+                        "shared": true,
+                        "id": "991c-bc1a-d7b8-519b",
+                        "includeChildSelections": true,
+                        "childName": "Advanced Acquisition Cadre"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "collapsible": true,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "self",
+            "shared": true,
+            "id": "9739-0b26-1543-05b9",
+            "includeChildSelections": true
+          }
+        ]
       }
     ],
     "categoryEntries": [
@@ -80242,6 +81417,42 @@
         "name": "The Twin Lance",
         "id": "61b0-12ea-d5fc-1816",
         "hidden": false
+      },
+      {
+        "name": "Auxiliaries",
+        "id": "50fd-f8bc-902c-55d8",
+        "hidden": false,
+        "comment": "Detachment",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "f5eb-b526-512e-38fa",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ]
+      },
+      {
+        "name": "Retaliation",
+        "id": "2928-f185-2336-c3ae",
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "d753-e5a2-191d-fdaa",
+            "includeChildSelections": true,
+            "includeChildForces": true,
+            "comment": "Detachment"
+          }
+        ]
       }
     ],
     "sharedProfiles": [
@@ -80447,6 +81658,36 @@
         "typeName": "Unit",
         "hidden": false,
         "id": "02db-0679-5ff7-354f"
+      },
+      {
+        "name": "Harnessed Alien Instincts",
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "hidden": false,
+        "id": "88ee-544b-f15d-7570",
+        "characteristics": [
+          {
+            "name": "Description",
+            "typeId": "9b8f-694b-e5e-b573",
+            "$text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          }
+        ],
+        "comment": "Auxiliary Cadre detachment rule"
+      },
+      {
+        "name": "Localised Stealth Projectors (Aura)",
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "hidden": false,
+        "id": "b2d8-1aa1-f125-d1ff",
+        "characteristics": [
+          {
+            "name": "Description",
+            "typeId": "9b8f-694b-e5e-b573",
+            "$text": "When a friendly **KROOT/VESPID STINGWINGS** unit within 6\" of this unit has shot, those attacks do not prevent that unit from being **hidden**."
+          }
+        ],
+        "comment": "Auxiliary Cadre detachment rule"
       }
     ],
     "catalogueLinks": [
@@ -80610,7 +81851,7 @@
     "gameSystemRevision": 1,
     "revision": 160,
     "battleScribeVersion": 2.03,
-    "authorContact": "Dunamis55 & AbonShell",
+    "authorContact": "Dunamis55",
     "authorName": "BSData Developers",
     "type": "catalogue"
   }
