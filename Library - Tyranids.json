@@ -23219,17 +23219,6 @@
             "includeChildForces": false,
             "id": "9771-9344-412d-6850",
             "type": "min"
-          },
-          {
-            "field": "selections",
-            "scope": "parent",
-            "value": 1,
-            "percentValue": false,
-            "shared": true,
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "id": "932-a6c9-b917-9279",
-            "type": "max"
           }
         ],
         "selectionEntries": [
@@ -23295,7 +23284,18 @@
             "hidden": false,
             "collective": false,
             "import": true,
-            "type": "upgrade"
+            "type": "upgrade",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "71fe-075b-7b7f-a697",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -23328,7 +23328,18 @@
             "import": true,
             "name": "Assimilation Swarm",
             "hidden": false,
-            "id": "bba-65f6-a4d1-66ae"
+            "id": "bba-65f6-a4d1-66ae",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "2982-f892-db8e-f1f2",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -23361,7 +23372,18 @@
             "import": true,
             "name": "Crusher Stampede",
             "hidden": false,
-            "id": "850e-bee1-4845-820d"
+            "id": "850e-bee1-4845-820d",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "b3cc-7798-da1f-5201",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -23394,7 +23416,18 @@
             "import": true,
             "name": "Synaptic Nexus",
             "hidden": false,
-            "id": "16ff-a068-4c31-285a"
+            "id": "16ff-a068-4c31-285a",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "2b35-eb67-c7e6-506e",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -23427,7 +23460,18 @@
             "import": true,
             "name": "Unending Swarm",
             "hidden": false,
-            "id": "4cd9-313f-cd9b-c85a"
+            "id": "4cd9-313f-cd9b-c85a",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "abae-da6d-449e-a928",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -23466,7 +23510,18 @@
             "import": true,
             "name": "Vanguard Onslaught",
             "hidden": false,
-            "id": "f773-f91c-2999-c7e1"
+            "id": "f773-f91c-2999-c7e1",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "6d79-9949-0bec-b5a8",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "modifiers": [
@@ -23527,7 +23582,18 @@
             "import": true,
             "name": "Warrior Bioform Onslaught",
             "hidden": false,
-            "id": "7416-b7cc-fdbf-5bf0"
+            "id": "7416-b7cc-fdbf-5bf0",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "ab5c-9847-468b-95de",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -23566,7 +23632,18 @@
             "import": true,
             "name": "Subterranean Assault",
             "hidden": false,
-            "id": "731f-1524-da02-945b"
+            "id": "731f-1524-da02-945b",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "7aec-f0f3-0e54-be16",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "comment": "Boarding Actions",
@@ -23627,7 +23704,18 @@
             "import": true,
             "name": "Tyranid Attack",
             "hidden": false,
-            "id": "0f40-fb6c-49f7-9541"
+            "id": "0f40-fb6c-49f7-9541",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "d778-94de-5468-6a50",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "comment": "Boarding Actions",
@@ -23704,7 +23792,18 @@
             "import": true,
             "name": "Boarding Swarm",
             "hidden": false,
-            "id": "7a6f-7334-fa6c-290e"
+            "id": "7a6f-7334-fa6c-290e",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "1fdf-2f33-93be-3688",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "comment": "Boarding Actions",
@@ -23765,7 +23864,18 @@
             "import": true,
             "name": "Biotide",
             "hidden": false,
-            "id": "cbfd-453f-6288-6157"
+            "id": "cbfd-453f-6288-6157",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "a3c8-1e77-7d50-606b",
+                "includeChildSelections": false
+              }
+            ]
           }
         ],
         "comment": "Tyranids",
@@ -23776,7 +23886,18 @@
             "id": "c2ee-c921-7c5c-ad29",
             "type": "selectionEntry",
             "name": "Infestation Swarm",
-            "hidden": false
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "6b4d-6219-9c0c-994a",
+                "includeChildSelections": false
+              }
+            ]
           }
         ],
         "id": "7ada-e361-1f7e-af",
@@ -27225,7 +27346,18 @@
             "import": true,
             "name": "Host of Ascension",
             "hidden": false,
-            "id": "0a79-5968-68f0-56b5"
+            "id": "0a79-5968-68f0-56b5",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "fab9-bbeb-18a4-13c9",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "infoLinks": [
@@ -27267,7 +27399,18 @@
             "import": true,
             "name": "Xenocreed Congregation",
             "hidden": false,
-            "id": "536a-b3ea-7597-81bb"
+            "id": "536a-b3ea-7597-81bb",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "cdf4-d226-5b67-8b09",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -27300,7 +27443,18 @@
             "import": true,
             "name": "Biosanctic Broodsurge",
             "hidden": false,
-            "id": "ff11-0fa4-2950-380e"
+            "id": "ff11-0fa4-2950-380e",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "f8fc-3a62-a642-e77c",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -27333,7 +27487,18 @@
             "import": true,
             "name": "Outlander Claw",
             "hidden": false,
-            "id": "59e2-4fec-2b00-b1e8"
+            "id": "59e2-4fec-2b00-b1e8",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "1c30-aa47-d555-eaa4",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -27372,7 +27537,18 @@
             "import": true,
             "name": "Brood Brother Auxilia",
             "hidden": false,
-            "id": "0a59-1d64-257c-04fb"
+            "id": "0a59-1d64-257c-04fb",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "f261-3139-c966-359c",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -27411,7 +27587,18 @@
             "import": true,
             "name": "Final Day",
             "hidden": false,
-            "id": "cb2f-554e-1162-75d5"
+            "id": "cb2f-554e-1162-75d5",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "3201-d9d1-fa04-2f0b",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "comment": "Boarding Actions",
@@ -27472,7 +27659,18 @@
             "import": true,
             "name": "Cult Unveiled",
             "hidden": false,
-            "id": "24fc-8c17-7d50-bec9"
+            "id": "24fc-8c17-7d50-bec9",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "a2b5-a28e-8983-4724",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "comment": "Boarding Actions",
@@ -27527,7 +27725,18 @@
             "import": true,
             "name": "Genespawn Onslaught",
             "hidden": false,
-            "id": "be7f-de0b-6659-198a"
+            "id": "be7f-de0b-6659-198a",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "cc04-1a2d-59e6-ffb6",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -27560,7 +27769,18 @@
             "import": true,
             "name": "Heroes of the Uprising",
             "hidden": false,
-            "id": "fc4a-2c42-6f33-0347"
+            "id": "fc4a-2c42-6f33-0347",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "3585-2492-71d4-1870",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -27601,6 +27821,17 @@
                 "id": "871e-63d8-6f0e-b979",
                 "targetId": "a552-36b4-181a-b833",
                 "primary": false
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "8f9b-2111-6a83-6744",
+                "includeChildSelections": false
               }
             ]
           },
@@ -27644,6 +27875,17 @@
                 "targetId": "93df-6aba-9508-326f",
                 "primary": false
               }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "3184-31ec-3dc2-21cf",
+                "includeChildSelections": false
+              }
             ]
           }
         ],
@@ -27656,15 +27898,6 @@
             "shared": true,
             "id": "0fc5-7bb0-0193-6f30-min",
             "includeChildSelections": false
-          },
-          {
-            "type": "max",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "0fc5-7bb0-0193-6f30-max",
-            "includeChildSelections": false
           }
         ],
         "comment": "Genestealer Cults",
@@ -27676,7 +27909,18 @@
             "hidden": false,
             "id": "b9a2-7c0b-93f9-ad86",
             "targetId": "24e1-c66e-98e9-135b",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "86c8-447b-a128-18cc",
+                "includeChildSelections": false
+              }
+            ]
           }
         ],
         "name": "Detachment",

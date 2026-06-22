@@ -25742,7 +25742,18 @@
             "type": "upgrade",
             "import": true,
             "name": "Valourstrike Lance",
-            "id": "e424-58f3-8e79-19a6"
+            "id": "e424-58f3-8e79-19a6",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "c90a-edb1-8fb0-1b5a",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -25792,6 +25803,17 @@
                   }
                 ]
               }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "7e26-5bf8-f71c-6424",
+                "includeChildSelections": false
+              }
             ]
           },
           {
@@ -25831,7 +25853,18 @@
             "type": "upgrade",
             "import": true,
             "name": "Gate Warden Lance",
-            "id": "884c-fbb7-9f22-1297"
+            "id": "884c-fbb7-9f22-1297",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0578-2902-d11a-9e47",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -25851,7 +25884,18 @@
             "type": "upgrade",
             "import": true,
             "name": "Questoris Companions",
-            "id": "a692-b024-09d9-b79f"
+            "id": "a692-b024-09d9-b79f",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "60bd-ad2c-4941-430b",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -25871,7 +25915,18 @@
             "type": "upgrade",
             "import": true,
             "name": "Spearhead-at-Arms",
-            "id": "d469-239c-7e4c-4210"
+            "id": "d469-239c-7e4c-4210",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "4a47-3c80-af4b-a39a",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -25902,7 +25957,18 @@
             "type": "upgrade",
             "import": true,
             "name": "Freeblade Company",
-            "id": "4e8e-50db-0d32-423c"
+            "id": "4e8e-50db-0d32-423c",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "53a2-b41c-fc7b-6d5a",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -25916,7 +25982,18 @@
             "type": "upgrade",
             "import": true,
             "name": "Dominus Foebreakers",
-            "id": "d3a1-4b10-4d2c-d44f"
+            "id": "d3a1-4b10-4d2c-d44f",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "1f42-7654-5c81-8b17",
+                "includeChildSelections": false
+              }
+            ]
           },
           {
             "rules": [
@@ -25939,19 +26016,21 @@
                 "targetId": "c8e9-fe52-a119-afb3",
                 "primary": false
               }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "46a6-aa64-5ed5-59a8",
+                "includeChildSelections": false
+              }
             ]
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "b27-2395-910d-8372",
-            "includeChildSelections": false
-          },
           {
             "type": "min",
             "value": 1,
