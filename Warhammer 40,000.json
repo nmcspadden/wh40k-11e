@@ -1954,6 +1954,16 @@
         "name": "Reconnaissance",
         "id": "b4a7-5083-fe94-4d24",
         "hidden": false
+      },
+      {
+        "name": "Leader",
+        "id": "1556-9b56-fba6-4370",
+        "hidden": true
+      },
+      {
+        "name": "Support",
+        "id": "7dcd-7f61-69a7-0294",
+        "hidden": true
       }
     ],
     "forceEntries": [
