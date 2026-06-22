@@ -638,14 +638,6 @@
       },
       {
         "import": true,
-        "name": "Corsair Skyreaver Band [Legends]",
-        "hidden": false,
-        "type": "selectionEntry",
-        "id": "a582-9872-bb2c-f68a",
-        "targetId": "4146-4127-52f7-5786"
-      },
-      {
-        "import": true,
         "name": "Phoenix [Legends]",
         "hidden": false,
         "type": "selectionEntry",
