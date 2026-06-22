@@ -7117,6 +7117,13 @@
                     "id": "8bcb-db24-55ed-1b86",
                     "targetId": "3154-f6fa-04d2-6404",
                     "primary": false
+                  },
+                  {
+                    "name": "Reconnaissance",
+                    "hidden": false,
+                    "id": "21a5-c2af-5d51-d15e",
+                    "targetId": "b4a7-5083-fe94-4d24",
+                    "primary": false
                   }
                 ]
               },
@@ -7181,6 +7188,15 @@
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 3
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Take and Hold",
+                    "hidden": false,
+                    "id": "1187-c407-d23e-5a58",
+                    "targetId": "1cc1-f11a-4e8f-1bcc",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -7243,6 +7259,15 @@
                     "name": "Detachment Points",
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 2
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Disruption",
+                    "hidden": false,
+                    "id": "be98-c461-d62d-1506",
+                    "targetId": "ecf8-cf72-7d5b-1b5b",
+                    "primary": false
                   }
                 ]
               },
@@ -7307,6 +7332,15 @@
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 2
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Priority Assets",
+                    "hidden": false,
+                    "id": "0736-a205-3160-a3d4",
+                    "targetId": "0936-9767-1cc7-52ae",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -7369,6 +7403,15 @@
                     "name": "Detachment Points",
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 2
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "ed43-82b2-f420-2b94",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
                   }
                 ]
               },
@@ -7433,6 +7476,15 @@
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 2
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Take and Hold",
+                    "hidden": false,
+                    "id": "34a0-5c8e-c9c6-550e",
+                    "targetId": "1cc1-f11a-4e8f-1bcc",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -7495,6 +7547,15 @@
                     "name": "Detachment Points",
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 2
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Disruption",
+                    "hidden": false,
+                    "id": "1d69-24c9-d74d-cf69",
+                    "targetId": "ecf8-cf72-7d5b-1b5b",
+                    "primary": false
                   }
                 ]
               },
@@ -7567,6 +7628,13 @@
                     "id": "6ab0-2044-3036-d3e6",
                     "targetId": "6079-1e8b-2dfe-798a",
                     "primary": false
+                  },
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "632b-1fbe-265f-b037",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
                   }
                 ]
               },
@@ -7630,6 +7698,15 @@
                     "name": "Detachment Points",
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Priority Assets",
+                    "hidden": false,
+                    "id": "ef69-df66-4e43-fb49",
+                    "targetId": "0936-9767-1cc7-52ae",
+                    "primary": false
                   }
                 ]
               }

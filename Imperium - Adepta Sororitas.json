@@ -887,6 +887,15 @@
                     "id": "a29f-5be0-6496-a552",
                     "includeChildSelections": false
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Priority Assets",
+                    "hidden": false,
+                    "id": "bf41-1437-cb27-29c5",
+                    "targetId": "0936-9767-1cc7-52ae",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -955,6 +964,15 @@
                     "shared": true,
                     "id": "5be1-0b19-4c99-a3cc",
                     "includeChildSelections": false
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Take and Hold",
+                    "hidden": false,
+                    "id": "8d1f-bfd7-9af7-2226",
+                    "targetId": "1cc1-f11a-4e8f-1bcc",
+                    "primary": false
                   }
                 ]
               },
@@ -1025,6 +1043,15 @@
                     "id": "51d4-97ee-7a56-2103",
                     "includeChildSelections": false
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "d892-90db-55c3-4188",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -1093,6 +1120,15 @@
                     "shared": true,
                     "id": "91c4-43b6-6597-26c7",
                     "includeChildSelections": false
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Take and Hold",
+                    "hidden": false,
+                    "id": "a5e8-949a-cac2-e92a",
+                    "targetId": "1cc1-f11a-4e8f-1bcc",
+                    "primary": false
                   }
                 ]
               },
@@ -1170,6 +1206,15 @@
                     "id": "1db7-b410-f286-5b57",
                     "includeChildSelections": false
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Disruption",
+                    "hidden": false,
+                    "id": "d573-09d8-e322-a091",
+                    "targetId": "ecf8-cf72-7d5b-1b5b",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -1237,6 +1282,15 @@
                     "name": "Enhancements",
                     "typeId": "f759-1bc4-cb3a-f0d2",
                     "value": 0
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Reconnaissance",
+                    "hidden": false,
+                    "id": "dd74-8d62-04cc-54ea",
+                    "targetId": "b4a7-5083-fe94-4d24",
+                    "primary": false
                   }
                 ]
               },
@@ -1313,6 +1367,13 @@
                     "hidden": false,
                     "id": "bfa9-fc4f-914d-3b48",
                     "targetId": "110b-b37e-1f3b-304b",
+                    "primary": false
+                  },
+                  {
+                    "name": "Take and Hold",
+                    "hidden": false,
+                    "id": "74a0-ca84-ff00-9caa",
+                    "targetId": "1cc1-f11a-4e8f-1bcc",
                     "primary": false
                   }
                 ]
@@ -1391,6 +1452,15 @@
                     "field": "58d2-b879-49c7-43bc",
                     "scope": "roster",
                     "affects": "self.entries.forces.recursive.06f3-c7f0-3763-211c.profiles.Unit"
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "c18d-1381-14b7-ff3e",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
                   }
                 ]
               }

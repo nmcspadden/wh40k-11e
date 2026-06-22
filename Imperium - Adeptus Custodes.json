@@ -27578,7 +27578,7 @@
                 "name": "Shield Host",
                 "hidden": false,
                 "id": "70eb-2978-3ad5-5901",
-                "sortIndex": 4,
+                "sortIndex": 5,
                 "costs": [
                   {
                     "name": "pts",
@@ -27631,6 +27631,15 @@
                     "id": "ebe5-4cd4-d037-f47c",
                     "includeChildSelections": false
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "81fb-119a-aca4-9cf6",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -27647,7 +27656,7 @@
                 "name": "Talons of the Emperor",
                 "hidden": false,
                 "id": "757a-b5ed-a43f-3cdd",
-                "sortIndex": 6,
+                "sortIndex": 8,
                 "costs": [
                   {
                     "name": "pts",
@@ -27700,6 +27709,15 @@
                     "id": "acbe-f7c2-268d-227d",
                     "includeChildSelections": false
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Take and Hold",
+                    "hidden": false,
+                    "id": "cf34-051c-8806-b862",
+                    "targetId": "1cc1-f11a-4e8f-1bcc",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -27716,7 +27734,7 @@
                 "name": "Null Maiden Vigil",
                 "hidden": false,
                 "id": "d3ee-47e1-4540-dfe5",
-                "sortIndex": 3,
+                "sortIndex": 4,
                 "costs": [
                   {
                     "name": "pts",
@@ -27768,6 +27786,15 @@
                     "shared": true,
                     "id": "c8e4-88c1-22ce-378e",
                     "includeChildSelections": false
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Reconnaissance",
+                    "hidden": false,
+                    "id": "d3d7-e01b-bd6a-d83b",
+                    "targetId": "b4a7-5083-fe94-4d24",
+                    "primary": false
                   }
                 ]
               },
@@ -27838,6 +27865,15 @@
                     "id": "44f5-aad2-e68d-744e",
                     "includeChildSelections": false
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Priority Assets",
+                    "hidden": false,
+                    "id": "a7ec-fd51-9de4-b30e",
+                    "targetId": "0936-9767-1cc7-52ae",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -27869,7 +27905,7 @@
                 "name": "Solar Spearhead",
                 "hidden": false,
                 "id": "a060-3a8d-670c-25f0",
-                "sortIndex": 5,
+                "sortIndex": 7,
                 "costs": [
                   {
                     "name": "pts",
@@ -27921,6 +27957,15 @@
                     "shared": true,
                     "id": "1747-2440-ea68-0982",
                     "includeChildSelections": false
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Take and Hold",
+                    "hidden": false,
+                    "id": "80bb-6f72-043a-a593",
+                    "targetId": "1cc1-f11a-4e8f-1bcc",
+                    "primary": false
                   }
                 ]
               },
@@ -27990,6 +28035,15 @@
                     "shared": true,
                     "id": "94be-963b-f3b6-fc5d",
                     "includeChildSelections": false
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Disruption",
+                    "hidden": false,
+                    "id": "da9d-41a0-edc5-c407",
+                    "targetId": "ecf8-cf72-7d5b-1b5b",
+                    "primary": false
                   }
                 ]
               },
@@ -28076,8 +28130,16 @@
                     "id": "12df-4cd1-908d-d788",
                     "targetId": "a8c4-301f-0589-b0f4",
                     "primary": false
+                  },
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "e25f-f46e-40f7-6ffd",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
                   }
-                ]
+                ],
+                "sortIndex": 3
               },
               {
                 "type": "upgrade",
@@ -28144,6 +28206,16 @@
                     "id": "bba1-6766-0988-dde3",
                     "hidden": false,
                     "description": "- When a friendly **ANATHEMA PSYKANA** unit is selected to make an **advance move**, that **advance move** does not prevent that unit from being **eligible to start an action**.\n- Friendly **ANATHEMA PSYKANA** units have the following ability: \n**Ceaseless Vigilance**: In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is nulled: \n- While a unit is nulled, that unit has +3\" **detection range**."
+                  }
+                ],
+                "sortIndex": 6,
+                "categoryLinks": [
+                  {
+                    "name": "Reconnaissance",
+                    "hidden": false,
+                    "id": "5b63-b25d-2613-0282",
+                    "targetId": "b4a7-5083-fe94-4d24",
+                    "primary": false
                   }
                 ]
               },
@@ -28221,8 +28293,16 @@
                     "id": "4a9b-ffa2-ebff-c15a",
                     "targetId": "5441-0847-20fe-4235",
                     "primary": false
+                  },
+                  {
+                    "name": "Priority Assets",
+                    "hidden": false,
+                    "id": "a40f-19c0-aa30-0faa",
+                    "targetId": "0936-9767-1cc7-52ae",
+                    "primary": false
                   }
-                ]
+                ],
+                "sortIndex": 9
               }
             ],
             "name": "Detachment",

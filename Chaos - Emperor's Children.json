@@ -17018,6 +17018,15 @@
                     "typeId": "8349-b76c-37ea-696b",
                     "value": 0
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "2210-b58e-d3e9-c65d",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -17085,6 +17094,15 @@
                     "name": "Enhancements",
                     "typeId": "8349-b76c-37ea-696b",
                     "value": 0
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Priority Assets",
+                    "hidden": false,
+                    "id": "82d6-ce44-200f-2ddd",
+                    "targetId": "0936-9767-1cc7-52ae",
+                    "primary": false
                   }
                 ]
               },
@@ -17154,6 +17172,15 @@
                     "typeId": "8349-b76c-37ea-696b",
                     "value": 0
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Disruption",
+                    "hidden": false,
+                    "id": "1a58-8fe7-14c6-b1fa",
+                    "targetId": "ecf8-cf72-7d5b-1b5b",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -17221,6 +17248,15 @@
                     "name": "Enhancements",
                     "typeId": "8349-b76c-37ea-696b",
                     "value": 0
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "3574-c609-c1cf-67ba",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
                   }
                 ]
               },
@@ -17290,6 +17326,15 @@
                     "typeId": "8349-b76c-37ea-696b",
                     "value": 0
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Reconnaissance",
+                    "hidden": false,
+                    "id": "0054-b5c1-69a4-2beb",
+                    "targetId": "b4a7-5083-fe94-4d24",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -17357,6 +17402,15 @@
                     "name": "Enhancements",
                     "typeId": "8349-b76c-37ea-696b",
                     "value": 0
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Priority Assets",
+                    "hidden": false,
+                    "id": "1471-0758-3aba-e230",
+                    "targetId": "0936-9767-1cc7-52ae",
+                    "primary": false
                   }
                 ]
               },
@@ -17432,6 +17486,15 @@
                     "typeId": "8349-b76c-37ea-696b",
                     "value": 0
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "edf2-868e-724f-5b6f",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -17499,6 +17562,15 @@
                     "id": "a036-6dda-95b7-e7ec",
                     "hidden": false,
                     "description": "When a friendly **EMPEROR’S CHILDREN TERMINATOR** unit is set up, that unit has +1 to **charge rolls** until the end of the turn."
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Take and Hold",
+                    "hidden": false,
+                    "id": "ee7f-29d0-b2eb-5e4b",
+                    "targetId": "1cc1-f11a-4e8f-1bcc",
+                    "primary": false
                   }
                 ]
               },
@@ -17576,6 +17648,13 @@
                     "id": "fdcb-9ce9-1227-2075",
                     "targetId": "4a2d-b383-5a4c-3dbc",
                     "primary": false
+                  },
+                  {
+                    "name": "Disruption",
+                    "hidden": false,
+                    "id": "6d38-4276-36fe-b6e3",
+                    "targetId": "ecf8-cf72-7d5b-1b5b",
+                    "primary": false
                   }
                 ]
               },
@@ -17644,6 +17723,15 @@
                     "id": "44e2-0378-2a0c-48c1",
                     "hidden": false,
                     "description": "Friendly **FLAWLESS BLADES** units have **Fights First**."
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "2796-e793-c5a1-abc4",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
                   }
                 ]
               }

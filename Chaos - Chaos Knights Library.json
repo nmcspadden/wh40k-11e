@@ -13476,6 +13476,15 @@
                     "id": "0326-4862-635d-70a9",
                     "includeChildSelections": false
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "9365-c81b-4e86-6386",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -13538,6 +13547,15 @@
                     "name": "Detachment Points",
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Take and Hold",
+                    "hidden": false,
+                    "id": "f176-ef11-0b57-bbb5",
+                    "targetId": "1cc1-f11a-4e8f-1bcc",
+                    "primary": false
                   }
                 ]
               },
@@ -13611,6 +13629,15 @@
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 2
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Priority Assets",
+                    "hidden": false,
+                    "id": "18a2-6c89-9701-4b1a",
+                    "targetId": "0936-9767-1cc7-52ae",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -13673,6 +13700,15 @@
                     "name": "Detachment Points",
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 2
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Reconnaissance",
+                    "hidden": false,
+                    "id": "76ff-2763-47d3-40b5",
+                    "targetId": "b4a7-5083-fe94-4d24",
+                    "primary": false
                   }
                 ]
               },
@@ -13737,6 +13773,15 @@
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 3
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "44ea-9f94-d53d-08b6",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -13799,6 +13844,15 @@
                     "name": "Detachment Points",
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 2
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Disruption",
+                    "hidden": false,
+                    "id": "aa6f-9eea-1015-a0b1",
+                    "targetId": "ecf8-cf72-7d5b-1b5b",
+                    "primary": false
                   }
                 ]
               },
@@ -13863,6 +13917,15 @@
                     "hidden": false,
                     "description": "Friendly **KNIGHT TYRANT** units’ attacks that target a **battle-shocked** unit have +1 to the **hit roll**."
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Disruption",
+                    "hidden": false,
+                    "id": "ce89-274c-4486-44f9",
+                    "targetId": "ecf8-cf72-7d5b-1b5b",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -13896,6 +13959,13 @@
                     "hidden": false,
                     "id": "dc13-517b-377f-589c",
                     "targetId": "47ec-1263-620e-25f8",
+                    "primary": false
+                  },
+                  {
+                    "name": "Reconnaissance",
+                    "hidden": false,
+                    "id": "c17a-089c-45c4-545a",
+                    "targetId": "b4a7-5083-fe94-4d24",
                     "primary": false
                   }
                 ],

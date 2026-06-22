@@ -1724,6 +1724,15 @@
                     "id": "f284-2d8f-a423-5a79",
                     "includeChildSelections": false
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Disruption",
+                    "hidden": false,
+                    "id": "3afb-acdc-eec3-6230",
+                    "targetId": "ecf8-cf72-7d5b-1b5b",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -1787,6 +1796,15 @@
                     "id": "e4fa-c5b7-d169-773b",
                     "includeChildSelections": false
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Priority Assets",
+                    "hidden": false,
+                    "id": "6bdf-701a-899e-d147",
+                    "targetId": "0936-9767-1cc7-52ae",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -1849,6 +1867,15 @@
                     "shared": true,
                     "id": "aeec-5787-3bef-8300",
                     "includeChildSelections": false
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Priority Assets",
+                    "hidden": false,
+                    "id": "45e5-d343-eeb8-13c8",
+                    "targetId": "0936-9767-1cc7-52ae",
+                    "primary": false
                   }
                 ]
               },
@@ -1919,6 +1946,15 @@
                     "id": "4617-d3ff-adfd-9684",
                     "includeChildSelections": false
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "a2ec-90fb-d39e-0c19",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -1981,6 +2017,15 @@
                     "shared": true,
                     "id": "f20c-33f5-3647-5052",
                     "includeChildSelections": false
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Take and Hold",
+                    "hidden": false,
+                    "id": "68e5-5515-2380-1e1d",
+                    "targetId": "1cc1-f11a-4e8f-1bcc",
+                    "primary": false
                   }
                 ]
               },
@@ -2045,6 +2090,15 @@
                     "id": "1c4e-6566-b25a-db46",
                     "includeChildSelections": false
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "38bd-6f00-52c9-654a",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -2107,6 +2161,15 @@
                     "id": "6409-f3cf-512e-0c87",
                     "hidden": false,
                     "description": "If a friendly **LEGIONES DAEMONICA MOUNTED** unit made a **fall‑back move** this turn, that move does not prevent that unit from being **eligible to shoot/eligible to declare a charge**."
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Disruption",
+                    "hidden": false,
+                    "id": "73e3-67d7-8b68-e5b4",
+                    "targetId": "ecf8-cf72-7d5b-1b5b",
+                    "primary": false
                   }
                 ]
               },
@@ -2192,6 +2255,15 @@
                       }
                     ]
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "d9b4-9569-4b25-59a9",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -2254,6 +2326,15 @@
                     "id": "1e7e-379f-1b7e-df7d",
                     "hidden": false,
                     "description": "When a friendly **LEGIONES DAEMONICA BATTLELINE** unit is selected to make an **advance move**: \n- That unit’s ranged attacks have **[ASSAULT]** until the end of the turn. \n- That move does not prevent that unit from being **eligible to declare a charge**."
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Reconnaissance",
+                    "hidden": false,
+                    "id": "bb3f-1d7d-9eda-8dc3",
+                    "targetId": "b4a7-5083-fe94-4d24",
+                    "primary": false
                   }
                 ]
               }
