@@ -182,16 +182,6 @@
         "id": "617e-a830-65fe-7b64"
       },
       {
-        "name": "Norn Emissary",
-        "hidden": false,
-        "id": "50ee-d05c-da9c-eda2"
-      },
-      {
-        "name": "Norn Assimilator",
-        "hidden": false,
-        "id": "2982-bf74-9aa7-a7a7"
-      },
-      {
         "name": "Tyranid Warriors",
         "id": "e3d4-6430-ea62-8d6d",
         "hidden": false
@@ -21895,26 +21885,6 @@
         ],
         "entryLinks": [
           {
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "49ea-ec65-dd72-4452",
-                "includeChildSelections": true
-              },
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "2f05-b50-eb0c-faae",
-                "includeChildSelections": true
-              }
-            ],
             "import": true,
             "name": "Detachment",
             "hidden": false,
@@ -26972,6 +26942,32 @@
             "hidden": false,
             "targetId": "286e-4c57-b171-2344",
             "type": "profile"
+          },
+          {
+            "name": "Protean Purpose",
+            "id": "89e0-62a6-ab3c-ebc6",
+            "hidden": false,
+            "targetId": "8632-ccbf-8430-3428",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "8d8b-a030-83d5-f4e6",
+                    "shared": true,
+                    "childName": "Talons of the Norn Queen",
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -27082,6 +27078,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2fa5-0a8d-013e-fc12",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "555f-6129-152c-787a",
+            "type": "selectionEntryGroup",
+            "targetId": "9208-f62b-e38e-721e",
+            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -27540,7 +27545,7 @@
             "name": "Wargear",
             "id": "c150-1fb3-c5a5-f88a",
             "hidden": false,
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "type": "model",
@@ -27665,6 +27670,32 @@
             "type": "rule",
             "id": "9e03-1d20-f543-514e",
             "targetId": "86aa-437f-260b-5cad"
+          },
+          {
+            "name": "Protean Purpose",
+            "id": "495e-d8a2-095b-b857",
+            "hidden": false,
+            "targetId": "8632-ccbf-8430-3428",
+            "type": "profile",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "8d8b-a030-83d5-f4e6",
+                    "shared": true,
+                    "childName": "Talons of the Norn Queen",
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -27784,6 +27815,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2fa5-0a8d-013e-fc12",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "35aa-5099-41bb-184e",
+            "type": "selectionEntryGroup",
+            "targetId": "9208-f62b-e38e-721e",
+            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -28448,7 +28488,7 @@
             "name": "Wargear",
             "id": "01fd-78c3-652f-ddc1",
             "hidden": false,
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "type": "model",

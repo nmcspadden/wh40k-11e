@@ -34,25 +34,6 @@
         ],
         "entryLinks": [
           {
-            "constraints": [
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "1cfe-4506-7c64-b62b"
-              },
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "1951-f4c-826-26ab",
-                "includeChildSelections": true
-              }
-            ],
             "import": true,
             "name": "Detachment",
             "hidden": false,

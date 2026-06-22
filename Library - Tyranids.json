@@ -1594,6 +1594,32 @@
             "type": "rule",
             "id": "c239-36a3-7bb9-c712",
             "targetId": "86aa-437f-260b-5cad"
+          },
+          {
+            "name": "Deep Strike",
+            "id": "907b-760a-c030-8e18",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "7cb5-dd6b-dd87-ad3b",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "cf1b-eb18-c465-27a5",
+                    "shared": true,
+                    "childName": "Ambush Predators",
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -3574,6 +3600,32 @@
             "type": "rule",
             "id": "2322-209e-5d26-a06b",
             "targetId": "86aa-437f-260b-5cad"
+          },
+          {
+            "name": "Deep Strike",
+            "id": "3cd3-ad11-863b-90b7",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "7cb5-dd6b-dd87-ad3b",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "cf1b-eb18-c465-27a5",
+                    "shared": true,
+                    "childName": "Ambush Predators",
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -3755,6 +3807,15 @@
             "type": "selectionEntry",
             "targetId": "ceab-62d9-31bf-7c61",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "0f07-5b01-fa75-ebcb",
+            "type": "selectionEntryGroup",
+            "targetId": "9208-f62b-e38e-721e",
+            "sortIndex": 3
           }
         ],
         "modifierGroups": [
@@ -4118,7 +4179,7 @@
             "name": "Wargear",
             "id": "023b-114d-712b-c219",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "type": "model",
@@ -4920,6 +4981,32 @@
             "type": "rule",
             "id": "ef47-a251-e3e7-ec73",
             "targetId": "86aa-437f-260b-5cad"
+          },
+          {
+            "name": "Deep Strike",
+            "id": "da9b-0900-058b-db0d",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "7cb5-dd6b-dd87-ad3b",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "cf1b-eb18-c465-27a5",
+                    "shared": true,
+                    "childName": "Ambush Predators",
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -5104,6 +5191,15 @@
             "type": "selectionEntry",
             "targetId": "ceab-62d9-31bf-7c61",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "d440-eb05-46c2-0c4e",
+            "type": "selectionEntryGroup",
+            "targetId": "9208-f62b-e38e-721e",
+            "sortIndex": 3
           }
         ],
         "modifierGroups": [
@@ -5521,7 +5617,7 @@
             "name": "Wargear",
             "id": "e9a2-14cd-8730-04c5",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "type": "model",
@@ -8896,6 +8992,15 @@
             "type": "selectionEntry",
             "targetId": "ceab-62d9-31bf-7c61",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "id": "b0b1-f06c-fe3d-5790",
+            "type": "selectionEntryGroup",
+            "targetId": "9208-f62b-e38e-721e",
+            "sortIndex": 3
           }
         ],
         "selectionEntryGroups": [
@@ -9140,7 +9245,7 @@
             "name": "3-6 Von Ryan's Leapers",
             "id": "ae9a-662b-0fb4-c84c",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "type": "unit",
@@ -23876,6 +23981,112 @@
                 "includeChildSelections": false
               }
             ]
+          },
+          {
+            "rules": [
+              {
+                "description": "- Friendly **DEATHLEAPER/LICTOR/NEUROLICTOR** units have Deep Strike.\n- Friendly **LICTOR/NEUROLICTOR** units’ attacks that target a **CHARACTER** unit can re‑roll **hit rolls** of 1.",
+                "name": "Mindhunger",
+                "id": "0ff3-f29e-1e9b-5ad1",
+                "hidden": false
+              }
+            ],
+            "modifiers": [
+              {
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "1d6e-2579-8e7f-1ed4",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "set",
+                "value": true,
+                "field": "hidden"
+              }
+            ],
+            "type": "upgrade",
+            "import": true,
+            "name": "Ambush Predators",
+            "hidden": false,
+            "id": "cf1b-eb18-c465-27a5",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "1bbf-6db2-3107-6fda",
+                "includeChildSelections": false
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Deep Strike",
+                "id": "0cef-706f-a938-10b0",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "7cb5-dd6b-dd87-ad3b"
+              }
+            ]
+          },
+          {
+            "rules": [
+              {
+                "description": "Friendly **NORN EMISSARY/NORN ASSIMILATOR** units have the **Protean Purpose** ability.",
+                "name": "Higher Imperatives",
+                "id": "a994-e5b4-fca3-88dc",
+                "hidden": false
+              }
+            ],
+            "modifiers": [
+              {
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "1d6e-2579-8e7f-1ed4",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "set",
+                "value": true,
+                "field": "hidden"
+              }
+            ],
+            "type": "upgrade",
+            "import": true,
+            "name": "Talons of the Norn Queen",
+            "hidden": false,
+            "id": "8d8b-a030-83d5-f4e6",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "35f3-f5c6-ef1a-5798",
+                "includeChildSelections": false
+              }
+            ],
+            "infoLinks": [
+              {
+                "targetId": "8632-ccbf-8430-3428",
+                "id": "bd7f-8244-6095-b0cf",
+                "type": "profile",
+                "name": "Protean Purpose",
+                "hidden": false
+              }
+            ]
           }
         ],
         "comment": "Tyranids",
@@ -32532,7 +32743,784 @@
             "id": "0e18-887a-cdf2-86e8",
             "includeChildSelections": true
           }
-        ]
+        ],
+        "comment": "Genestealer Cults"
+      },
+      {
+        "name": "Enhancements - Upgrades",
+        "id": "9208-f62b-e38e-721e",
+        "hidden": false,
+        "selectionEntryGroups": [
+          {
+            "name": "Ambush Predators Enhancements",
+            "id": "8dab-de4a-3677-a397",
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "9a31-fd76-03c3-aefa",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Encircling Horrors",
+                "hidden": false,
+                "id": "adec-a011-9920-9f17",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cc79-45f0-6ff9-f950",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "fedf-883e-bf17-0414",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Encircling Horrors",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "4ab6-baae-a28e-ecb0",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**NEUROLICTOR/LICTOR/VON RYAN’S LEAPERS** unit only. In your opponent’s Movement phase, when an enemy unit ends a move within 8\" of this unit, this unit can make a **normal move** of up to D3+3\"."
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "adec-a011-9920-9f17",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "adec-a011-9920-9f17",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "root-entry",
+                            "childId": "de12-e6b6-16c1-47b0",
+                            "shared": true,
+                            "childName": "Neurolictor"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "root-entry",
+                            "childId": "1ff-bd00-eca8-bff7",
+                            "shared": true,
+                            "childName": "Lictor"
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "root-entry",
+                            "childId": "cdd2-3183-20ad-6126",
+                            "shared": true,
+                            "childName": "Von Ryan's Leapers"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Cryptophotaic Camouflage",
+                "hidden": false,
+                "id": "b463-67bb-f9d1-2ce8",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7e2f-00d9-4862-aca3",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "f67b-49e3-801e-91af",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Cryptophotaic Camouflage",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "44f0-74c7-050b-200f",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**VON RYAN’S LEAPERS** unit only. This unit has ‑3\" **detection range**."
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "b463-67bb-f9d1-2ce8",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "b463-67bb-f9d1-2ce8",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "root-entry",
+                        "childId": "cdd2-3183-20ad-6126",
+                        "shared": true,
+                        "childName": "Von Ryan's Leapers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "id": "1885-79a5-7fe9-e1bf",
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "cf1b-eb18-c465-27a5",
+                        "shared": true,
+                        "id": "baa4-2b53-fc37-7db2",
+                        "includeChildSelections": true,
+                        "childName": "Ambush Predators"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Talons of the Norn Queen Enhancements",
+            "id": "1dad-03f4-29a9-7273",
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "93a8-24d3-c9ce-b667",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Destabilising Predation",
+                "hidden": false,
+                "id": "a336-1346-0281-b4b2",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1748-8824-83e2-25b9",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "5d89-cfd6-ce53-1b4d",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Destabilising Predation",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "926f-2027-3e35-aa82",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**NORN EMISSARY** unit only. This unit’s ranged attacks have **[ANTI‑CHARACTER 2+]**."
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "a336-1346-0281-b4b2",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "a336-1346-0281-b4b2",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "append",
+                        "value": "Destabilising Predation",
+                        "field": "annotation",
+                        "scope": "root-entry",
+                        "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                        "join": ", "
+                      },
+                      {
+                        "type": "append",
+                        "value": "Anti-Character 2+",
+                        "field": "7f1b-8591-2fcf-d01c",
+                        "scope": "root-entry",
+                        "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                        "join": ", "
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "root-entry",
+                        "childId": "50ee-d05c-da9c-eda2",
+                        "shared": true,
+                        "childName": "Norn Emissary"
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Anti",
+                    "id": "5b71-f0d0-291c-6c32",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "4111-82e3-9444-e942"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Synaptoprescience",
+                "hidden": false,
+                "id": "d40a-c9a6-74d5-288d",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0e9e-a707-7ffa-f957",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "d3d9-fd5e-30e5-70c2",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Synaptoprescience",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "fa00-fdab-3abd-81e2",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**NORN ASSIMILATOR** unit only. This unit has 4+ **InSv**."
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "d40a-c9a6-74d5-288d",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "d40a-c9a6-74d5-288d",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Deepening Madness"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "append",
+                        "value": "Synaptoprescience",
+                        "field": "annotation",
+                        "scope": "root-entry",
+                        "affects": "self.entries.recursive.profiles.Unit",
+                        "join": ", "
+                      },
+                      {
+                        "type": "set",
+                        "value": "4+",
+                        "field": "55a7-5b54-c60d-11dc",
+                        "scope": "root-entry",
+                        "affects": "self.entries.recursive.profiles.Unit",
+                        "join": ", "
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "root-entry",
+                        "childId": "2982-bf74-9aa7-a7a7",
+                        "shared": true,
+                        "childName": "Norn Assimilator"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "id": "892b-f0f8-0d28-e941",
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "8d8b-a030-83d5-f4e6",
+                        "shared": true,
+                        "id": "e909-92cc-e171-a50b",
+                        "includeChildSelections": true,
+                        "childName": "Talons of the Norn Queen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "collapsible": true,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "self",
+            "shared": true,
+            "id": "c73e-ba56-ad2b-81d6",
+            "includeChildSelections": true
+          }
+        ],
+        "comment": "Tyranids"
       }
     ],
     "sharedProfiles": [
@@ -32663,6 +33651,20 @@
         "typeName": "Unit",
         "hidden": false,
         "id": "fdd3-f5cd-d338-974c"
+      },
+      {
+        "name": "Protean Purpose",
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "hidden": false,
+        "id": "8632-ccbf-8430-3428",
+        "characteristics": [
+          {
+            "name": "Description",
+            "typeId": "9b8f-694b-e5e-b573",
+            "$text": "(Once per battle, per unit) In your Command phase, you can use this ability. If you do, this unit can make a selection for its **Singular Purpose** ability (this replaces the previous selection)."
+          }
+        ]
       }
     ],
     "categoryEntries": [
@@ -32896,6 +33898,16 @@
         "name": "Neophyte Hybrids",
         "hidden": false,
         "id": "9ffe-1e2a-b828-b7af"
+      },
+      {
+        "name": "Norn Assimilator",
+        "hidden": false,
+        "id": "2982-bf74-9aa7-a7a7"
+      },
+      {
+        "name": "Norn Emissary",
+        "hidden": false,
+        "id": "50ee-d05c-da9c-eda2"
       }
     ],
     "library": true,
