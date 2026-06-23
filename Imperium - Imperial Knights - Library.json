@@ -27653,7 +27653,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 35
+                "value": 20
               },
               {
                 "name": "Crusade Points",
@@ -27747,7 +27747,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 20
+                "value": 15
               },
               {
                 "name": "Crusade Points",
@@ -31970,7 +31970,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 15
                   },
                   {
                     "name": "Crusade Points",
@@ -32125,7 +32125,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 10
                   },
                   {
                     "name": "Crusade Points",
