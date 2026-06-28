@@ -2236,7 +2236,7 @@
           },
           {
             "type": "add",
-            "value": "You cannot have more than 3 Enhancements in your army.",
+            "value": "You cannot have more than 2 Enhancements in your army.",
             "field": "error",
             "conditionGroups": [
               {
@@ -2254,7 +2254,7 @@
                   },
                   {
                     "type": "greaterThan",
-                    "value": 3,
+                    "value": 2,
                     "field": "f759-1bc4-cb3a-f0d2",
                     "scope": "roster",
                     "shared": true,
