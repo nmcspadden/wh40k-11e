@@ -1974,7 +1974,26 @@
       {
         "name": "Allies: Imperial Agents",
         "id": "742f-5727-1bc9-6da5",
-        "hidden": false
+        "hidden": false,
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "childId": "e08b-2448-5606-fefb",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "Show Agents of the Imperium"
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Allies: Titanicus Traitoris",
@@ -5924,6 +5943,62 @@
         "hidden": false,
         "id": "f26b-79db-80e0-3a3b",
         "defaultAmount": 1
+      },
+      {
+        "categoryLinks": [
+          {
+            "targetId": "4ac9-fd30-1e3d-b249",
+            "id": "6921-ba6b-1cae-2ea",
+            "primary": true,
+            "name": "Configuration"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "d870-9b1b-0-8a6e"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "a73a-e088-a97c-439f"
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 0,
+            "field": "d870-9b1b-0-8a6e"
+          },
+          {
+            "type": "set",
+            "value": "Imperial Agents are visible",
+            "field": "name",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "childId": "e08b-2448-5606-fefb",
+                "shared": true,
+                "childName": "Show Imperial Agents"
+              }
+            ]
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Show Imperial Agents",
+        "hidden": false,
+        "id": "e08b-2448-5606-fefb"
       }
     ],
     "sharedRules": [

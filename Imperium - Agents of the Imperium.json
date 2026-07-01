@@ -14680,51 +14680,6 @@
       {
         "categoryLinks": [
           {
-            "targetId": "4ac9-fd30-1e3d-b249",
-            "id": "6921-ba6b-1cae-2ea",
-            "primary": true,
-            "name": "Configuration"
-          }
-        ],
-        "constraints": [
-          {
-            "type": "min",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "d870-9b1b-0-8a6e"
-          },
-          {
-            "type": "max",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "a73a-e088-a97c-439f"
-          }
-        ],
-        "modifiers": [
-          {
-            "type": "set",
-            "value": 0,
-            "field": "d870-9b1b-0-8a6e"
-          },
-          {
-            "type": "set",
-            "value": "Agents of the Imperium are visible",
-            "field": "name"
-          }
-        ],
-        "type": "upgrade",
-        "import": true,
-        "name": "Show Agents of the Imperium",
-        "hidden": false,
-        "id": "e08b-2448-5606-fefb"
-      },
-      {
-        "categoryLinks": [
-          {
             "targetId": "5128-90b-e4a5-dcbd",
             "id": "189d-83ed-689e-e39d",
             "primary": false,
@@ -62605,7 +62560,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -62640,7 +62595,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -62675,7 +62630,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -62710,7 +62665,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -62745,7 +62700,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -62780,7 +62735,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -62815,7 +62770,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -62850,7 +62805,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -62885,7 +62840,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -62920,7 +62875,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -62955,7 +62910,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -62990,7 +62945,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63025,7 +62980,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63060,7 +63015,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63095,7 +63050,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63130,7 +63085,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63165,7 +63120,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63200,7 +63155,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63235,7 +63190,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63270,7 +63225,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63305,7 +63260,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63385,7 +63340,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63420,7 +63375,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63488,7 +63443,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63523,7 +63478,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63558,7 +63513,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               }
             ],
@@ -63588,7 +63543,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               }
             ],
@@ -63618,7 +63573,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63653,7 +63608,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               }
             ],
@@ -63683,7 +63638,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63760,7 +63715,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63852,7 +63807,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -63947,7 +63902,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64057,7 +64012,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64148,7 +64103,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64239,7 +64194,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64330,7 +64285,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64414,7 +64369,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64505,7 +64460,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64573,7 +64528,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64608,7 +64563,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64643,7 +64598,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64711,7 +64666,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64789,7 +64744,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64824,7 +64779,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64844,39 +64799,6 @@
               }
             ],
             "type": "and"
-          }
-        ],
-        "modifiers": [
-          {
-            "conditionGroups": [
-              {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "b00-cd86-4b4c-97ba",
-                    "shared": true
-                  },
-                  {
-                    "type": "lessThan",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "e08b-2448-5606-fefb",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "type": "and"
-              }
-            ],
-            "comment": "Agents visibility",
-            "type": "set",
-            "value": true,
-            "field": "hidden"
           }
         ],
         "infoLinks": [
@@ -64901,7 +64823,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64936,7 +64858,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -64971,7 +64893,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
@@ -65006,7 +64928,7 @@
             "modifiers": [
               {
                 "type": "set-primary",
-                "value": "887b-ab87-92a2-20f5",
+                "value": "742f-5727-1bc9-6da5",
                 "field": "category"
               },
               {
