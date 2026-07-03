@@ -217,39 +217,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "5+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "5+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Grimaldus",
@@ -722,13 +722,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "type": "profile",
-            "id": "c69f-7569-ef6b-f84a",
-            "targetId": "db19-dee7-9530-ef0e"
-          },
           {
             "modifiers": [
               {
@@ -2588,7 +2581,7 @@
               }
             ],
             "type": "set",
-            "value": 300,
+            "value": 290,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -2613,9 +2606,9 @@
           {
             "characteristics": [
               {
-                "$text": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Righteous Zeal move. To do so, roll one D6 and add 2 to the result: models in this unit move a number of inches up to this result, but this unit must end that move as close as possible to the closest enemy unit (excluding ^^**Aircraft^^**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Righteous Zeal move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Righteous Zeal move per phase.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models in this unit were destroyed as a result of those attacks, this unit can make a surge move of up to D6+2."
               }
             ],
             "name": "Righteous Zeal",
@@ -3139,6 +3132,69 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "de7b-731d-90db-dfd9"
+          },
+          {
+            "name": "Sword Brethren",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "75ff-c1eb-d48b-8e7d",
+            "characteristics": [
+              {
+                "$text": "6\"",
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1"
+              },
+              {
+                "$text": "4",
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4"
+              },
+              {
+                "$text": "3+",
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da"
+              },
+              {
+                "$text": "3",
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe"
+              },
+              {
+                "$text": "6+",
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc"
+              },
+              {
+                "$text": "1",
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "increment",
+                "value": 1,
+                "field": "bef7-942a-1a23-59f8",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "e533-c51a-5949-a579",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Marshal's Household"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -3643,52 +3699,6 @@
                     "field": "c707-6035-e75a-14b8"
                   }
                 ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "6\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "4",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "3+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "6+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "1",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Primaris Sword Brethren",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "75ff-c1eb-d48b-8e7d"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Sword Brother",
@@ -3740,52 +3750,6 @@
                     "type": "increment",
                     "value": 1,
                     "field": "c21-80f5-4fe2-dba6"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "6\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "4",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "3+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "6+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "1",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Primaris Sword Brethren",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "5e8a-64f9-08e9-50f7"
                   }
                 ],
                 "selectionEntries": [
@@ -3910,7 +3874,299 @@
             "name": "Sword Brethren",
             "hidden": false,
             "id": "93d5-a2f6-533-694f",
-            "sortIndex": 2
+            "sortIndex": 3
+          },
+          {
+            "name": "Enhancements",
+            "id": "5688-6bf5-eb6a-11bf",
+            "hidden": false,
+            "sortIndex": 2,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Fervent Exemplars",
+                "hidden": false,
+                "id": "9a7f-fcfb-5ea1-bfe6",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "cf0b-49b9-dd72-c9d0",
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 1
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  },
+                  {
+                    "name": "Honour Points",
+                    "typeId": "8135-9a2f-6627-09e2",
+                    "value": 0
+                  },
+                  {
+                    "name": "Relic Fragments",
+                    "typeId": "0ece-6541-4662-ece2",
+                    "value": 0
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Fervent Exemplars",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "73e9-ff31-d0db-6982",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "SWORD BRETHREN SQUAD unit only. This unit has +1 to charge rolls"
+                      }
+                    ]
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "e533-c51a-5949-a579",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Marshal's Household"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "e533-c51a-5949-a579",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Marshal's Household"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Inheritors of Sigismund",
+                "hidden": false,
+                "id": "1363-5e93-bfd4-3646",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "0080-d186-7184-98ff",
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 1
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  },
+                  {
+                    "name": "Honour Points",
+                    "typeId": "8135-9a2f-6627-09e2",
+                    "value": 0
+                  },
+                  {
+                    "name": "Relic Fragments",
+                    "typeId": "0ece-6541-4662-ece2",
+                    "value": 0
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Inheritors of Sigismund",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "08cf-3426-4493-1e01",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "SWORD BRETHREN SQUAD unit only. This unit has Fights First"
+                      }
+                    ]
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "e533-c51a-5949-a579",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Marshal's Household"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "e533-c51a-5949-a579",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Marshal's Household"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "edb9-830e-ce05-d8a2",
+                "includeChildSelections": false
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "e533-c51a-5949-a579",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Marshal's Household"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -3992,6 +4248,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "206c-6b4d-4aaa-7e79",
+                        "shared": true,
+                        "childName": "Sword Brethren Squad"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -4362,9 +4658,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time this model's unit declares a charge, if one or more targets of that charge have the CHARACTER keyword, add 2 to the Charge roll. Once per battle, when this model's unit is selected to fight, if that unit is within Engagement Range of one or more enemy CHARACTER units, this model can use this ability. If it does, until the end of the phase, melee weapons equipped by this model have the [DEVASTATING WOUNDS] ability.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "▪ When this unit declares a charge, If an enemy CHARACTER unit is within 12\" of this unit, you can use this part of this ability. If you do:\n      ▫ This unit can re-roll that charge roll.\n      ▫ This unit must end that charge move engaged with one or more of those enemy CHARACTER units.\n\n\n▪ (Once per battle, per army) In the Fight phase, when this unit is selected to fight, if this unit is engaged with a CHARACTER unit, you can use this part of this ability. If you do, this unit's melee attacks have [DEVASTATING WOUNDS]."
               }
             ],
             "name": "Sigismund's Heir",
@@ -4535,7 +4831,130 @@
             "id": "6719-652b-321a-7211",
             "type": "selectionEntryGroup",
             "targetId": "9e5d-de4c-c5d1-1d3e",
-            "sortIndex": 3
+            "sortIndex": 3,
+            "selectionEntryGroups": [
+              {
+                "name": "The Living Miracle Enhancements",
+                "id": "7524-bf67-baa7-f85e",
+                "hidden": false,
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Guiding Omens",
+                    "hidden": false,
+                    "id": "97e6-f903-d88c-b983",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "53f4-0e52-977d-d62d",
+                        "includeChildSelections": false
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "shared": true,
+                        "id": "c290-586f-f344-b4bc",
+                        "includeChildSelections": true
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Guiding Omens",
+                        "typeId": "9cc3-6d83-4dd3-9b64",
+                        "typeName": "Abilities",
+                        "hidden": false,
+                        "id": "42b3-9b78-6549-f4b5",
+                        "characteristics": [
+                          {
+                            "name": "Description",
+                            "typeId": "9b8f-694b-e5e-b573",
+                            "$text": "EMPEROR’S CHAMPION model only. At the start of the first battle round, you can select up to three of the following abilities. This model has those abilities until the end of the battle:\n\n\n▪ Instrument of the God‑Emperor (Once per battle, per army):\n   In the Fight phase, when this unit is selected to fight, if this unit is engaged with an enemy CHARACTER unit, you can use this ability. If you do, this model’s melee attacks have [DEVASTATING WOUNDS].\n\n\n▪ Foreseen Paths of the Unholy: This unit has ‑3\" detection range.\n\n\n▪ Vision of Momentous Brutality: This model’s melee attacks have +2 A.\n\n\n▪ Augury of Retribution: Melee attacks that target this unit have [HAZARDOUS].\n\n\n▪ Omen of Sacred Intervention: When you target this unit with the Heroic Intervention stratagem, that use is ‑1 CP.\n\n\n▪ Harbinger of Judgement: When an enemy unit (excluding MONSTER/VEHICLE units) engaged with this model is selected to make a fall‑back move, roll one D6:\n    ▫ On a 2+, that enemy unit suffers D6 mortal wounds."
+                          }
+                        ]
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 15
+                      },
+                      {
+                        "name": "Crusade Points",
+                        "typeId": "b03b-c239-15a5-da55",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Battle Honours",
+                        "typeId": "75bb-ded1-c86d-bdf0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Experience",
+                        "typeId": "a623-fe74-1d33-cddf",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Weapon Modifications",
+                        "typeId": "716d-91b7-d55a-1022",
+                        "value": 0
+                      },
+                      {
+                        "name": "Blackstone Fragments",
+                        "typeId": "ac6b-ced3-9b5e-9a6e",
+                        "value": 0
+                      },
+                      {
+                        "name": "Detachment Points",
+                        "typeId": "82ae-1066-5107-6ae0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancements",
+                        "typeId": "f759-1bc4-cb3a-f0d2",
+                        "value": 0
+                      },
+                      {
+                        "name": "Honour Points",
+                        "typeId": "8135-9a2f-6627-09e2",
+                        "value": 0
+                      },
+                      {
+                        "name": "Relic Fragments",
+                        "typeId": "0ece-6541-4662-ece2",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "7bd3-602e-280c-ecad",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "The Living Miracle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "import": true,
@@ -7251,6 +7670,12 @@
             "id": "f2bb-a2aa-a236-a1f6",
             "primary": false,
             "name": "Faction: Black Templars"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "3872-d227-4bac-9844",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "profiles": [
@@ -8036,6 +8461,46 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "7dec-dc3d-c40a-8ce",
+                        "shared": true,
+                        "childName": "Gladiator Lancer"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "model",
@@ -8176,6 +8641,12 @@
             "id": "144a-99b5-5fb-ebc2",
             "primary": false,
             "name": "Faction: Black Templars"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "f4d2-0874-8779-308f",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "costs": [
@@ -8843,6 +9314,46 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "bfb6-4320-74cf-bbda",
+                        "shared": true,
+                        "childName": "Gladiator Reaper"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "model",
@@ -8930,6 +9441,12 @@
             "id": "ffc-88c6-ef9b-cf20",
             "primary": false,
             "name": "Faction: Black Templars"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "c14b-97f9-865d-03e0",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "profiles": [
@@ -9591,6 +10108,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "5704-ffe4-4a53-8789",
+                        "shared": true,
+                        "childName": "Gladiator Valiant"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -10487,7 +11044,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 180
+            "value": 170
           },
           {
             "name": "Crusade Points",
@@ -10510,8 +11067,28 @@
             "value": 0
           },
           {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
             "name": "Honour Points",
             "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -10557,6 +11134,12 @@
             "id": "36cd-f51c-bdac-a2d7",
             "primary": false,
             "name": "Faction: Black Templars"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "52a0-bcdb-a5bc-dbe9",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "profiles": [
@@ -11312,6 +11895,46 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "c3e8-3cde-8b39-4b19",
+                        "shared": true,
+                        "childName": "Repulsor"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "model",
@@ -11325,7 +11948,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 235
+            "value": 245
           },
           {
             "name": "Crusade Points",
@@ -11350,6 +11973,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           },
           {
@@ -12019,6 +12652,12 @@
             "id": "7c1-ee-7f0c-addd",
             "primary": false,
             "name": "Faction: Black Templars"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "9e70-6ed2-43db-ab92",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "modifierGroups": [
@@ -12269,6 +12908,46 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "a344-192f-aae2-16e5",
+                        "shared": true,
+                        "childName": "Repulsor Executioner"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "model",
@@ -12459,10 +13138,10 @@
         ],
         "infoLinks": [
           {
-            "name": "Leader",
+            "name": "Support",
             "type": "rule",
             "id": "7c0b-c5cc-73e7-bfba",
-            "targetId": "b4dd-3e1f-41cb-218f"
+            "targetId": "3342-2180-9c5d-925f"
           },
           {
             "name": "Templar Vows",
@@ -12785,7 +13464,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Leader",
+            "name": "Support",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -13785,6 +14464,46 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "68dd-5f49-4f17-cd84",
+                        "shared": true,
+                        "childName": "Marshal"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -14083,8 +14802,8 @@
             "name": "Faction: Black Templars"
           },
           {
-            "targetId": "746a-82bd-5c0a-634e",
-            "id": "ec11-1acd-1c25-b4d6",
+            "targetId": "a4bd-e355-816d-d093",
+            "id": "b1c6-0301-3f7c-0ff7",
             "primary": false,
             "name": "Execrator"
           }
@@ -14899,11 +15618,11 @@
         ],
         "infoLinks": [
           {
-            "name": "Leader",
+            "name": "Support",
             "id": "1202-7bfa-858c-7e4a",
             "hidden": false,
             "type": "rule",
-            "targetId": "b4dd-3e1f-41cb-218f"
+            "targetId": "3342-2180-9c5d-925f"
           },
           {
             "name": "Templar Vows",
@@ -14994,7 +15713,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Leader",
+            "name": "Support",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -15156,7 +15875,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 55
+            "value": 45
           },
           {
             "name": "Crusade Points",
@@ -15181,6 +15900,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           },
           {
@@ -15570,6 +16299,12 @@
             "id": "ad9c-0eb0-5b6b-4639",
             "primary": false,
             "name": "Land Raider"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "f39d-c841-bc53-b0af",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "modifierGroups": [
@@ -16020,6 +16755,46 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "8525-2de1-14fd-c1f5",
+                        "shared": true,
+                        "childName": "Land Raider Crusader"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -16998,7 +17773,7 @@
               }
             ],
             "type": "set",
-            "value": 170,
+            "value": 160,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -17390,13 +18165,6 @@
             "targetId": "7cb5-dd6b-dd87-ad3b"
           },
           {
-            "name": "Invulnerable Save",
-            "id": "b787-4759-26bf-609b",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "db19-dee7-9530-ef0e"
-          },
-          {
             "name": "Templar Vows",
             "id": "0174-d60b-561f-7380",
             "hidden": false,
@@ -17408,9 +18176,9 @@
           {
             "characteristics": [
               {
-                "$text": "At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3\" horizontally of that token and not within 9\" horizontally of any enemy models. That token is then removed.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3\" horizontally of that token and not within 8\" horizontally of any enemy models. That token is then removed."
               }
             ],
             "name": "Teleport Homer",
@@ -17438,7 +18206,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 175
+            "value": 160
           },
           {
             "name": "Crusade Points",
@@ -17461,8 +18229,28 @@
             "value": 0
           },
           {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
             "name": "Honour Points",
             "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -17620,39 +18408,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "5\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "5\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "2+",
                         "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "4+"
                       }
                     ],
                     "name": "Terminator Sergeant",
@@ -17737,39 +18525,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "5\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "5\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "2+",
                         "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "4+"
                       }
                     ],
                     "name": "Terminator Squad",
@@ -17854,39 +18642,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "5\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "5\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "2+",
                         "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "4+"
                       }
                     ],
                     "name": "Terminator Squad",
@@ -18130,39 +18918,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "5\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "5\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "2+",
                         "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "4+"
                       }
                     ],
                     "name": "Terminator Squad",
@@ -18219,7 +19007,7 @@
               }
             ],
             "type": "set",
-            "value": 330,
+            "value": 320,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -19275,11 +20063,6 @@
         "name": "Marshal",
         "hidden": false,
         "id": "2f85-11ec-263f-b1dc"
-      },
-      {
-        "name": "Execrator",
-        "id": "746a-82bd-5c0a-634e",
-        "hidden": false
       }
     ],
     "sharedProfiles": [
