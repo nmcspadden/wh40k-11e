@@ -62528,11 +62528,11 @@
                             "value": 1,
                             "field": "selections",
                             "scope": "roster",
-                            "childId": "0dd1-86f6-d2a0-3aba",
+                            "childId": "6d62-2c41-fb3f-7d00",
                             "shared": true,
                             "includeChildSelections": true,
                             "includeChildForces": true,
-                            "childName": "Cavalcade of Chaos"
+                            "childName": "Lords of the Warp"
                           }
                         ]
                       }
@@ -69915,7 +69915,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "b45c-af22-788a-dfd6",
     "name": "Chaos - Daemons Library",
-    "revision": 1,
+    "revision": 2,
     "battleScribeVersion": 2.03,
     "library": true,
     "gameSystemId": "sys-352e-adc2-7639-d610",
