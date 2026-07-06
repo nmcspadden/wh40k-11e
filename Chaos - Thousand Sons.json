@@ -26910,7 +26910,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 95
           },
           {
             "name": "Crusade Points",
@@ -60852,7 +60852,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "1069-10ff-3ba9-873b",
     "name": "Chaos - Thousand Sons",
-    "revision": 1,
+    "revision": 2,
     "battleScribeVersion": 2.03,
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d610",
