@@ -10132,7 +10132,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "581a-46b9-5b86-44b7",
     "name": "Unaligned Forces",
-    "revision": 22,
+    "revision": 1,
     "battleScribeVersion": 2.03,
     "authorName": "WindstormSCR",
     "library": true,

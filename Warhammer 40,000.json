@@ -2265,10 +2265,6 @@
         "modifiers": [
           {
             "type": "set",
-            "field": "readme"
-          },
-          {
-            "type": "set",
             "value": 3,
             "field": "95c5-effd-74f1-c8f4",
             "conditions": [
@@ -2467,7 +2463,8 @@
             "includeChildForces": true,
             "message": "You cannot have more than {value} Enhancements in your army.1"
           }
-        ]
+        ],
+        "readme": "This is the first release of the Warhammer 40,000 11th Edition dataset.\n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\nThis release **does not** include the new Leader/Support assignment functionality. Currently, you will need to continue using the subscription version.\n\nThe Yellowscribe Export should be working in this version. If not, please report as a New Recruit issue, not a data issue.\n\nThe Data Author team thank you for your patience and thank the New Recruit team for their support."
       },
       {
         "categoryLinks": [
@@ -2893,7 +2890,7 @@
               }
             ],
             "type": "set",
-            "value": "**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
+            "value": "This is the first release of the Warhammer 40,000 11th Edition dataset.\n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\nThis release **does not** yet include the new Leader/Support assignment functionality. Currently, you will need to continue using the subscription version.\n\nThe Yellowscribe Export should be working in this version. If not, please report as a New Recruit issue, not a data issue.\n\nThe Data Author team thank you for your patience and thank the New Recruit team for their support.\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
             "field": "readme"
           },
           {
@@ -2910,7 +2907,7 @@
               }
             ],
             "type": "set",
-            "value": "**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
+            "value": "This is the first release of the Warhammer 40,000 11th Edition dataset.\n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\nThis release **does not** yet include the new Leader/Support assignment functionality. Currently, you will need to continue using the subscription version.\n\nThe Yellowscribe Export should be working in this version. If not, please report as a New Recruit issue, not a data issue.\n\nThe Data Author team thank you for your patience and thank the New Recruit team for their support.\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
             "field": "readme"
           }
         ],
@@ -2929,7 +2926,8 @@
         "name": "Crusade Force",
         "id": "cac3-71d1-ea4b-795d",
         "hidden": false,
-        "exportable": false
+        "exportable": false,
+        "readme": ""
       }
     ],
     "entryLinks": [
@@ -32817,8 +32815,9 @@
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "id": "sys-352e-adc2-7639-d610",
     "name": "Warhammer 40,000 11th Edition",
-    "revision": 118,
+    "revision": 1,
     "battleScribeVersion": 2.03,
-    "type": "gameSystem"
+    "type": "gameSystem",
+    "readme": ""
   }
 }
