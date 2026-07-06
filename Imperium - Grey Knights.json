@@ -5208,7 +5208,14 @@
                         "hidden": false,
                         "type": "selectionEntry",
                         "id": "a5bd-813-a8b5-e369",
-                        "targetId": "e520-9c7-d10c-897d"
+                        "targetId": "e520-9c7-d10c-897d",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 5
+                          }
+                        ]
                       },
                       {
                         "import": true,
@@ -5418,7 +5425,14 @@
                         "hidden": false,
                         "type": "selectionEntry",
                         "id": "39bd-f647-4b4d-9494",
-                        "targetId": "e520-9c7-d10c-897d"
+                        "targetId": "e520-9c7-d10c-897d",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 5
+                          }
+                        ]
                       }
                     ],
                     "name": "Heavy Weapon",
