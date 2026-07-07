@@ -7412,6 +7412,13 @@
                     "id": "ed43-82b2-f420-2b94",
                     "targetId": "6fe0-3dbe-f7e0-10bb",
                     "primary": false
+                  },
+                  {
+                    "name": "Engines",
+                    "hidden": false,
+                    "id": "3ca3-ec89-a65b-5b9d",
+                    "targetId": "6079-1e8b-2dfe-798a",
+                    "primary": false
                   }
                 ]
               },
@@ -7483,6 +7490,13 @@
                     "hidden": false,
                     "id": "34a0-5c8e-c9c6-550e",
                     "targetId": "1cc1-f11a-4e8f-1bcc",
+                    "primary": false
+                  },
+                  {
+                    "name": "Flyblown",
+                    "hidden": false,
+                    "id": "3a13-38dd-baa5-5128",
+                    "targetId": "3154-f6fa-04d2-6404",
                     "primary": false
                   }
                 ]
@@ -53695,7 +53709,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 20
+                "value": 30
               },
               {
                 "name": "Crusade Points",
