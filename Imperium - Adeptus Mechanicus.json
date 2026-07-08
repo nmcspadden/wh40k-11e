@@ -12774,7 +12774,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "value": 15
                   },
                   {
                     "name": "Crusade Points",
@@ -55088,7 +55088,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "77b9-2f66-3f9b-5cf3",
     "name": "Imperium - Adeptus Mechanicus",
-    "revision": 3,
+    "revision": 4,
     "battleScribeVersion": 2.03,
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d610",
