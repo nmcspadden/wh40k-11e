@@ -3140,7 +3140,7 @@
                 ],
                 "id": "4204-82d0-908c-a62a",
                 "name": "3. Onslaught (3000 Point limit)",
-                "hidden": false,
+                "hidden": true,
                 "collective": false,
                 "import": true,
                 "type": "upgrade",
@@ -32790,7 +32790,7 @@
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "id": "sys-352e-adc2-7639-d610",
     "name": "Warhammer 40,000 11th Edition",
-    "revision": 2,
+    "revision": 3,
     "battleScribeVersion": 2.03,
     "type": "gameSystem",
     "readme": ""
