@@ -2076,6 +2076,30 @@
         "name": "Allies: Legiones Daemonica",
         "id": "e1ea-71b9-f0ef-d788",
         "hidden": false
+      },
+      {
+        "name": "Allies: Imperial Knights",
+        "id": "5e03-9044-273d-e818",
+        "hidden": false,
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "childId": "e82c-6f8c-2b97-a287",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "Show Imperial Knights"
+              }
+            ]
+          }
+        ]
       }
     ],
     "forceEntries": [
@@ -5992,6 +6016,94 @@
         "name": "Show Imperial Agents",
         "hidden": false,
         "id": "e08b-2448-5606-fefb"
+      },
+      {
+        "categoryLinks": [
+          {
+            "targetId": "4ac9-fd30-1e3d-b249",
+            "id": "2a97-c85d-c015-e6a8",
+            "primary": true,
+            "name": "Configuration"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "6ee3-7624-450a-fbf5"
+          }
+        ],
+        "modifiers": [
+          {
+            "conditionGroups": [
+              {
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "1d6e-2579-8e7f-1ed4",
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "25dd-7aa0-6bf4-f2d5",
+                    "shared": true
+                  }
+                ],
+                "type": "or"
+              }
+            ],
+            "type": "set",
+            "value": true,
+            "field": "hidden"
+          },
+          {
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ],
+            "type": "set",
+            "value": 0,
+            "field": "defaultAmount"
+          },
+          {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "childId": "e82c-6f8c-2b97-a287",
+                "shared": true
+              }
+            ],
+            "type": "set",
+            "value": "Imperial Knights are visible",
+            "field": "name"
+          }
+        ],
+        "type": "upgrade",
+        "import": true,
+        "name": "Show Imperial Knights",
+        "hidden": false,
+        "id": "e82c-6f8c-2b97-a287",
+        "defaultAmount": 1
       }
     ],
     "sharedRules": [
