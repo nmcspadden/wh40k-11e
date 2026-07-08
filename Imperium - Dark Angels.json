@@ -7730,14 +7730,6 @@
                   {
                     "constraints": [
                       {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "36b6-ddf8-72ce-c5"
-                      },
-                      {
                         "type": "max",
                         "value": 1,
                         "field": "selections",
@@ -7888,7 +7880,202 @@
                 "name": "Ravenwing Huntmaster",
                 "hidden": false,
                 "id": "4c15-1de7-973d-4c5",
-                "page": 31
+                "page": 31,
+                "selectionEntryGroups": [
+                  {
+                    "name": "Weapon 1",
+                    "id": "6f40-0c47-3368-3608",
+                    "hidden": false,
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "eabb-5d87-2187-c882",
+                        "includeChildSelections": false
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "5420-573f-b9a3-45f5",
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Plasma talon",
+                        "hidden": false,
+                        "id": "d6dc-15c4-98ef-7995",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "5d99-3ab0-19f9-5eaf"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "➤ Plasma talon - Standard",
+                            "typeId": "f77d-b953-8fa4-b762",
+                            "typeName": "Ranged Weapons",
+                            "hidden": false,
+                            "id": "7995-69db-9e2d-e5dd",
+                            "characteristics": [
+                              {
+                                "$text": "18\"",
+                                "name": "Range",
+                                "typeId": "9896-9419-16a1-92fc"
+                              },
+                              {
+                                "$text": "2",
+                                "name": "A",
+                                "typeId": "3bb-c35f-f54-fb08"
+                              },
+                              {
+                                "$text": "3+",
+                                "name": "BS",
+                                "typeId": "94d-8a98-cf90-183e"
+                              },
+                              {
+                                "$text": "7",
+                                "name": "S",
+                                "typeId": "2229-f494-25db-c5d3"
+                              },
+                              {
+                                "$text": "-2",
+                                "name": "AP",
+                                "typeId": "9ead-8a10-520-de15"
+                              },
+                              {
+                                "$text": "1",
+                                "name": "D",
+                                "typeId": "a354-c1c8-a745-f9e3"
+                              },
+                              {
+                                "$text": "Rapid Fire 1",
+                                "name": "Keywords",
+                                "typeId": "7f1b-8591-2fcf-d01c"
+                              }
+                            ],
+                            "page": 31
+                          },
+                          {
+                            "name": "➤ Plasma talon - Supercharged",
+                            "typeId": "f77d-b953-8fa4-b762",
+                            "typeName": "Ranged Weapons",
+                            "hidden": false,
+                            "id": "b09e-a6a8-c405-bc65",
+                            "characteristics": [
+                              {
+                                "$text": "18\"",
+                                "name": "Range",
+                                "typeId": "9896-9419-16a1-92fc"
+                              },
+                              {
+                                "$text": "2",
+                                "name": "A",
+                                "typeId": "3bb-c35f-f54-fb08"
+                              },
+                              {
+                                "$text": "3+",
+                                "name": "BS",
+                                "typeId": "94d-8a98-cf90-183e"
+                              },
+                              {
+                                "$text": "8",
+                                "name": "S",
+                                "typeId": "2229-f494-25db-c5d3"
+                              },
+                              {
+                                "$text": "-3",
+                                "name": "AP",
+                                "typeId": "9ead-8a10-520-de15"
+                              },
+                              {
+                                "$text": "2",
+                                "name": "D",
+                                "typeId": "a354-c1c8-a745-f9e3"
+                              },
+                              {
+                                "$text": "Hazardous, Rapid Fire 1",
+                                "name": "Keywords",
+                                "typeId": "7f1b-8591-2fcf-d01c"
+                              }
+                            ],
+                            "page": 31
+                          }
+                        ],
+                        "infoLinks": [
+                          {
+                            "name": "Hazardous",
+                            "id": "8b22-ef29-bce5-3b8e",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "8367-374c-f87-c627"
+                          },
+                          {
+                            "name": "Rapid Fire",
+                            "id": "03d7-70d9-87cf-45ed",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "c5c8-8b58-b8b6-7786"
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "Weapon Modifications",
+                            "hidden": false,
+                            "id": "ff5e-d9dc-ec8a-0639",
+                            "type": "selectionEntryGroup",
+                            "targetId": "f9da-852a-d7f0-92e9"
+                          }
+                        ],
+                        "page": 31,
+                        "collective": true
+                      }
+                    ],
+                    "defaultSelectionEntryId": "d6dc-15c4-98ef-7995",
+                    "entryLinks": [
+                      {
+                        "import": true,
+                        "name": "Astartes grenade launcher",
+                        "hidden": false,
+                        "id": "4ef3-2e51-1877-7e7b",
+                        "constraints": [
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "1660-46a0-619f-349d"
+                          },
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "7a17-d9e3-ddc0-0d9f"
+                          }
+                        ],
+                        "type": "selectionEntry",
+                        "targetId": "ca2b-3d9a-e739-cb21"
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -8549,7 +8736,40 @@
                     "hidden": false,
                     "id": "8f34-65b8-6d76-37c3",
                     "type": "selectionEntry",
-                    "targetId": "ca2b-3d9a-e739-cb21"
+                    "targetId": "ca2b-3d9a-e739-cb21",
+                    "modifiers": [
+                      {
+                        "type": "add",
+                        "value": "Max 1 {this} per 5 models",
+                        "field": "error",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "type": "lessThan",
+                                "value": 6,
+                                "field": "selections",
+                                "scope": "unit",
+                                "childId": "e6a5-db4c-35be-c30",
+                                "shared": true,
+                                "childName": "Ravenwing Black Knights"
+                              },
+                              {
+                                "type": "greaterThan",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "e6a5-db4c-35be-c30",
+                                "childId": "ca2b-3d9a-e739-cb21",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "childName": "Astartes grenade launcher"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "type": "model",
