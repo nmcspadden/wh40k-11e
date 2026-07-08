@@ -46500,17 +46500,6 @@
       {
         "constraints": [
           {
-            "field": "selections",
-            "scope": "force",
-            "value": 3,
-            "percentValue": false,
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "id": "c3a6-0da1-ace0-94eb",
-            "type": "max"
-          },
-          {
             "type": "max",
             "value": 1,
             "field": "selections",
