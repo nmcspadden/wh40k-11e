@@ -29942,7 +29942,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 55
+                "value": 45
               },
               {
                 "name": "Crusade Points",
@@ -29967,6 +29967,16 @@
               {
                 "name": "Blackstone Fragments",
                 "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
                 "value": 0
               }
             ],
@@ -31714,7 +31724,7 @@
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ],
-                    "name": "Relatavistic Tether",
+                    "name": "Reletavistic Tether",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
@@ -31789,7 +31799,7 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Relatavistic Tether",
+                "name": "Reletavistic Tether",
                 "hidden": true,
                 "id": "4b7a-0ee7-9cf0-8434"
               }
@@ -60543,7 +60553,7 @@
     "name": "Xenos - Necrons",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "revision": 3,
+    "revision": 4,
     "battleScribeVersion": 2.03,
     "type": "catalogue"
   }
