@@ -10,15 +10,6 @@
             "scope": "parent",
             "shared": true,
             "id": "f005-e830-ab0b-ac6f"
-          },
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "946-bfa0-af93-2909",
-            "includeChildSelections": true
           }
         ],
         "selectionEntries": [
@@ -4141,25 +4132,6 @@
                 "value": 1
               }
             ]
-          }
-        ],
-        "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "forces",
-                "scope": "roster",
-                "childId": "cac3-71d1-ea4b-795d",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": -1,
-            "field": "946-bfa0-af93-2909"
           }
         ],
         "name": "Enhancements",
