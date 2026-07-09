@@ -1611,11 +1611,6 @@
         "id": "af4c-b971-a31c-669c"
       },
       {
-        "name": "Allied Units",
-        "hidden": false,
-        "id": "887b-ab87-92a2-20f5"
-      },
-      {
         "name": "Acastus",
         "hidden": false,
         "id": "f76f-29c1-de9-74c2"
@@ -2105,6 +2100,35 @@
         "name": "Allies: Astra Militarum",
         "id": "8247-35f6-ec2a-7caa",
         "hidden": false
+      },
+      {
+        "name": "Allies: Heretic Astartes",
+        "id": "92e6-f82e-0a48-2276",
+        "hidden": false
+      },
+      {
+        "name": "Allies: Adeptus Titanicus",
+        "id": "9988-6b5e-660e-d973",
+        "hidden": false,
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "childId": "f26b-79db-80e0-3a3b",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "Show Titans"
+              }
+            ]
+          }
+        ]
       }
     ],
     "forceEntries": [
@@ -2254,12 +2278,6 @@
             "primary": false
           },
           {
-            "name": "Allied Units",
-            "hidden": false,
-            "id": "8d39-1cfc-6e44-2dae",
-            "targetId": "887b-ab87-92a2-20f5"
-          },
-          {
             "name": "Allies: Astra Militarum",
             "hidden": false,
             "id": "58e9-03a9-8da7-f45b",
@@ -2270,6 +2288,12 @@
             "hidden": false,
             "id": "748a-f332-43fb-8218",
             "targetId": "8dd6-af11-abd3-55f1"
+          },
+          {
+            "name": "Allies: Heretic Astartes",
+            "hidden": false,
+            "id": "5691-7287-9ec8-7e8d",
+            "targetId": "92e6-f82e-0a48-2276"
           },
           {
             "name": "Allies: Imperial Agents",
@@ -2306,6 +2330,12 @@
             "hidden": false,
             "id": "3761-5a4e-79e0-3c18",
             "targetId": "eef1-be80-500a-edfc"
+          },
+          {
+            "name": "Allies: Adeptus Titanicus",
+            "hidden": false,
+            "id": "d30c-1ea7-4805-b4be",
+            "targetId": "9988-6b5e-660e-d973"
           }
         ],
         "modifiers": [
@@ -2605,12 +2635,6 @@
             "targetId": "cc77-a53-fca8-f48e"
           },
           {
-            "name": "Allied Units",
-            "hidden": false,
-            "id": "ea52-2956-b106-5ec2",
-            "targetId": "887b-ab87-92a2-20f5"
-          },
-          {
             "name": "Reference",
             "hidden": false,
             "id": "27b1-2602-d1bc-fa43",
@@ -2891,12 +2915,6 @@
             "targetId": "5b15-724e-2eeb-8cb7"
           },
           {
-            "name": "Allied Units",
-            "hidden": false,
-            "id": "8d77-c7df-e1a3-0680",
-            "targetId": "887b-ab87-92a2-20f5"
-          },
-          {
             "name": "Allies: Astra Militarum",
             "hidden": false,
             "id": "ba9f-9f8a-b77f-14e6",
@@ -2907,6 +2925,12 @@
             "hidden": false,
             "id": "5037-1e14-c070-cfcd",
             "targetId": "8dd6-af11-abd3-55f1"
+          },
+          {
+            "name": "Allies: Heretic Astartes",
+            "hidden": false,
+            "id": "9b49-7348-a883-2d9c",
+            "targetId": "92e6-f82e-0a48-2276"
           },
           {
             "name": "Allies: Imperial Agents",
@@ -2943,6 +2967,12 @@
             "hidden": false,
             "id": "14de-c9cb-628a-6881",
             "targetId": "eef1-be80-500a-edfc"
+          },
+          {
+            "name": "Allies: Adeptus Titanicus",
+            "hidden": false,
+            "id": "0b08-32da-55ba-d541",
+            "targetId": "9988-6b5e-660e-d973"
           }
         ],
         "modifiers": [
