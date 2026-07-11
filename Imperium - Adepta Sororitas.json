@@ -11600,6 +11600,41 @@
                       }
                     ]
                   }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "forces",
+                            "scope": "roster",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "3ee6-23e1-8bc0-90f7",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true,
+                            "childName": "Chorus of Condemnation"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -52778,7 +52813,7 @@
     "name": "Imperium - Adepta Sororitas",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "revision": 2,
+    "revision": 3,
     "battleScribeVersion": 2.03,
     "authorName": "CrusherJoe",
     "type": "catalogue",
