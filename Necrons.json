@@ -11394,6 +11394,13 @@
                     "id": "55d1-5fad-fcaf-0b62",
                     "targetId": "1cc1-f11a-4e8f-1bcc",
                     "primary": false
+                  },
+                  {
+                    "name": "Dynasty",
+                    "hidden": false,
+                    "id": "e717-a756-d749-2afd",
+                    "targetId": "d887-58b7-5a1c-5ef0",
+                    "primary": false
                   }
                 ]
               },
@@ -11685,6 +11692,13 @@
                     "hidden": false,
                     "id": "2ffc-6e79-6a74-018d",
                     "targetId": "b4a7-5083-fe94-4d24",
+                    "primary": false
+                  },
+                  {
+                    "name": "Hypercrypt",
+                    "hidden": false,
+                    "id": "4acd-3a16-3b85-d57c",
+                    "targetId": "822d-f1bf-4a26-6d70",
                     "primary": false
                   }
                 ]
@@ -60518,7 +60532,7 @@
     "name": "Xenos - Necrons",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "revision": 5,
+    "revision": 6,
     "battleScribeVersion": 2.03,
     "type": "catalogue"
   }
