@@ -93548,6 +93548,15 @@
                             "childId": "f802-1e3a-d9ce-aa99",
                             "shared": true,
                             "childName": "Mek"
+                          },
+                          {
+                            "type": "instanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "root-entry",
+                            "childId": "2810-316b-919d-657e",
+                            "shared": true,
+                            "childName": "Big Mek with Shokk Attack Gun"
                           }
                         ],
                         "type": "or"
