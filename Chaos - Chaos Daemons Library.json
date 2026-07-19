@@ -29301,6 +29301,46 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "any",
+                        "shared": true
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "d490-6c4d-e83b-b183",
+                        "shared": true,
+                        "childName": "Great Unclean One"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -70236,7 +70276,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "b45c-af22-788a-dfd6",
     "name": "Chaos - Daemons Library",
-    "revision": 5,
+    "revision": 6,
     "battleScribeVersion": 2.03,
     "library": true,
     "gameSystemId": "sys-352e-adc2-7639-d610",
