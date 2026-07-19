@@ -23463,6 +23463,13 @@
             "type": "rule",
             "id": "78b9-57ed-35a2-bf63",
             "targetId": "7cb5-dd6b-dd87-ad3b"
+          },
+          {
+            "name": "Condemnatory Psalms",
+            "id": "95b9-7f88-1e53-be66",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "fae1-d802-ca71-8a55"
           }
         ],
         "profiles": [
@@ -52813,7 +52820,7 @@
     "name": "Imperium - Adepta Sororitas",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "revision": 5,
+    "revision": 6,
     "battleScribeVersion": 2.03,
     "authorName": "CrusherJoe",
     "type": "catalogue",
