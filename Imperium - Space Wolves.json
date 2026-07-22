@@ -12348,7 +12348,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 1,
+                "value": 2,
                 "field": "selections",
                 "scope": "force",
                 "childId": "d62d-db22-4893-4bc0",
