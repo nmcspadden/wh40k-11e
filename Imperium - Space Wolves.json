@@ -12320,7 +12320,7 @@
                     "conditions": [
                       {
                         "type": "before",
-                        "value": 1,
+                        "value": 2,
                         "field": "selections",
                         "scope": "self",
                         "childId": "any",
@@ -12343,12 +12343,12 @@
           },
           {
             "type": "set",
-            "value": 3,
+            "value": 2,
             "field": "8fa3-4666-3ca7-4e0f",
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 2,
+                "value": 1,
                 "field": "selections",
                 "scope": "force",
                 "childId": "d62d-db22-4893-4bc0",
