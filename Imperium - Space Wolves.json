@@ -12311,7 +12311,7 @@
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
-                    "value": 1,
+                    "value": 2,
                     "scope": "parent",
                     "field": "selections",
                     "includeChildSelections": true,
@@ -12320,7 +12320,7 @@
                     "conditions": [
                       {
                         "type": "before",
-                        "value": 2,
+                        "value": 1,
                         "field": "selections",
                         "scope": "self",
                         "childId": "any",
