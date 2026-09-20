@@ -574,7 +574,7 @@
         ],
         "constraints": [{"id": "971a-45c9-4d1c-1fc", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 85},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 115},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -1027,7 +1027,7 @@
         ],
         "constraints": [{"id": "23e1-7f8c-138e-c249", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 355},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 415},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -3107,7 +3107,7 @@
         ],
         "constraints": [{"id": "9d8c-9923-a917-f037", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 155},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 180},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -3296,7 +3296,7 @@
         ],
         "constraints": [{"id": "c980-8381-95bd-6723", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 105},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 115},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -3501,12 +3501,14 @@
           {"id": "4271-685c-b109-9957", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}
         ],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 110},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 120},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
           {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
           {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
           {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
           {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
         ],
@@ -3662,7 +3664,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 230,
+            "value": 250,
             "conditions": [{"childId": "model", "field": "selections", "includeChildSelections": true, "scope": "9b89-f132-4fef-8e51", "shared": true, "type": "atLeast", "value": 4}]
           },
           {
@@ -4159,7 +4161,7 @@
         ],
         "constraints": [{"id": "cfd2-9043-da69-9d05", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 100},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 115},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -4429,7 +4431,7 @@
         ],
         "constraints": [{"id": "8140-97e8-c288-00d5", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 120},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 115},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},

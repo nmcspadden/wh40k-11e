@@ -78,7 +78,18 @@
           {"name": "Leader", "id": "6fc7-01a6-0c20-18cc", "primary": false, "targetId": "1556-9b56-fba6-4370"}
         ],
         "constraints": [{"id": "1a45-5d36-a6c4-aa9a", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
-        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 100}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 160},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
+          {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+          {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+        ],
         "entryLinks": [{"name": "Warlord", "id": "5731-527b-3b65-d257", "hidden": false, "import": true, "targetId": "caa-f869-3cbd-b48e", "type": "selectionEntry"}],
         "infoLinks": [
           {"name": "Leader", "id": "e33e-f051-a514-e459", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
@@ -277,7 +288,7 @@
         ],
         "constraints": [{"id": "db4-f942-30e6-6e3f", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 80},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 90},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
