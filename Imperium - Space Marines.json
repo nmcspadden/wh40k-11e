@@ -148932,9 +148932,9 @@
             ],
             "rules": [
               {
-                "name": "Combat Doctrines",
+                "name": "Codex Discpline",
                 "id": "cf8e-b330-be85-11d0",
-                "description": "At the start of your Command phase, you can select one of the Combat Doctrines listed below. Until the start of your next Command phase, that Combat Doctrine is active and its effects apply to all ^^**Adeptus Astartes**^^ units from your army. You can only select each Combat Doctrine once per battle.\n\n\nDEVASTATOR DOCTRINE \nThis unit is eligible to shoot in a turn in which it Advanced.\n\n\nTACTICAL DOCTRINE\nThis unit is eligible to shoot and declare a charge in a turn in which it Fell Back.\n\n\nASSAULT DOCTRINE\nThis unit is eligible to declare a charge in a turn in which it Advanced.",
+                "description": "You can select one combat doctrine one additional time per battle.",
                 "hidden": false
               }
             ]
@@ -154042,15 +154042,15 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "**^^Adeptus Astartes^^** model only. The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability.",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**^^Adeptus Astartes^^** model only. This model has:\n* 2+ Sv.\n* Feel No Pain 5+."
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "The Honour Vehement",
+                "name": "Laurels of Triumph",
                 "id": "899b-69cc-2e8f-f8ea",
                 "hidden": false,
                 "import": true,
@@ -154119,78 +154119,9 @@
                     "value": 0
                   }
                 ],
-                "modifierGroups": [
-                  {
-                    "type": "and",
-                    "modifiers": [
-                      {
-                        "affects": "self.entries.recursive.profiles.Melee Weapons",
-                        "field": "annotation",
-                        "join": ", ",
-                        "scope": "model",
-                        "type": "append",
-                        "value": "The Honour Vehement"
-                      },
-                      {
-                        "affects": "self.entries.recursive.profiles.Melee Weapons",
-                        "field": "ab33-d393-96ce-ccba",
-                        "scope": "model",
-                        "type": "increment",
-                        "value": 1
-                      },
-                      {
-                        "affects": "self.entries.recursive.e993-e086-6de1-12af.profiles.Melee Weapons",
-                        "arg": "+0",
-                        "field": "2337-daa1-6682-b110",
-                        "join": "",
-                        "scope": "model",
-                        "type": "append",
-                        "value": "+0"
-                      },
-                      {
-                        "affects": "self.entries.recursive.6337-b83b-0d1e-5770.profiles.Melee Weapons",
-                        "arg": "+0",
-                        "field": "2337-daa1-6682-b110",
-                        "scope": "model",
-                        "type": "replace"
-                      },
-                      {
-                        "affects": "self.entries.recursive.profiles.Melee Weapons",
-                        "field": "2337-daa1-6682-b110",
-                        "position": -1,
-                        "scope": "model",
-                        "type": "increment",
-                        "value": 1
-                      },
-                      {
-                        "affects": "self.entries.recursive.84c4-6d1e-e724-bd6e.profiles.Melee Weapons",
-                        "field": "2337-daa1-6682-b110",
-                        "position": -1,
-                        "scope": "model",
-                        "type": "decrement",
-                        "value": 1
-                      },
-                      {
-                        "affects": "self.entries.recursive.profiles.Melee Weapons",
-                        "arg": "+0",
-                        "field": "2337-daa1-6682-b110",
-                        "scope": "model",
-                        "type": "replace"
-                      },
-                      {
-                        "affects": "self.entries.recursive.e993-e086-6de1-12af",
-                        "arg": "+0",
-                        "field": "category",
-                        "scope": "model",
-                        "type": "add",
-                        "value": "6337-b83b-0d1e-5770"
-                      }
-                    ]
-                  }
-                ],
                 "profiles": [
                   {
-                    "name": "The Honour Vehement",
+                    "name": "Laurels of Triumph",
                     "id": "d8f9-1a3b-909a-5298",
                     "hidden": false,
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -154198,15 +154129,15 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "**^^Adeptus Astartes^^** model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is under the effects of the Assault Doctrine, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead.",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**^^Adeptus Astartes^^** model only. This model's melee attacks have:\n* +1 S and AP.\n* Or: If the assault doctrine is active for this unit, +2 S and AP."
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Adept of the Codex",
+                "name": "Standard of the Emperor Ascendant",
                 "id": "c0aa-7c93-7b8f-5585",
                 "hidden": false,
                 "import": true,
@@ -154295,7 +154226,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Adept of the Codex",
+                    "name": "Standard of the Emperor Ascendant",
                     "id": "e89b-8acc-fbf3-b69a",
                     "hidden": false,
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -154303,15 +154234,15 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "Captain model only. At the start of your Command phase, if the bearer is on the battlefield, instead of selecting a Combat Doctrine to be active for your army, you can select the Tactical Doctrine. If you do, until the start of your next Command phase, that doctrine is active for the bearer’s unit only, even if you have already selected that doctrine to be active for your army this battle.",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**^^Ancient^^** model only.\n\nThis model has:\n* +1 OC and Ld.\n* Feel No Pain 5+.\n* The following ability:\nAncient Exhortation (Once per battle, per army): When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have  +1 A until the end of the phase."
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Fire Discipline",
+                "name": "Adept of the Codex",
                 "id": "3635-6f41-c807-71c2",
                 "hidden": false,
                 "import": true,
@@ -154382,7 +154313,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Fire Discipline",
+                    "name": "Adept of the Codex",
                     "id": "a771-3ed1-239c-1185",
                     "hidden": false,
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -154390,8 +154321,8 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "Adeptus Astartes model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability. In addition, while the bearer’s unit is under the effects of the Devastator Doctrine, , you can reroll Advance rolls made for that unit.",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "CAPTAIN model only. The tactical doctrine is active for  his unit in addition to any other combat doctrine"
                       }
                     ]
                   }
